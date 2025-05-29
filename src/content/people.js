@@ -63,7 +63,7 @@ export const phdScholars = [
     previousDegree: 'MTech in Water Resources, NIT Warangal (2020)',
     topic: 'AI-based Flood Prediction Models',
     duration: '2021–Present',
-    progress: '2nd Year',
+    progress: 'N/A',
     email: 'rahuls@iitr.ac.in'
   }
   // Add more PhD scholars here
