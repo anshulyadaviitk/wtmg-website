@@ -24,7 +24,7 @@ export const pi = {
   contact: {
     email: 'anshul.yadav@wr.iitr.ac.in',
     phone: '+91-94735 83417 (Mob); +91-1332-285617 (O)',
-    office: 'WRDM Department, Room 205',
+    office: 'WTM Department, Room 205',
  
   },
   bio: 'Passionate Researcher',
