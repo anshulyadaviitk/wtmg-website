@@ -46,14 +46,14 @@ export const pi = {
 export const phdScholars = [
   {
     id: 'phd-01',
-    name: 'Rahul Sharma',
+    name: 'Yaswanth Araconda',
     photo: '/images/people/rahul-sharma.jpg',
     position: 'PhD Scholar',
-    previousDegree: 'MTech in Water Resources, NIT Warangal (2020)',
-    topic: 'AI-based Flood Prediction Models',
+    previousDegree: 'MTech in Water Resources, NIT Warangal (2020)\n BTech, VIT',
+    topic: 'AI-based Flood Prediction Models Dynamic Pollutant Monitoring in Large Rivers Using Multi-Source Remote Sensing Data and Automated Ground-Truth Validation',
     duration: '2021–Present',
-    progress: '2nd Year',
-    email: 'rahuls@iitr.ac.in'
+    progress: 'N/A',
+    email: 'N/A'
   },
   {
     id: 'phd-02',
