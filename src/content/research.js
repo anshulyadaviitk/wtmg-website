@@ -1,27 +1,106 @@
 export const researchAreas = [
   {
     id: 'ra-01',
-    title: 'Hydrological Modeling',
-    icon: '🌊',
-    description: 'Developing advanced computational models for water flow prediction under climate change scenarios.',
+    title: 'Membrane-Based Water and Wastewater Treatment',
+    description: 'Exploration of membrane technologies for efficient water and wastewater treatment.',
+    image: '/images/research/membrane.jpg',
     projects: [
-      'DST-funded project on Himalayan hydrology (2022-2025)',
-      'Collaboration with NIH Roorkee on flood modeling'
+      'Pressure-driven membrane processes',
+      'Membrane distillation',
+      'Electrodialysis and ion-exchange membranes',
     ],
-    slug: 'hydrological-modeling'
+    slug: 'membrane-treatment'
   },
   {
     id: 'ra-02',
-    title: 'Water Quality Monitoring',
-    icon: '💧',
-    description: 'Designing IoT-based systems for real-time water quality assessment and management.',
+    title: 'Advanced Materials for Separation',
+    description: 'Development of novel materials for pollutant separation and removal.',
     projects: [
-      'Development of IoT-based water quality monitoring systems',
-      'Integration of blockchain technology for data security'
+      'Polymeric and composite membranes',
+      'MOFs/ZIFs for targeted pollutant removal',
+      'Nanomaterial-embedded membranes',
     ],
-    slug: 'water-quality-monitoring'
+    slug: 'advanced-separation-materials'
+  },
+  {
+    id: 'ra-03',
+    title: 'Smart Water Quality Monitoring',
+    description: 'Real-time monitoring of water quality with smart sensors and IoT.',
+    projects: [
+      'Real-time water quality sensors',
+      'IoT integration using microcontrollers',
+      'Remote monitoring and data visualization platforms',
+    ],
+    slug: 'smart-monitoring'
+  },
+  {
+    id: 'ra-04',
+    title: 'Decentralized Water & Sanitation Solutions',
+    description: 'Innovative sanitation and water solutions for rural and peri-urban areas.',
+    projects: [
+      'Low-cost treatment systems',
+      'Fecal sludge management technologies',
+      'Community-level treatment units',
+    ],
+    slug: 'decentralized-solutions'
+  },
+  {
+    id: 'ra-05',
+    title: 'Adsorption-Based Treatment Technologies',
+    description: 'Utilizing adsorption methods for removal of contaminants.',
+    projects: [
+      'Bio-adsorbents and engineered materials',
+      'Heavy metal and dye removal',
+      'Regeneration and reuse of adsorbents',
+    ],
+    slug: 'adsorption-treatment'
+  },
+  {
+    id: 'ra-06',
+    title: 'Sustainable Desalination Technologies',
+    description: 'Environmentally friendly methods for seawater desalination.',
+    projects: [
+      'Hybrid desalination systems',
+      'Solar-enabled desalination',
+      'Brine management and reuse',
+    ],
+    slug: 'sustainable-desalination'
+  },
+  {
+    id: 'ra-07',
+    title: 'Process Integration & Optimization',
+    description: 'Designing integrated and efficient treatment processes.',
+    projects: [
+      'Energy-efficient process design',
+      'Multi-barrier treatment trains',
+      'Life cycle and techno-economic assessments',
+    ],
+    slug: 'process-optimization'
+  },
+  {
+    id: 'ra-08',
+    title: 'Waste Valorization',
+    description: 'Converting waste into valuable resources.',
+    projects: [
+      'Resource recovery (nutrients, energy)',
+      'Circular economy in water sector',
+      'Sludge-to-energy systems',
+    ],
+    slug: 'waste-valorization'
+  },
+  {
+    id: 'ra-09',
+    title: 'Environmental Sensing & Digital Twins',
+    description: 'Simulating and monitoring water systems with digital technologies.',
+    projects: [
+      'Simulation and modeling of water systems',
+      'Digital twins for smart cities',
+      'Data-driven decision support systems',
+    ],
+    slug: 'digital-twins'
   }
 ];
+
 
 export const publications = {
   journalArticles: [
@@ -252,7 +331,35 @@ export const publications = {
       pages: '118840',
       publisher: 'Elsevier',
       featured: false
-    }
+    },
+     {
+    id: 'pub-02',
+    type: 'journal',
+    title: 'Colloids and Surfaces A: Physicochemical and Engineering Aspects',
+    authors: ['A. Yadav', 'S.S. Dindonkar'],
+    journal: 'Colloids and Surfaces A: Physicochemical and Engineering Aspects',
+    year: 2022,
+    volume: '641',
+    pages: '',
+    link: 'https://www.sciencedirect.com/journal/colloids-and-surfaces-a-physicochemical-and-engineering-aspects/vol/641/suppl/C',
+    publisher: 'Elsevier',
+    image: 'image1.jpg', // Replace with actual filename if needed
+    featured: false
+  },
+  {
+    id: 'pub-03',
+    type: 'journal',
+    title: 'Colloids and Surfaces A: Physicochemical and Engineering Aspects',
+    authors: ['C.P. Singh', 'A. Yadav', 'A. Kumar'],
+    journal: 'Colloids and Surfaces A: Physicochemical and Engineering Aspects',
+    year: 2023,
+    volume: '667',
+    pages: '',
+    link: 'https://www.sciencedirect.com/journal/colloids-and-surfaces-a-physicochemical-and-engineering-aspects/vol/667/suppl/C',
+    publisher: 'Elsevier',
+    image: 'image2.jpg', // Replace with actual filename if needed
+    featured: false
+  }
   ]
 
 ,
@@ -269,33 +376,83 @@ export const publications = {
     featured: false
   }
   ],
-  books: [
+ books: [
   {
     id: 'book-01',
     title: 'Membrane-based point-of-use drinking water treatment systems',
     authors: ['P.K. Labhasetwar', 'A. Yadav'],
+    image: '/images/research/books/book1.jpg',
     publisher: 'International Water Association Publishing',
     year: 2023,
-    link:'https://iwaponline.com/ebooks/book-pdf/1234716/wio9781789062724.pdf',
+    link: 'https://iwaponline.com/ebooks/book-pdf/1234716/wio9781789062724.pdf',
     isbn: '9781789062717',
+    eisbn: '',
+    doi: '',
     featured: true
   },
   {
     id: 'book-02',
     title: 'Applications of two-dimensional nanomaterials for water and wastewater treatment',
     authors: ['A. Yadav', 'R. Yadav', 'P.K. Labhasetwar'],
+    image: '/images/research/books/book.jpg',
     publisher: 'AAP, CRC Press',
     year: 2025,
-    link:'https://www.appleacademicpress.com/applications-of-two-dimensional-nanomaterials-in-water-and-wastewater-treatment-/9781779642967',
+    link: 'https://www.appleacademicpress.com/applications-of-two-dimensional-nanomaterials-in-water-and-wastewater-treatment-/9781779642967',
     isbn: '9781779642967',
+    eisbn: '',
+    doi: '',
     featured: false
   },
   {
     id: 'book-03',
-    title: 'Computational techniques for simulating and optimizing adsorption processes for (waste)water treatment',
+    title: 'Computational techniques for simulating and optimizing membrane processes for (waste)water treatment',
     authors: ['A. Yadav', 'P.K. Labhasetwar'],
+    image: '',
     publisher: 'International Water Association Publishing',
     year: 2026,
+    link: '',
+    isbn: '',
+    eisbn: '',
+    doi: '',
+    featured: false
+  },
+  {
+    id: 'book-04',
+    title: 'Computational techniques for simulating and optimizing adsorption processes for (waste)water treatment',
+    authors: ['A. Yadav', 'P.K. Labhasetwar'],
+    image: '',
+    publisher: 'International Water Association Publishing',
+    year: 2026,
+    link: '',
+    isbn: '',
+    eisbn: '',
+    doi: '',
+    featured: false
+  },
+  {
+    id: 'book-05',
+    title: 'Applications of two-dimensional nanomaterials for water and wastewater treatment',
+    authors: ['A. Yadav', 'R. Yadav', 'P.K. Labhasetwar'],
+    image: 'image2.jpg',
+    publisher: 'Apple Academic Publishers, CRC Press',
+    year: 2025,
+    link: '',
+    isbn: '9781779642967',
+    eisbn: '978-1-77964-297-4',
+    doi: '',
+    featured: false
+  },
+  {
+    id: 'book-06',
+    title: 'Membrane-based point-of-use drinking water treatment systems',
+    authors: ['P.K. Labhasetwar', 'A. Yadav'],
+    image: '',
+    publisher: 'International Water Association Publishing',
+    year: 2023,
+    link: 'https://doi.org/10.2166/9781789062724',
+    isbn: '9781789062717',
+    eisbn: '9781789062724',
+    doi: 'https://doi.org/10.2166/9781789062724',
     featured: false
   }
 ]
@@ -338,7 +495,31 @@ export const patents = [
     title: 'Membrane distillation module with twisted rectangular cross-section spacer',
     inventors: ['Yadav, A.'],
     status: 'To be filed'
-  }
+  },
+  {
+  id: 'pat-06',
+  title: 'Multi-pass helical submerged membrane distillation module',
+  inventors: ['Yadav, A.', 'Krishna, B.', 'Nikhil', 'Labhasetwar, P.K.'],
+  status: 'Filed (Indian Patent 202411067163, 05.09.2025)'
+},
+{
+  id: 'pat-07',
+  title: 'Twisted spacer filaments for low biofouling and scaling in the feed channel of membrane distillation',
+  inventors: ['Yadav, A.', 'Kumar, A.', 'Singh, C.P.', 'Patel, R.V.'],
+  status: 'Filed (Indian Patent 202411067163, 05.09.2025)'
+},
+{
+  id: 'pat-08',
+  title: 'A self-cleaning solar enabled smart device for real time surface water health monitoring',
+  inventors: ['Yadav, A.', 'Padhi, E.', 'Krishna, B.', 'Nikhil'],
+  status: 'Filed (Indian Patent 202511026994, 24.03.2025)'
+},
+{
+  id: 'pat-09',
+  title: 'Multi-pass concentric tubular module for membrane distillation',
+  inventors: ['Yadav, A.', 'Patel, R.V.P.', 'Baladaniya, B.M.', 'Shahi, V.K.', 'Labhasetwar, P.K.'],
+  status: 'Filed (Indian Patent 202411067163, 05.09.2024)'
+}
 ];
 
 

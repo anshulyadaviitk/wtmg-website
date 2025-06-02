@@ -1,9 +1,10 @@
 /* styles/globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Custom base styles */
 @layer base {
   body {
     @apply text-gray-800 bg-gray-50;
@@ -21,4 +22,32 @@
   a {
     @apply text-blue-600 hover:text-blue-800 transition-colors;
   }
+}
+
+/* Swiper Pagination - Perfect as-is */
+.photo-pagination .swiper-pagination-bullet {
+  background: #e5e7eb;
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+}
+
+.photo-pagination .swiper-pagination-bullet-active {
+  background: #2563eb;
+  width: 24px;
+  border-radius: 9999px;
+  transition: all 0.3s ease;
+}
+/* Swiper Pagination Styles */
+.photo-pagination .swiper-pagination-bullet {
+  @apply bg-gray-300 w-2.5 h-2.5 opacity-100 transition-all duration-300;
+}
+
+.photo-pagination .swiper-pagination-bullet-active {
+  @apply bg-blue-600 w-6;
+}
+
+/* Optional: Fade-in arrows on hover */
+.photo-prev, .photo-next {
+  @apply transition-opacity duration-300;
 }

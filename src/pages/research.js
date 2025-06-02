@@ -1,4 +1,3 @@
-//research.js page
 import Head from 'next/head';
 import Layout from '@/components/layout/Layout';
 import { publications, patents, invitedTalks } from '@/content/research';
@@ -12,12 +11,19 @@ export default function Research() {
   const router = useRouter();
   const { tab } = router.query;
   const [activeTab, setActiveTab] = useState('papers');
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   useEffect(() => {
     if (tab && ['papers', 'books', 'patents', 'talks'].includes(tab)) {
       setActiveTab(tab);
     }
   }, [tab]);
+
+  if (!isClient) return null; // Prevent hydration mismatch
 
   return (
     <Layout>
@@ -52,30 +58,57 @@ export default function Research() {
             {publications.journalArticles.map((pub) => (
               <PublicationCard key={pub.id} publication={pub} />
             ))}
-{/* <h3 className="text-2xl font-semibold mb-6 mt-12 text-gray-800">Conference Papers</h3>
- {Array.isArray(publications.conferences) && publications.conferences.filter(Boolean).length > 0 ? (
-  publications.conferences
-    .filter((pub) => pub && pub.title) // Filter out null/undefined and objects missing title
-    .map((pub) => (
-      <PublicationCard key={pub.id || Math.random()} publication={pub} />
-    ))
-) : (
-  <p className="text-gray-600">No conference papers available at this time.</p>
-)} */}
-
-
-  
           </div>
         )}
 
-        {activeTab === 'books' && (
-          <div className="mt-8 space-y-6">
-            <h3 className="text-2xl font-semibold mb-6 text-gray-800">Books</h3>
-            {publications.books.map((book) => (
-              <PublicationCard key={book.id} publication={book} />
-            ))}
+      {activeTab === 'books' && (
+  <div className="mt-8 space-y-6">
+    <h3 className="text-2xl font-semibold mb-6 text-gray-800">Books</h3>
+    {publications.books.map((book) => (
+      <div
+        key={book.id}
+        className="flex flex-col md:flex-row bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden p-4 md:p-6 gap-4"
+      >
+        {book.image && (
+          <div className="w-full md:w-[150px] h-[200px] flex-shrink-0">
+            <img
+              src={book.image}
+              alt={book.title}
+              className="w-full h-full object-contain rounded-md"
+            />
           </div>
         )}
+        <div className="flex flex-col justify-between">
+          <div>
+            <h4 className="text-xl font-semibold text-gray-800 mb-2">{book.title}</h4>
+            {book.authors && (
+              <p className="text-sm text-gray-600 mb-1"><strong>Authors:</strong> {book.authors.join(', ')}</p>
+            )}
+            {book.publisher && (
+              <p className="text-sm text-gray-600 mb-1"><strong>Publisher:</strong> {book.publisher}</p>
+            )}
+            {book.year && (
+              <p className="text-sm text-gray-600 mb-1"><strong>Year:</strong> {book.year}</p>
+            )}
+          </div>
+          {book.link && (
+            <a
+              href={book.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 underline text-sm mt-4"
+            >
+              View Book
+            </a>
+          )}
+        </div>
+      </div>
+    ))}
+  </div>
+)}
+
+
+
 
         {activeTab === 'patents' && (
           <div className="mt-8 space-y-6">

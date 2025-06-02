@@ -1,4 +1,3 @@
-// pages/people/pi-overview.js
 import Head from 'next/head';
 import Layout from '@/components/layout/Layout';
 import { pi } from '@/content/people';
@@ -22,8 +21,8 @@ export default function PIOverviewPage() {
           className="mb-8"
         />
 
-        <div className="max-w-md mx-auto">
-          <PersonCard person={pi} />
+        <div className="space-y-6">
+          <PersonCard person={{ ...pi, type: 'pi' }} />
         </div>
       </div>
     </Layout>

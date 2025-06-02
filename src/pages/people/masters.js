@@ -21,7 +21,7 @@ export default function MastersPage() {
           className="mb-8"
         />
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="space-y-6">
           {mastersStudents.map(person => (
             <PersonCard key={person.id} person={person} />
           ))}

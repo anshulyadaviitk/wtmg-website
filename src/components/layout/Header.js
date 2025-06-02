@@ -116,11 +116,7 @@ export default function Header() {
     },
     {
       name: 'Events',
-      path: '#',
-      submenu: [
-        { name: 'Upcoming Events', path: '/events/upcoming' },
-        { name: 'Past Events', path: '/events/past' }
-      ]
+      path: '/event',
     },
     { name: 'Awards', path: '/awards' },
     {

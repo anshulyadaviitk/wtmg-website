@@ -8,6 +8,7 @@ import Button from '@/components/ui/Button';
 import Image from 'next/image';
 import { notices } from '@/content/noticedata';
 import { upcomingevents } from '@/content/noticedata';
+import ResearchSection from '@/components/ResearchSection';
 import { 
   EnvelopeIcon, 
   PhoneIcon, 
@@ -162,24 +163,19 @@ export default function Home() {
   </div>
 </section>
 
-      {/* Research Areas */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
-            Research Focus Areas
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            {featuredResearch.map((area) => (
-              <ResearchAreaCard key={area.id} area={area} />
-            ))}
-          </div>
-          <div className="text-center mt-10">
-            <Button href="/research" size="large">
-              View All Research Areas
-            </Button>
-          </div>
-        </div>
-      </section>
+   {/* Research Areas */}
+<section className="py-16 bg-gray-50">
+  <div className="container mx-auto px-4">
+
+    <ResearchSection researchAreas={researchAreas} />
+
+    <div className="text-center mt-10">
+    
+    </div>
+  </div>
+</section>
+
+
 
       {/* Recent Awards */}
       <section className="py-16 bg-white">
