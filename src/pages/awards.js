@@ -293,7 +293,7 @@ const [currentCardIndex, setCurrentCardIndex] = useState(0);
             </div>
             <div className="ml-4">
               <h3 className="text-lg font-semibold text-blue-700">
-                Special Issue: "{editorship.title}"
+                Special Issue: &quot;{editorship.title}&quot;
               </h3>
               <p className="text-sm text-gray-600 mt-1">
                 <span className="font-medium">{editorship.journal}</span>
