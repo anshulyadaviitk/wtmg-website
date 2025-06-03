@@ -395,7 +395,7 @@ export const publications = {
     title: 'Applications of two-dimensional nanomaterials for water and wastewater treatment',
     authors: ['A. Yadav', 'R. Yadav', 'P.K. Labhasetwar'],
     image: '/images/research/books/book.jpg',
-    publisher: 'AAP, CRC Press',
+    publisher: 'Apple Academic Publishers, CRC Press',
     year: 2025,
     link: 'https://www.appleacademicpress.com/applications-of-two-dimensional-nanomaterials-in-water-and-wastewater-treatment-/9781779642967',
     isbn: '9781779642967',
@@ -426,19 +426,6 @@ export const publications = {
     link: '',
     isbn: '',
     eisbn: '',
-    doi: '',
-    featured: false
-  },
-  {
-    id: 'book-05',
-    title: 'Applications of two-dimensional nanomaterials for water and wastewater treatment',
-    authors: ['A. Yadav', 'R. Yadav', 'P.K. Labhasetwar'],
-    image: 'image2.jpg',
-    publisher: 'Apple Academic Publishers, CRC Press',
-    year: 2025,
-    link: '',
-    isbn: '9781779642967',
-    eisbn: '978-1-77964-297-4',
     doi: '',
     featured: false
   },

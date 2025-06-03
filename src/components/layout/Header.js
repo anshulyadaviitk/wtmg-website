@@ -97,7 +97,7 @@ export default function Header() {
       name: 'Group Members',
      path: '#',
       submenu: [
-        { name: 'PI', path: '/people/pi-overview' },
+        { name: 'PI', path: '/people/PI' },
         { name: 'PhD Scholars', path: '/people/phd' },
         { name: 'Masters Students', path: '/people/masters' },
         { name: 'Interns', path: '/people/interns' },
@@ -125,7 +125,6 @@ export default function Header() {
       submenu: [
         { name: 'About Lab', path: '/lab' },
         { name: 'Instruments & Facilities ', path: '/lab/instruments' },
-        { name: 'Facilities', path: '/lab/facilities' },
       
       ]
     },
@@ -135,7 +134,7 @@ export default function Header() {
     { name: 'Collaborations', path: '/collaborations'},
     { name: 'News & Updates', path: '/updates'},
     { name: 'Gallery(optional)', path: '/gallery'},
-    { name: 'Contact', path: '/contact' }
+    { name: 'Contact Us', path: '/contact' }
     ]
 }];
 
