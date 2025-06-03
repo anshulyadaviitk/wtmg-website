@@ -129,10 +129,15 @@ export default function Header() {
       
       ]
     },
+    {name: 'More',
+    path: '#',
+    submenu: [
     { name: 'Collaborations', path: '/collaborations'},
-    { name: 'Updates', path: '/updates'},
+    { name: 'News & Updates', path: '/updates'},
+    { name: 'Gallery(optional)', path: '/gallery'},
     { name: 'Contact', path: '/contact' }
-  ];
+    ]
+}];
 
   // Check if current route matches a link (including submenu items)
 const isActiveLink = (path, submenu = []) => {
