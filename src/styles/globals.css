@@ -51,3 +51,15 @@
 .photo-prev, .photo-next {
   @apply transition-opacity duration-300;
 }
+/* styles/globals.css or your Tailwind config file */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+@keyframes wiggle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}

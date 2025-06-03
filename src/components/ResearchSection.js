@@ -109,7 +109,7 @@ export default function ResearchSection({ researchAreas }) {
                   </div>
 
                   {/* Fixed position link at bottom */}
-                  {area.slug && (
+                  {/* {area.slug && (
                     <Link
                       href={`/research/${area.slug}`}
                       className="mt-4 inline-flex items-center text-blue-600 hover:text-blue-800 font-medium transition-colors duration-200 flex-shrink-0"
@@ -128,7 +128,7 @@ export default function ResearchSection({ researchAreas }) {
                         />
                       </svg>
                     </Link>
-                  )}
+                  )} */}
                 </div>
               </div>
             </SwiperSlide>

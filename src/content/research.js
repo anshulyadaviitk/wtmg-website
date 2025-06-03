@@ -462,7 +462,7 @@ export const patents = [
   {
     id: 'pat-01',
     title: 'IoT-based Water Quality Monitoring Device',
-    inventors: ['Yadav, A.', 'Gupta, P.'],
+    inventors: ['A.Yadav', 'P.Gupta'],
     patentNumber: 'IN202217045678',
     filingDate: '2022-07-15',
     status: 'Granted',
@@ -471,15 +471,15 @@ export const patents = [
   {
     id: 'pat-02',
     title: 'Multi-pass concentric cylindrical module for membrane distillation',
-    inventors: ['Yadav, A.'],
+    inventors: ['A.Yadav'],
     patentNumber: 'IN202411067163',
     filingDate: '2024-09-05',
     status: 'Filed'
   },
   {
     id: 'pat-03',
-    title: 'A self-cleaning solar enabled smart device for real time surface water health monitoring',
-    inventors: ['Yadav, A.'],
+    title: 'A self-cleaning solar enabled smart device for real-time surface water health monitoring',
+    inventors: ['A.Yadav'],
     patentNumber: 'IN202511026994',
     filingDate: '2025-03-24',
     status: 'Filed'
@@ -487,40 +487,49 @@ export const patents = [
   {
     id: 'pat-04',
     title: 'Multi-pass helical submerged membrane distillation module',
-    inventors: ['Yadav, A.'],
+    inventors: ['A.Yadav'],
     status: 'To be filed'
   },
   {
     id: 'pat-05',
     title: 'Membrane distillation module with twisted rectangular cross-section spacer',
-    inventors: ['Yadav, A.'],
+    inventors: ['A.Yadav'],
     status: 'To be filed'
   },
   {
-  id: 'pat-06',
-  title: 'Multi-pass helical submerged membrane distillation module',
-  inventors: ['Yadav, A.', 'Krishna, B.', 'Nikhil', 'Labhasetwar, P.K.'],
-  status: 'Filed (Indian Patent 202411067163, 05.09.2025)'
-},
-{
-  id: 'pat-07',
-  title: 'Twisted spacer filaments for low biofouling and scaling in the feed channel of membrane distillation',
-  inventors: ['Yadav, A.', 'Kumar, A.', 'Singh, C.P.', 'Patel, R.V.'],
-  status: 'Filed (Indian Patent 202411067163, 05.09.2025)'
-},
-{
-  id: 'pat-08',
-  title: 'A self-cleaning solar enabled smart device for real time surface water health monitoring',
-  inventors: ['Yadav, A.', 'Padhi, E.', 'Krishna, B.', 'Nikhil'],
-  status: 'Filed (Indian Patent 202511026994, 24.03.2025)'
-},
-{
-  id: 'pat-09',
-  title: 'Multi-pass concentric tubular module for membrane distillation',
-  inventors: ['Yadav, A.', 'Patel, R.V.P.', 'Baladaniya, B.M.', 'Shahi, V.K.', 'Labhasetwar, P.K.'],
-  status: 'Filed (Indian Patent 202411067163, 05.09.2024)'
-}
+    id: 'pat-06',
+    title: 'Multi-pass helical submerged membrane distillation module',
+    inventors: ['A.Yadav', 'B.Krishna', 'Nikhil', 'P.K.Labhasetwar'],
+    patentNumber: 'IN202411067163',
+    filingDate: '2025-09-05',
+    status: 'Filed'
+  },
+  {
+    id: 'pat-07',
+    title: 'Twisted spacer filaments for low biofouling and scaling in the feed channel of membrane distillation',
+    inventors: ['A.Yadav', 'A.Kumar', 'C.P.Singh', 'R.V.Patel'],
+    patentNumber: 'IN202411067163',
+    filingDate: '2025-09-05',
+    status: 'Filed'
+  },
+  {
+    id: 'pat-08',
+    title: 'A self-cleaning solar enabled smart device for real-time surface water health monitoring',
+    inventors: ['A.Yadav', 'E.Padhi', 'B.Krishna', 'Nikhil'],
+    patentNumber: 'IN202511026994',
+    filingDate: '2025-03-24',
+    status: 'Filed'
+  },
+  {
+    id: 'pat-09',
+    title: 'Multi-pass concentric tubular module for membrane distillation',
+    inventors: ['A.Yadav', 'R.V.P.Patel', 'B.M.Baladaniya', 'V.K.Shahi', 'P.K.Labhasetwar'],
+    patentNumber: 'IN202411067163',
+    filingDate: '2024-09-05',
+    status: 'Filed'
+  }
 ];
+
 
 
 export const invitedTalks = [

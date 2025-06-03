@@ -129,6 +129,8 @@ export default function Header() {
       
       ]
     },
+    { name: 'Collaborations', path: '/collaborations'},
+    { name: 'Updates', path: '/updates'},
     { name: 'Contact', path: '/contact' }
   ];
 

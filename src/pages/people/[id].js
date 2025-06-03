@@ -3,6 +3,11 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { pi, phdScholars, mastersStudents, interns, past } from '@/content/people';
 import Layout from '@/components/layout/Layout';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 const allPeople = [
   pi,
@@ -234,7 +239,7 @@ export default function PeopleView() {
               {person.previousDegree && (
                 <div>
                   <h3 className="font-medium text-gray-500">Previous Degree</h3>
-                  <p>{person.previousDegree}</p>
+                  <p className="whitespace-pre-line">{person.previousDegree}</p>
                 </div>
               )}
               {person.topic && (
@@ -285,7 +290,87 @@ export default function PeopleView() {
             </div>
           </div>
         )}
+       {/* Only show for PhD and MTech students */}
+{(person.position?.includes('PhD') || person.position?.includes('MTech')) && (
+  <div className="mt-8 pt-6 border-t border-gray-300 space-y-6">
+
+ 
+
+    {/* Publications */}
+    {person.peerReviewedPublications?.length > 0 && (
+      <div>
+        <h2 className="text-xl font-semibold mb-2">Peer Reviewed Publications</h2>
+        <ul className="list-disc pl-5 space-y-1 text-gray-700">
+          {person.peerReviewedPublications.map((pub, idx) => (
+            <li key={idx}>{pub}</li>
+          ))}
+        </ul>
       </div>
-    </Layout>
-  );
-}
+    )}
+
+    {/* Patents */}
+    {person.patents?.length > 0 && (
+      <div>
+        <h2 className="text-xl font-semibold mb-2">Patents</h2>
+        <ul className="list-disc pl-5 space-y-1 text-gray-700">
+          {person.patents.map((pat, idx) => (
+            <li key={idx}>{pat}</li>
+          ))}
+        </ul>
+      </div>
+    )}
+
+    {/* Conferences */}
+    {person.conferences?.length > 0 && (
+      <div>
+        <h2 className="text-xl font-semibold mb-2">Conferences Attended</h2>
+        <ul className="list-disc pl-5 space-y-1 text-gray-700">
+          {person.conferences.map((conf, idx) => (
+            <li key={idx}>{conf}</li>
+          ))}
+        </ul>
+      </div>
+    )}
+
+    {/* Awards */}
+    {person.awards?.length > 0 && (
+      <div>
+        <h2 className="text-xl font-semibold mb-2">Awards</h2>
+        <ul className="list-disc pl-5 space-y-1 text-gray-700">
+          {person.awards.map((award, idx) => (
+            <li key={idx}>{award}</li>
+          ))}
+        </ul>
+      </div>
+    )}
+       {/* Event Highlights Carousel */}
+    {person.images?.length > 0 && (
+      <div className="w-full max-w-4xl mx-auto mt-12">
+        <Swiper
+          modules={[Navigation, Pagination, Autoplay]}
+          spaceBetween={20}
+          slidesPerView={1}
+          navigation
+          pagination={{ clickable: true }}
+          autoplay={{ delay: 3000, disableOnInteraction: false }}
+          loop={true}
+          className="rounded-2xl overflow-hidden shadow-xl"
+        >
+          {person.images.map((src, index) => (
+            <SwiperSlide key={index}>
+              <img
+                src={src}
+                alt={`Event ${index + 1}`}
+                className="w-full h-64 object-cover"
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    )}
+
+  </div>
+)}
+    </div>
+  </Layout>
+)};
