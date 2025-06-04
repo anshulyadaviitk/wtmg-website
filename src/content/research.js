@@ -377,37 +377,37 @@ export const publications = {
   }
   ],
  books: [
-  {
+   {
     id: 'book-01',
     title: 'Membrane-based point-of-use drinking water treatment systems',
     authors: ['P.K. Labhasetwar', 'A. Yadav'],
-    image: '/images/research/books/book1.jpg',
+    image: '/images/research/books/membre_book.jpeg', // crop image 1
     publisher: 'International Water Association Publishing',
     year: 2023,
-    link: 'https://iwaponline.com/ebooks/book-pdf/1234716/wio9781789062724.pdf',
+    link: 'https://iwaponline.com/ebooks/book/867/Membrane-Based-Point-of-Use-Drinking-Water',
     isbn: '9781789062717',
-    eisbn: '',
+    eisbn: '9781789062724',
     doi: '',
     featured: true
   },
   {
     id: 'book-02',
-    title: 'Applications of two-dimensional nanomaterials for water and wastewater treatment',
-    authors: ['A. Yadav', 'R. Yadav', 'P.K. Labhasetwar'],
-    image: '/images/research/books/book.jpg',
-    publisher: 'Apple Academic Publishers, CRC Press',
-    year: 2025,
-    link: 'https://www.appleacademicpress.com/applications-of-two-dimensional-nanomaterials-in-water-and-wastewater-treatment-/9781779642967',
-    isbn: '9781779642967',
+    title: 'Computational techniques for simulating and optimizing membrane processes for (waste)water treatment',
+    authors: ['A. Yadav', 'P.K. Labhasetwar'],
+    image: '/images/research/books/book2.jpg', // add image 2
+    publisher: 'International Water Association Publishing',
+    year: 2026,
+    link: '',
+    isbn: '',
     eisbn: '',
     doi: '',
     featured: false
   },
   {
     id: 'book-03',
-    title: 'Computational techniques for simulating and optimizing membrane processes for (waste)water treatment',
+    title: 'Computational techniques for simulating and optimizing adsorption processes for (waste)water treatment',
     authors: ['A. Yadav', 'P.K. Labhasetwar'],
-    image: '',
+    image: '/images/research/books/book3.jpg',
     publisher: 'International Water Association Publishing',
     year: 2026,
     link: '',
@@ -418,102 +418,56 @@ export const publications = {
   },
   {
     id: 'book-04',
-    title: 'Computational techniques for simulating and optimizing adsorption processes for (waste)water treatment',
-    authors: ['A. Yadav', 'P.K. Labhasetwar'],
-    image: '',
-    publisher: 'International Water Association Publishing',
+    title: 'Applications of two-dimensional nanomaterials for water and wastewater treatment',
+    authors: ['A. Yadav', 'R. Yadav', 'P.K. Labhasetwar'],
+    image: '/images/research/books/application_book.jpg',
+    publisher: 'Apple Academic Publishers, CRC Press',
     year: 2026,
     link: '',
-    isbn: '',
-    eisbn: '',
+    isbn: '9781779642967',
+    eisbn: '978-1-77964-297-4',
     doi: '',
-    featured: false
+    featured: true
   },
-  {
-    id: 'book-06',
-    title: 'Membrane-based point-of-use drinking water treatment systems',
-    authors: ['P.K. Labhasetwar', 'A. Yadav'],
-    image: '',
-    publisher: 'International Water Association Publishing',
-    year: 2023,
-    link: 'https://doi.org/10.2166/9781789062724',
-    isbn: '9781789062717',
-    eisbn: '9781789062724',
-    doi: 'https://doi.org/10.2166/9781789062724',
-    featured: false
-  }
 ]
 };
 
 export const patents = [
   {
     id: 'pat-01',
-    title: 'IoT-based Water Quality Monitoring Device',
-    inventors: ['A.Yadav', 'P.Gupta'],
-    patentNumber: 'IN202217045678',
-    filingDate: '2022-07-15',
-    status: 'Granted',
+    title: 'Multi-pass helical submerged membrane distillation module',
+    inventors: ['A. Yadav', 'B. Krishna', 'Nikhil', 'P.K. Labhasetwar'],
+    patentNumber: 'IN2025110XXXXX',
+    filingDate: '15–06–2025',
+    status: 'Filed',
     link: 'https://ipindia.gov.in/patent-details'
   },
   {
     id: 'pat-02',
-    title: 'Multi-pass concentric cylindrical module for membrane distillation',
-    inventors: ['A.Yadav'],
-    patentNumber: 'IN202411067163',
-    filingDate: '2024-09-05',
-    status: 'Filed'
+    title: 'Twisted spacer filaments for low biofouling and scaling in the feed channel of membrane distillation',
+    inventors: ['A. Yadav', 'A. Kumar', 'C.P. Singh', 'R.V. Patel'],
+    patentNumber: 'IN2025110XXXXX',
+    filingDate: '15–06–2025',
+    status: 'Filed',
+    link: 'https://ipindia.gov.in/patent-details'
   },
   {
     id: 'pat-03',
-    title: 'A self-cleaning solar enabled smart device for real-time surface water health monitoring',
-    inventors: ['A.Yadav'],
+    title: 'A self-cleaning solar enabled smart device for real time surface water health monitoring',
+    inventors: ['A. Yadav', 'E. Padhi', 'B. Krishna', 'Nikhil'],
     patentNumber: 'IN202511026994',
-    filingDate: '2025-03-24',
-    status: 'Filed'
+    filingDate: '24–03–2025',
+    status: 'Published',
+    link: 'https://ipindia.gov.in/patent-details'
   },
   {
     id: 'pat-04',
-    title: 'Multi-pass helical submerged membrane distillation module',
-    inventors: ['A.Yadav'],
-    status: 'To be filed'
-  },
-  {
-    id: 'pat-05',
-    title: 'Membrane distillation module with twisted rectangular cross-section spacer',
-    inventors: ['A.Yadav'],
-    status: 'To be filed'
-  },
-  {
-    id: 'pat-06',
-    title: 'Multi-pass helical submerged membrane distillation module',
-    inventors: ['A.Yadav', 'B.Krishna', 'Nikhil', 'P.K.Labhasetwar'],
-    patentNumber: 'IN202411067163',
-    filingDate: '2025-09-05',
-    status: 'Filed'
-  },
-  {
-    id: 'pat-07',
-    title: 'Twisted spacer filaments for low biofouling and scaling in the feed channel of membrane distillation',
-    inventors: ['A.Yadav', 'A.Kumar', 'C.P.Singh', 'R.V.Patel'],
-    patentNumber: 'IN202411067163',
-    filingDate: '2025-09-05',
-    status: 'Filed'
-  },
-  {
-    id: 'pat-08',
-    title: 'A self-cleaning solar enabled smart device for real-time surface water health monitoring',
-    inventors: ['A.Yadav', 'E.Padhi', 'B.Krishna', 'Nikhil'],
-    patentNumber: 'IN202511026994',
-    filingDate: '2025-03-24',
-    status: 'Filed'
-  },
-  {
-    id: 'pat-09',
     title: 'Multi-pass concentric tubular module for membrane distillation',
-    inventors: ['A.Yadav', 'R.V.P.Patel', 'B.M.Baladaniya', 'V.K.Shahi', 'P.K.Labhasetwar'],
+    inventors: ['A. Yadav', 'R.V.P. Patel', 'B.M. Baladaniya', 'V.K. Shahi', 'P.K. Labhasetwar'],
     patentNumber: 'IN202411067163',
-    filingDate: '2024-09-05',
-    status: 'Filed'
+    filingDate: '05–09–2024',
+    status: 'Filed',
+    link: 'https://ipindia.gov.in/patent-details'
   }
 ];
 
@@ -522,11 +476,74 @@ export const patents = [
 export const invitedTalks = [
   {
     id: 'talk-01',
-    title: 'Smart Water Systems: Opportunities and Challenges',
-    event: 'National Workshop on Sustainable Water Solutions',
-    speaker: 'Dr. S.M. Yadav',
+    title: 'Optimizing Fouling Resistant Membranes for High Flux Distillation',
+    event: '2nd International Online Conference on Sustainable Technologies in Water Treatment and Desalination',
+    speaker: 'Dr. A. Yadav',
+    year: 2022,
+    location: 'Online',
+    abstract: 'Presented recent developments in optimizing membranes to reduce fouling and enhance distillation flux.'
+  },
+  {
+    id: 'talk-02',
+    title: 'Fabrication of Fouling Resistant Membranes for High Flux Distillation',
+    event: 'Technical Talk at Siksha \'O\' Anusandhan University',
+    speaker: 'Dr. A. Yadav',
+    year: 2022,
+    location: 'Siksha \'O\' Anusandhan University, Odisha',
+    abstract: 'Explored fabrication methods for advanced membranes used in distillation systems.'
+  },
+  {
+    id: 'talk-03',
+    title: 'Computational Fluid Dynamics for Engineering Applications',
+    event: 'Guest Lecture at Raja Ram Institute of Management and Technology',
+    speaker: 'Dr. A. Yadav',
+    year: 2022,
+    location: 'Raja Ram Institute of Management and Technology, Lucknow',
+    abstract: 'Introduced applications of computational fluid dynamics in solving complex engineering problems, especially in water treatment.'
+  },
+  {
+    id: 'talk-04',
+    title: 'Membrane Distillation for High Saline Water and Wastewater Treatment: Recent Trends and Applications',
+    event: 'Technical Seminar at Harcourt Butler Technical University',
+    speaker: 'Dr. A. Yadav',
     year: 2023,
-    location: 'IIT Roorkee',
-    abstract: 'Invited keynote on the role of smart technologies in integrated water management.',
+    location: 'Harcourt Butler Technical University, Kanpur',
+    abstract: 'Discussed current trends and implementation strategies for membrane distillation in saline water treatment.'
+  },
+  {
+    id: 'talk-05',
+    title: 'Membrane Distillation Process for High Saline Water and Wastewater Treatment',
+    event: 'Faculty Development Program on Green Energy Technology and Waste Management',
+    speaker: 'Dr. A. Yadav',
+    year: 2023,
+    location: 'Jayaram Institute of Technology, Nagaur',
+    abstract: 'Focused on practical applications of membrane distillation in green energy and waste reduction contexts.'
+  },
+  {
+    id: 'talk-06',
+    title: 'Membrane Distillation for High Saline Water and Wastewater Treatment: Recent Trends and Applications',
+    event: 'International Conference on Recent Advances in Science, Technology, Humanities and Management',
+    speaker: 'Dr. A. Yadav',
+    year: 2023,
+    location: 'International Conference on Recent Advances in Science, Technology, Humanities and Management (ICRASTHM)',
+    abstract: 'Delivered insights on evolving techniques in saline and wastewater distillation technologies.'
+  },
+  {
+    id: 'talk-07',
+    title: 'Optimization of Fouling Resistant Membranes for High Flux',
+    event: 'International Conference on Membranes and Water',
+    speaker: 'Dr. A. Yadav',
+    year: 2023,
+    location: 'International Conference on Membranes and Water (ICMW 2023)',
+    abstract: 'Explained the optimization techniques for high-performance anti-fouling membranes.'
+  },
+  {
+    id: 'talk-08',
+    title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
+    event: 'Guest Lecture at Raja Ram Institute of Management and Technology',
+    speaker: 'Dr. A. Yadav',
+    year: 2022,
+    location: 'Raja Ram Institute of Management and Technology, Lucknow',
+    abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
   }
 ];

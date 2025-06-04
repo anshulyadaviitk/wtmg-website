@@ -7,8 +7,23 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useRef, useEffect, useState } from 'react';
 
 export default function ResearchSection({ researchAreas }) {
+  const prevRef = useRef(null);
+  const nextRef = useRef(null);
+  const [swiperInstance, setSwiperInstance] = useState(null);
+
+   useEffect(() => {
+    if (swiperInstance && prevRef.current && nextRef.current) {
+      swiperInstance.params.navigation.prevEl = prevRef.current;
+      swiperInstance.params.navigation.nextEl = nextRef.current;
+
+      swiperInstance.navigation.init();
+      swiperInstance.navigation.update();
+    }
+  }, [swiperInstance]);
+  
   return (
     <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -21,31 +36,37 @@ export default function ResearchSection({ researchAreas }) {
           </p>
         </div>
 
-        <Swiper
-          modules={[Pagination, Autoplay, Navigation]}
-          spaceBetween={32}
-          slidesPerView={1}
-          pagination={{
-            clickable: true,
-            el: '.custom-pagination',
-            bulletClass: 'custom-bullet',
-            bulletActiveClass: 'custom-bullet-active',
-          }}
-          navigation={{
-            prevEl: '.custom-prev',
-            nextEl: '.custom-next',
-          }}
-          autoplay={{
-            delay: 5000,
-            disableOnInteraction: false,
-          }}
-          breakpoints={{
-            640: { slidesPerView: 1, spaceBetween: 24 },
-            768: { slidesPerView: 2, spaceBetween: 28 },
-            1024: { slidesPerView: 3, spaceBetween: 32 },
-          }}
-          className="pb-16"
-        >
+        <div className="relative">
+           <Swiper
+  modules={[Pagination, Autoplay, Navigation]}
+  navigation={{
+    prevEl: prevRef.current,
+    nextEl: nextRef.current,
+  }}
+  onBeforeInit={(swiper) => {
+    swiper.params.navigation.prevEl = prevRef.current;
+    swiper.params.navigation.nextEl = nextRef.current;
+  }}
+  spaceBetween={32}
+  slidesPerView={1}
+  pagination={{
+    clickable: true,
+    el: '.custom-pagination',
+    bulletClass: 'custom-bullet',
+    bulletActiveClass: 'custom-bullet-active',
+  }}
+  autoplay={{
+    delay: 5000,
+    disableOnInteraction: false,
+  }}
+  breakpoints={{
+    640: { slidesPerView: 1, spaceBetween: 24 },
+    768: { slidesPerView: 2, spaceBetween: 28 },
+    1024: { slidesPerView: 3, spaceBetween: 32 },
+  }}
+  className="pb-16"
+>
+
           {researchAreas.map((area) => (
             <SwiperSlide key={area.id}>
               <div className="bg-white rounded-xl shadow-lg overflow-hidden h-full flex flex-col transition-all duration-300 hover:shadow-xl hover:-translate-y-1" style={{ height: '560px' }}>
@@ -137,39 +158,27 @@ export default function ResearchSection({ researchAreas }) {
 
         {/* Rest of your existing code remains the same */}
         <div className="custom-pagination flex justify-center gap-2 mt-6" />
+{/* Navigation Arrows */}
+<button
+  ref={prevRef}
+  className="custom-prev absolute left-0 top-[35%] -translate-y-1/2 bg-white p-3 rounded-full shadow-md hover:bg-gray-50 transition-colors z-10"
+>
+  <svg className="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+  </svg>
+</button>
 
-        <div className="flex justify-center gap-4 mt-8">
-          <button className="custom-prev bg-white p-3 rounded-full shadow-md hover:bg-gray-50 transition-colors">
-            <svg
-              className="h-6 w-6 text-gray-700"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M15 19l-7-7 7-7"
-              />
-            </svg>
-          </button>
-          <button className="custom-next bg-white p-3 rounded-full shadow-md hover:bg-gray-50 transition-colors">
-            <svg
-              className="h-6 w-6 text-gray-700"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M9 5l7 7-7 7"
-              />
-            </svg>
-          </button>
-        </div>
+<button
+  ref={nextRef}
+  className="custom-next absolute right-0 top-[35%] -translate-y-1/2 bg-white p-3 rounded-full shadow-md hover:bg-gray-50 transition-colors z-10"
+>
+  <svg className="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+  </svg>
+</button>
+
+          </div>
+
 
         <style jsx global>{`
           .custom-bullet {

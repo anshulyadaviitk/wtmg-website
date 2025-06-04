@@ -5,7 +5,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Head from 'next/head';
 import Layout from '@/components/layout/Layout';
-import AwardsSection from '@/components/sections/AwardsSection';
+import { awards } from '@/content/awards';
+import AwardsSection1 from '@/components/sections/AwardsSection1';
 import { 
   EnvelopeIcon, 
   PhoneIcon, 
@@ -93,10 +94,10 @@ export default function DrAnshulYadav() {
       <section>
   <h2 className="text-2xl font-bold mb-6">EDUCATION</h2>
 
-  {/* Ph.D. - CSIR */}
+  {/* Ph.D. - ACSIR */}
   <div className="flex gap-6 mb-6">
     <img
-      src="/images/logos/csir.png"
+      src="/images/logos/acsir.jpeg"
       alt="CSIR"
       className="w-20 h-20 object-contain mt-1"
     />
@@ -154,31 +155,72 @@ export default function DrAnshulYadav() {
 
 
 
-      <section>
-        <h2 className="text-2xl font-semibold">Professional Experience</h2>
-        <table className="table-auto w-full border">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="border px-4 py-2">S. No.</th>
-              <th className="border px-4 py-2">Position</th>
-              <th className="border px-4 py-2">Institute</th>
-              <th className="border px-4 py-2">From</th>
-              <th className="border px-4 py-2">To</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr><td className="border px-4 py-2">1</td><td className="border px-4 py-2">Assistant Professor</td><td className="border px-4 py-2">IIT Roorkee</td><td className="border px-4 py-2">Sep 2024</td><td className="border px-4 py-2">Present</td></tr>
-            <tr><td className="border px-4 py-2">2</td><td className="border px-4 py-2">Assistant Professor</td><td className="border px-4 py-2">AcSIR</td><td className="border px-4 py-2">Jan 2023</td><td className="border px-4 py-2">Sep 2024</td></tr>
-           <tr><td className="border px-4 py-2">3</td><td className="border px-4 py-2">Scientist</td><td className="border px-4 py-2">CSIR-CSMCRI</td><td className="border px-4 py-2">Apr 2019</td><td className="border px-4 py-2">Sep 2024</td></tr>
-            <tr><td className="border px-4 py-2">4</td><td className="border px-4 py-2">Assistant Professor</td><td className="border px-4 py-2">KNIT Sultanpur</td><td className="border px-4 py-2">Dec 2017</td><td className="border px-4 py-2">Feb 2019</td></tr>
-            <tr><td className="border px-4 py-2">5</td><td className="border px-4 py-2">Project Associate</td><td className="border px-4 py-2">IIT Kanpur</td><td className="border px-4 py-2">Jun 2017</td><td className="border px-4 py-2">Sep 2017</td></tr>
-            <tr><td className="border px-4 py-2">6</td><td className="border px-4 py-2">Teaching Assistant</td><td className="border px-4 py-2">IIT Kanpur</td><td className="border px-4 py-2">Jul 2016</td><td className="border px-4 py-2">Apr 2017</td></tr>
-          </tbody>
-        </table>
-      </section>
+    <section className="py-12">
+  <h2 className="text-3xl font-bold text-gray-800 mb-10 text-center">Professional Experience</h2>
+  <ol className="relative border-l border-blue-200">
+    {[
+      
+  {
+    position: "Assistant Professor",
+    institute: "Indian Institute of Technology Roorkee",
+    from: "Sep 2024",
+    to: "Present",
+  },
+  {
+    position: "Assistant Professor",
+    institute: "Academy of Scientific and Innovative Research",
+    from: "Jan 2023",
+    to: "Sep 2024",
+  },
+  {
+    position: "Scientist",
+    institute: "Central Salt and Marine Chemicals Research Institute",
+    from: "Apr 2019",
+    to: "Sep 2024",
+  },
+  {
+    position: "Assistant Professor",
+    institute: "Kamla Nehru Institute of Technology, Sultanpur",
+    from: "Dec 2017",
+    to: "Feb 2019",
+  },
+  {
+    position: "Project Associate",
+    institute: "Indian Institute of Technology Kanpur",
+    from: "Jun 2017",
+    to: "Sep 2017",
+  },
+  {
+    position: "Teaching Assistant",
+    institute: "Indian Institute of Technology Kanpur",
+    from: "Jul 2016",
+    to: "Apr 2017",
+  }
 
-       {/* ✅ Awards section */}
-        <AwardsSection />
+
+    ].map((exp, index) => (
+      <li className="mb-10 ml-6" key={index}>
+        <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-600 rounded-full -left-3 ring-8 ring-white">
+          <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M10 2a8 8 0 108 8 8 8 0 00-8-8zM9 11V7h2v4zm0 4h2v-2H9z" />
+          </svg>
+        </span>
+        <div className="bg-white p-6 rounded-lg shadow-md">
+          <h3 className="text-lg font-semibold text-gray-900">{exp.position}</h3>
+          <p className="text-sm text-gray-600">{exp.institute}</p>
+          <span className="text-sm text-blue-600 mt-1 inline-block">
+            {exp.from} – {exp.to}
+          </span>
+        </div>
+      </li>
+    ))}
+  </ol>
+</section>
+
+
+       
+          {/*Awards section*/} 
+       <AwardsSection1 awards={awards} />
 
         {/*Member ship section*/}
       <section className="my-10">

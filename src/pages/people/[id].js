@@ -298,7 +298,7 @@ export default function PeopleView() {
           </div>
         )}
        {/* Only show for PhD and MTech students */}
-{(person.position?.includes('PhD') || person.position?.includes('MTech')) && (
+{(person.type?.includes('PhD') || person.type?.includes('MTech')) && (
   <div className="mt-8 pt-6 border-t border-gray-300 space-y-6">
 
  

@@ -110,7 +110,7 @@ export const pi = {
 export const phdScholars = [
   {
     id: 'phd-01',
-    type: 'phd',
+    type: 'PhD',
     name: 'Mr. Nikhil',
     photo: '/images/people/phd/nikhil.jpeg',
     position: 'PhD Scholar',
@@ -136,21 +136,21 @@ images:[
     '/images/events/event3.jpg',
     '/images/events/event4.jpg'
 ],
-    previousDegree: 'MTech: NIT Jalandhar (2020)\nBTech: UPTU (2016)',
+   previousDegree: "Master of Technology from National Institute of Technology Jalandhar (2020)\nBachelor of Technology from Uttar Pradesh Technical University (2016)",
     topic: 'Development of Membrane Materials for Enhanced Electrodialysis Performance in Water and Wastewater Treatment',
     duration: 'January 2025 – Present',
     email: '',
     contact: '',
-    coSupervisor: 'Dr. Prasanta K. Sahoo, NIH Roorkee',
+    coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee',
     links: {
-      linkedin: '',
-      researchgate: '',
-      scholar: ''
+      linkedin: 'XXXX',
+      researchgate: 'XXXX',
+      scholar: 'XXXX'
     }
   },
   {
     id: 'phd-02',
-    type: 'phd',
+    type: 'PhD',
     name: 'Mr. Yaswanth Aragonda',
     photo: '/images/people/phd/yaswanth.jpeg',
     position: 'PhD Scholar',
@@ -172,21 +172,21 @@ images:[
     '/images/events/event3.jpg',
     '/images/events/event4.jpg'
 ],
-    previousDegree: 'MTech: NIT Warangal (2023)\nBTech: VIT (2021)',
+     previousDegree: "Master of Technology in Remote Sensing and Geographic Information Systems from National Institute of Technology Warangal (2025)\nBachelor of Technology from Vellore Institute of Technology",
     topic: 'Dynamic pollutant monitoring in rivers using multi-source remote sensing data and automated validation',
     duration: 'July 2025 – Present',
-    email: '',
-    contact: '',
-    coSupervisor: 'Dr. Manali Pal, NIT Warangal',
+    email: 'XXXX',
+    contact: 'XXXX',
+    coSupervisor: 'Dr. Manali Pal, National Institute of Technology, Warangal',
     links: {
-      linkedin: '',
-      researchgate: '',
-      scholar: ''
+      linkedin: 'XXXX',
+      researchgate: 'XXXX',
+      scholar: 'XXXX'
     }
   },
   {
     id: 'phd-03',
-    type: 'phd',
+    type: 'PhD',
     name: 'Mr. Vineet Kumar',
     photo: '/images/people/phd/vineet.jpeg',
     position: 'PhD Scholar',
@@ -212,16 +212,17 @@ images:[
     '/images/events/event3.jpg',
     '/images/events/event4.jpg'
 ],
-    previousDegree: 'MTech: IIT Guwahati (2024)\nBTech: UPTU (2022)',
+    previousDegree: "Master of Technology in Soil and Water Conservation Engineering from Indian Agricultural Research Institute (2020)\nBachelor of Technology in Agricultural Engineering from Orissa University of Agriculture and Technology (2018)",
+    duration: "2021 - Ongoing",
     topic: 'Design and Development of Nanomaterial-Based Sensors for Real-Time Detection of Water Contaminants',
     duration: 'July 2025 – Present',
-    email: '',
-    contact: '',
-    coSupervisor: 'Dr. Prasanta K. Sahoo, NIH Roorkee',
+    email: 'XXXX',
+    contact: 'XXXX',
+    coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee',
     links: {
-      linkedin: '',
-      researchgate: '',
-      scholar: ''
+      linkedin: 'XXXX',
+      researchgate: 'XXXX',
+      scholar: 'XXXX'
     }
   }
 ];
@@ -229,10 +230,10 @@ images:[
 export const mastersStudents = [
   {
     id: 'mtech-02',
-    type: 'mtech',
+    type: 'MTech',
     name: 'Mr. Abhishek Kumar Sinha',
     photo: '/images/people/mtech/abhishek.jpeg',
-    position: 'MTech in Water Resources Development',
+    position: 'Master of Technology in Water Resources Development',
     peerReviewedPublications: [
   'Development of Novel Polymeric Membranes for Electrodialysis, Journal of Membrane Science, 2024',
   'Enhanced Water Treatment Using Functionalized Nanomaterials, Environmental Science & Technology, 2023'
@@ -255,18 +256,18 @@ images:[
     '/images/events/event3.jpg',
     '/images/events/event4.jpg'
 ],
-    previousDegree: 'BTech: UPTU (2024)',
+    previousDegree: "Bachelor of Technology in Civil Engineering from National Institute of Technology Srinagar (2022)",
     topic: 'Development of Multifunctional Nanomaterial based Polymeric Membranes for Efficient Arsenic and Fluoride remediation',
     duration: 'July 2024 – Present',
-    email: '',
-    coSupervisor: 'Dr. Prasanta K. Sahoo, NIH Roorkee'
+    email: 'XXXXXXXXXX',
+    coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee'
   },
   {
     id: 'mtech-03',
-    type: 'mtech',
+    type: 'MTech',
     name: 'Mr. Shivam Tiwari',
     photo: '/images/people/mtech/shivam.jpeg',
-    position: 'MTech in Water Resources Development',
+    position: 'Master of Technology in Water Resources Development',
     peerReviewedPublications: [
   'Development of Novel Polymeric Membranes for Electrodialysis, Journal of Membrane Science, 2024',
   'Enhanced Water Treatment Using Functionalized Nanomaterials, Environmental Science & Technology, 2023'
@@ -289,18 +290,18 @@ images:[
     '/images/events/event3.jpg',
     '/images/events/event4.jpg'
 ],
-    previousDegree: 'BTech: UPTU (2024)',
+    previousDegree: 'Bachelor of Technology from Uttar Pradesh Technical University (2024)',
     topic: 'Development of Multifunctional Nanomaterial based Polymeric Membranes for Efficient Uranium remediation',
     duration: 'July 2024 – Present',
-    email: '',
-    coSupervisor: 'Dr. Prasanta K. Sahoo, NIH Roorkee'
+    email: 'XXXXXXXXXX',
+    coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee'
   },
   {
     id: 'mtech-04',
-    type: 'mtech',
+    type: 'MTech',
     name: 'Abas Amri Makada',
     photo: '/images/people/mtech/abbas.jpeg',
-    position: 'MTech in Water Resources Development',
+    position: 'Master of Technology in Water Resources Development',
     peerReviewedPublications: [
   'Development of Novel Polymeric Membranes for Electrodialysis, Journal of Membrane Science, 2024',
   'Enhanced Water Treatment Using Functionalized Nanomaterials, Environmental Science & Technology, 2023'
@@ -323,17 +324,18 @@ images:[
     '/images/events/event3.jpg',
     '/images/events/event4.jpg'
 ],
-    previousDegree: 'BTech: UPTU (2024)',
+    previousDegree: 'Bacherol of Science in Environmental Science University from Open University of Tanzania',
     topic: 'Design of planted and unplanted dry bed fecal sludge treatment plant. Case study Didia Ward, Shinyanga, Tanzania',
     duration: 'July 2024 – Present',
-    email: ''
+    email: 'XXXXXXXXXX',
+    coSupervisor: 'XXXX'
   },
   {
     id: 'mtech-05',
-    type: 'mtech',
+    type: 'MTech',
     name: 'Aiswarya Priya',
     photo: '/images/people/mtech/aishwarya.jpeg',
-    position: 'MTech in Drinking Water Sanitation',
+    position: 'Master of Technology in Drinking Water Sanitation',
     peerReviewedPublications: [
   'Development of Novel Polymeric Membranes for Electrodialysis, Journal of Membrane Science, 2024',
   'Enhanced Water Treatment Using Functionalized Nanomaterials, Environmental Science & Technology, 2023'
@@ -359,14 +361,15 @@ images:[
     previousDegree: 'Bachelor of planning (2024) from School of Planning and Architecture, Bhopal',
     topic: 'Understanding Water and Ion Transport Through Functionalized 2D Membranes Using Molecular Dynamics and Experimental Techniques',
     duration: 'July 2024 – Present',
-    email: ''
+    email: 'XXXXXXXXXX',
+    coSupervisor: 'XXXX'
   },
   {
     id: 'mtech-06',
-    type: 'mtech',
+    type: 'MTech',
     name: 'Balkrishan',
     photo: '/images/people/mtech/balkrishan.jpeg',
-    position: 'MTech in Drinking Water Sanitation',
+    position: 'Master of Technology in Drinking Water Sanitation',
     peerReviewedPublications: [
   'Development of Novel Polymeric Membranes for Electrodialysis, Journal of Membrane Science, 2024',
   'Enhanced Water Treatment Using Functionalized Nanomaterials, Environmental Science & Technology, 2023'
@@ -389,17 +392,18 @@ images:[
     '/images/events/event3.jpg',
     '/images/events/event4.jpg'
 ],
-    previousDegree: 'BTech: UPTU (2024)',
+     previousDegree: 'Bachelor of Technology from Uttar Pradesh Technical University (2024)',
     topic: 'Zero liquid discharge and resource recovery for industrial tannery wastewater using a hybrid reverse osmosis–membrane distillation treatment process',
     duration: 'July 2024 – Present',
-    email: ''
+    email: 'XXXXXXXXXX',
+    coSupervisor: 'XXXX'
   },
   {
     id: 'mtech-07',
-    type: 'mtech',
+    type: 'MTech',
     name: 'Issah Mtono',
     photo: '/images/people/mtech/issah.jpeg',
-    position: 'MTech in Drinking Water Sanitation',
+    position: 'Master of Technology in Drinking Water Sanitation',
     peerReviewedPublications: [
   'Development of Novel Polymeric Membranes for Electrodialysis, Journal of Membrane Science, 2024',
   'Enhanced Water Treatment Using Functionalized Nanomaterials, Environmental Science & Technology, 2023'
@@ -422,17 +426,18 @@ images:[
     '/images/events/event3.jpg',
     '/images/events/event4.jpg'
 ],
-    previousDegree: 'BTech: UPTU (2024)',
+    previousDegree: 'Bachelor of Technology from Uttar Pradesh Technical University (2024)',
     topic: 'Water quality assessment across irrigation schemes: a case study of wetland agriculture impacts in Ruvuma River Basin, Tanzania',
     duration: 'July 2024 – Present',
-    email: ''
+    email: 'XXXXXXXXXX',
+    coSupervisor: 'XXXX'
   },
   {
     id: 'mtech-08',
-    type: 'mtech',
+    type: 'MTech',
     name: 'Nsanzurwimo Malachie',
     photo: '/images/people/mtech/nsanzurwimo.jpeg',
-    position: 'MTech in Drinking Water Sanitation',
+    position: 'Master of Technology in Drinking Water Sanitation',
     peerReviewedPublications: [
   'Development of Novel Polymeric Membranes for Electrodialysis, Journal of Membrane Science, 2024',
   'Enhanced Water Treatment Using Functionalized Nanomaterials, Environmental Science & Technology, 2023'
@@ -455,18 +460,19 @@ images:[
     '/images/events/event3.jpg',
     '/images/events/event4.jpg'
 ],
-    previousDegree: 'BTech: UPTU (2024)',
+    previousDegree: 'Bachelor of Technology from Uttar Pradesh Technical University (2024)',
     topic: 'Decentralized wastewater treatment systems for rural communities: a feasibility and sustainability assessment',
     duration: 'July 2024 – Present',
-    email: ''
+    email: 'XXXXXXXXXX',
+    coSupervisor: 'XXXX'
   },
   {
     id: 'mtech-09',
-    type: 'mtech',
+    type: 'MTech',
     name: 'Prisca James',
     nationality: '',
     photo: '/images/people/mtech/jamesprisca.jpeg',
-    position: 'MTech in Water Resources Development',
+    position: 'Master of Technology in Water Resources Development',
     peerReviewedPublications: [
   'Development of Novel Polymeric Membranes for Electrodialysis, Journal of Membrane Science, 2024',
   'Enhanced Water Treatment Using Functionalized Nanomaterials, Environmental Science & Technology, 2023'
@@ -489,10 +495,11 @@ images:[
     '/images/events/event3.jpg',
     '/images/events/event4.jpg'
 ],
-    previousDegree: '',
+    previousDegree: 'Bachelor degree in water resources and irrigation engineering',
     topic: 'Designing of low cost and efficient wastewater treatment technologies for small town',
     duration: 'July 2024 – Present',
-    email: ''
+    email: 'XXXXXXXXXX',
+    coSupervisor: 'XXXX'
   }
 ];
 
@@ -503,8 +510,8 @@ export const interns = [
     type: 'intern',
     name: 'Adarsh Kumar Jha',
     photo: '/images/people/interns/adarsh.jpeg',
-    position: 'Intern (SPARK Program, IIT Roorkee)',
-    College: 'IIT(BHU) Varanasi',
+    position: 'Intern (SPARK Program, Indian Institute of Technology Roorkee)',
+    College: 'Indian Institute of Technology (Banaras Hindu University), Varanasi',
     topic: 'Design and development of a prototype for zero liquid discharge wastewater treatment system',
     duration: 'May–June 2025 (Two months)',
     email: 'adarshkr.jha.mst22@itbhu.ac.in'
@@ -515,10 +522,10 @@ export const interns = [
     name: 'Mr. Raj Keshari',
     photo: '/images/people/interns/raj.jpeg',
     position: 'Intern',
-    College: 'IIEST, Shibpur',
-    topic: 'AI-Based Modeling and Optimization of Adsorption Processes for Water and Wastewater Treatment',
+    College: 'Indian Institute of Engineering Science and Technology, Shibpur',
+    topic: 'Artificial Intelligence-Based Modeling and Optimization of Adsorption Processes for Water and Wastewater Treatment',
     duration: 'May–June 2025 (Two months)',
-    email: ''
+    email: 'XXXXXXXXXX'
   },
   {
     id: 'intern-04',
@@ -526,10 +533,10 @@ export const interns = [
     name: 'Ms. Sanchita Garai',
     photo: '/images/people/interns/sanchita.jpeg',
     position: 'Intern',
-    College: 'IIEST, Shibpur',
+    College: 'Indian Institute of Engineering Science and Technology, Shibpur',
     topic: 'Computational fluid dynamics simulations of direct contact membrane distillation for desalination applications',
     duration: 'May–June 2025 (Two months)',
-    email: ''
+    email: 'XXXXXXXXXX'
   },
   {
     id: 'intern-06',
@@ -537,10 +544,10 @@ export const interns = [
     name: 'Mr. Aayush Ghosh',
     photo: '/images/people/interns/aayush.jpeg',
     position: 'Intern',
-    College: 'IIEST, Shibpur',
+    College: 'Indian Institute of Engineering Science and Technology, Shibpur',
     topic: 'Computational fluid dynamics simulations of vacuum membrane distillation for wastewater treatment applications',
     duration: 'May–June 2025 (Two months)',
-    email: ''
+    email: 'XXXXXXXXXX'
   }
 ];
 
@@ -623,7 +630,7 @@ export const past = {
     email: ""
   },
   {
-    name: "Mr. Manas Kumar Tripathi",
+    name: "Mr. Manas Mani Tripathi",
     college: "Madan Mohan Malaviya University of Technology",
      photo: '/images/people/alumni/interns/manas.jpeg',
     duration: "May-June 2025 (Two months)",

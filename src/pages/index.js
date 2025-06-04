@@ -10,7 +10,7 @@ import Image from 'next/image';
 import { notices } from '@/content/noticedata';
 import { upcomingevents } from '@/content/noticedata';
 import ResearchSection from '@/components/ResearchSection';
-import AwardsSection from '@/components/sections/AwardsSection';
+import AwardsSection1 from '@/components/sections/AwardsSection1';
 // Replace your current Swiper imports with:
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -242,12 +242,9 @@ export default function Home() {
 </section>
 
 
+   {/*Awards section*/} 
+<AwardsSection1 awards={awards} showEditorial={false} />
 
-    {/* ✅ Awards section */}
-            <AwardsSection showEditorial={false} />
-    
-
-    
 
       {/* Notice Board */}
 <section className="py-16 bg-white">
