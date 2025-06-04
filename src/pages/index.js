@@ -5,6 +5,7 @@ import { researchAreas } from '@/content/research';
 import { awards } from '@/content/awards';
 import ResearchAreaCard from '@/components/research/ResearchAreaCard';
 import Button from '@/components/ui/Button';
+import Link from 'next/link';
 import Image from 'next/image';
 import { notices } from '@/content/noticedata';
 import { upcomingevents } from '@/content/noticedata';
@@ -93,18 +94,18 @@ export default function Home() {
 
     {/* Call to Action */}
     <div className="flex flex-wrap justify-center gap-4 mt-8">
-      <a
+      <Link
         href="#about"
         className="px-8 py-3 bg-white text-blue-800 font-medium rounded-lg hover:bg-blue-50 transition-all shadow-md hover:shadow-lg"
       >
         Explore Programs
-      </a>
-      <a
+      </Link>
+      <Link
         href="/research"
         className="px-8 py-3 border-2 border-white text-white font-medium rounded-lg hover:bg-white/10 transition-all"
       >
         Research Projects
-      </a>
+      </Link>
     </div>
   </div>
 </section>
