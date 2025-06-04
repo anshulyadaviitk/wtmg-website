@@ -239,7 +239,7 @@ export default function PeopleView() {
         {(person.topic || person.previousDegree || person.duration || person.email || person.currentStatus || person.thesisLink) && (
           <div className="mt-8 pt-6 border-t border-gray-200">
             <h2 className="text-xl font-semibold mb-4">Additional Information</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="space-y-4">
               {person.previousDegree && (
                 <div>
                   <h3 className="font-medium text-gray-500">Previous Degree</h3>

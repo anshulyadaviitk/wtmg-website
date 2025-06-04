@@ -231,7 +231,7 @@ export const mastersStudents = [
     id: 'mtech-02',
     type: 'mtech',
     name: 'Mr. Abhishek Kumar Sinha',
-    photo: '/images/people/mtech/mtech1.jpeg',
+    photo: '/images/people/mtech/abhishek.jpeg',
     position: 'MTech in Water Resources Development',
     peerReviewedPublications: [
   'Development of Novel Polymeric Membranes for Electrodialysis, Journal of Membrane Science, 2024',
@@ -265,7 +265,7 @@ images:[
     id: 'mtech-03',
     type: 'mtech',
     name: 'Mr. Shivam Tiwari',
-    photo: '/images/people/mtech/mtech2.jpeg',
+    photo: '/images/people/mtech/shivam.jpeg',
     position: 'MTech in Water Resources Development',
     peerReviewedPublications: [
   'Development of Novel Polymeric Membranes for Electrodialysis, Journal of Membrane Science, 2024',
@@ -365,7 +365,7 @@ images:[
     id: 'mtech-06',
     type: 'mtech',
     name: 'Balkrishan',
-    photo: '/images/people/mtech/mtech6.jpeg',
+    photo: '/images/people/mtech/balkrishan.jpeg',
     position: 'MTech in Drinking Water Sanitation',
     peerReviewedPublications: [
   'Development of Novel Polymeric Membranes for Electrodialysis, Journal of Membrane Science, 2024',
@@ -549,7 +549,7 @@ export const past = {
     {
       id: 'al-phd-02',
       name: 'Mr. Raj Vardhan Prasad Patel',
-      photo: '/images/people/alumni/rajvardhan.jpeg', // Replace with actual path if needed
+      photo: '', // Replace with actual path if needed
       degree: 'PhD (2022–2024)',
       topic: '',
       duration: '2022–2024',
@@ -559,7 +559,7 @@ export const past = {
     {
       id: 'al-phd-03',
       name: 'Mr. Bipinkumar Manubhai Baladaniya',
-      photo: '/images/people/alumni/bipin.jpeg', // Replace with actual path if needed
+      photo: '', // Replace with actual path if needed
       degree: 'PhD (2023–2024)',
       topic: '',
       duration: '2023–2024',
@@ -602,11 +602,12 @@ export const past = {
   email: '' // Fill in the email if available
 },
 
-    // Add more PhD alumni
+    // Add more mtech alumni
   ], interns: [
     {
     name: "Ms. Rupal Niranjan",
     college: "Madan Mohan Malaviya University of Technology",
+    photo: '/images/people/alumni/interns/rupal.jpeg',
     duration: "May-June 2025 (Two months)",
     topic: "Computational Fluid Dynamics Study of Ion Transport and Flow Behavior in Electrodialysis Cells",
     affiliation: "Assistant Professor",
@@ -615,6 +616,7 @@ export const past = {
   {
     name: "Ms. Khushi Mishra",
     college: "Madan Mohan Malaviya University of Technology",
+     photo: '/images/people/alumni/interns/khushi.jpeg',
     duration: "May-June 2025 (Two months)",
     topic: "Computational Fluid Dynamics Study of Ion Transport and Flow Behavior in Electrodialysis Cells",
     affiliation: "Assistant Professor",
@@ -623,6 +625,7 @@ export const past = {
   {
     name: "Mr. Manas Kumar Tripathi",
     college: "Madan Mohan Malaviya University of Technology",
+     photo: '/images/people/alumni/interns/manas.jpeg',
     duration: "May-June 2025 (Two months)",
     topic: "Computational Fluid Dynamics Study of Ion Transport and Flow Behavior in Electrodialysis Cells",
     affiliation: "Assistant Professor",
@@ -631,6 +634,7 @@ export const past = {
   {
     name: "Mr. Ankit Shukla",
     college: "Madan Mohan Malaviya University of Technology",
+     photo: '/images/people/alumni/interns/ankit.jpeg',
     duration: "May-June 2025 (Two months)",
     topic: "Computational Modelling and Evaluation of a Tablet Chlorinator for Water Treatment System",
     affiliation: "Assistant Professor",
@@ -639,6 +643,7 @@ export const past = {
   {
     name: "Mr. Vaibhav Kumar",
     college: "IIEST, Shibpur",
+     photo: '/images/people/alumni/interns/vaibhav.jpeg',
     duration: "May-June 2025 (Two months)",
     topic: "Computational Modelling and Evaluation of a Tablet Chlorinator for Water Treatment System",
     affiliation: "Assistant Professor",
@@ -647,6 +652,7 @@ export const past = {
   {
     name: "Mr. Ambresh Kumar Bakshi",
     college: "Madan Mohan Malaviya University of Technology",
+    photo: '/images/people/alumni/interns/ambresh.jpeg',
     duration: "May-June 2025 (Two months)",
     topic: "Design and development of membrane crystallizer for Water Recovery and Salt Separation",
     affiliation: "Assistant Professor",
@@ -655,6 +661,7 @@ export const past = {
   {
     name: "Pranjal Shrivastav",
     college: "Madan Mohan Malaviya University of Technology",
+     photo: '/images/people/alumni/interns/pranjal.jpeg',
     duration: "May-June 2025 (Two months)",
     topic: "Design and development of membrane crystallizer for Water Recovery and Salt Separation",
     affiliation: "Assistant Professor",
@@ -663,6 +670,7 @@ export const past = {
   {
     name: "Mr. Akash Pandey",
     college: "NA",
+     photo: '/images/people/alumni/interns/akash.jpeg',
     duration: "June-August 2024 (Three months)",
     topic: "NA",
     affiliation: "Assistant Professor",
@@ -671,6 +679,7 @@ export const past = {
   {
     name: "Ms. Vedanshi Kuvadia",
     college: "NA",
+     photo: '/images/people/alumni/interns/vedanshi.jpeg',
     duration: "Jan-April 2024 (Three months)",
     topic: "NA",
     affiliation: "Assistant Professor",
@@ -679,6 +688,7 @@ export const past = {
   {
     name: "Ms. Parmar Jahanviben Mahipatsinh",
     college: "NA",
+     photo: '/images/people/alumni/interns/parmar.jpeg',
     duration: "Feb-April 2024 (Three months)",
     topic: "NA",
     affiliation: "Assistant Professor",
@@ -687,6 +697,7 @@ export const past = {
   {
     name: "Ms. Kaneria Falshruti Bhaveshbhai",
     college: "NA",
+     photo: '/images/people/alumni/interns/kaneria.jpeg',
     duration: "Jan-April 2024 (Three months)",
     topic: "NA",
     affiliation: "Assistant Professor",
@@ -695,6 +706,7 @@ export const past = {
   {
     name: "Mr. Shubham Rank",
     college: "NA",
+     photo: '/images/people/alumni/interns/shubham.jpeg',
     duration: "Feb-April 2024 (Three months)",
     topic: "NA",
     affiliation: "Assistant Professor",
@@ -703,6 +715,7 @@ export const past = {
   {
     name: "Mr. Rajyaguru Deep",
     college: "BITS Pilani",
+     photo: '/images/people/alumni/interns/rajyaguru.jpeg',
     duration: "May-July 2023 (Three months)",
     topic: "NA",
     affiliation: "Assistant Professor",
@@ -711,6 +724,7 @@ export const past = {
   {
     name: "Mr. Abhishek Bhatt",
     college: "NA",
+     photo: '/images/people/alumni/interns/abhishek.jpeg',
     duration: "Feb-May 2023 (Three months)",
     topic: "NA",
     affiliation: "Assistant Professor",
@@ -719,6 +733,7 @@ export const past = {
   {
     name: "Mr. Tarun Mangukiya",
     college: "NA",
+     photo: '/images/people/alumni/interns/tarun.jpeg',
     duration: "Feb-May 2023 (Three months)",
     topic: "NA",
     affiliation: "Assistant Professor",
@@ -727,6 +742,7 @@ export const past = {
   {
     name: "Mr. Monish Jatakiya",
     college: "NA",
+     photo: '/images/people/alumni/interns/monish.jpeg',
     duration: "Dec 2022 (One month)",
     topic: "NA",
     affiliation: "Assistant Professor",
@@ -735,6 +751,7 @@ export const past = {
   {
     name: "Ms. Gopika B. Raj",
     college: "Central Institute of Petrochemicals Technology Kochi",
+     photo: '/images/people/alumni/interns/gopika.jpeg',
     duration: "March-May 2022 (Three months)",
     topic: "Adsorption",
     affiliation: "Assistant Professor",
@@ -743,6 +760,7 @@ export const past = {
   {
     name: "Mr. Rashmi Ranjan Mandal",
     college: "NA",
+     photo: '/images/people/alumni/interns/rashmi.jpeg',
     duration: "March-May 2022 (Three months)",
     topic: "Adsorption",
     affiliation: "Assistant Professor",
@@ -751,6 +769,7 @@ export const past = {
   {
     name: "Ms. Pushpmala Kuwer",
     college: "Institute for Excellence in Higher Education, Bhopal",
+     photo: '/images/people/alumni/interns/pushpmala.jpeg',
     duration: "March-August 2021 (Six months)",
     topic: "Adsorption",
     affiliation: "Assistant Professor",
@@ -759,6 +778,7 @@ export const past = {
   {
     name: "Ms. Prathibha Yadav",
     college: "Institute for Excellence in Higher Education, Bhopal",
+     photo: '/images/people/alumni/interns/prathibha.jpeg',
     duration: "March-August 2021 (Six months)",
     topic: "Membranes",
     affiliation: "Assistant Professor",
@@ -767,6 +787,7 @@ export const past = {
   {
     name: "Ms. Rutu Gajera",
     college: "NIT Surat",
+     photo: '/images/people/alumni/interns/rutu.jpeg',
     duration: "March-August 2021 (Six months)",
     topic: "Membranes",
     affiliation: "PhD",

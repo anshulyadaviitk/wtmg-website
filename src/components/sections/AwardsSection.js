@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useEffect, useRef, useState } from 'react';
 
-export default function AwardsSection() {
+export default function AwardsSection({showEditorial = true}) {
   const scrollRef = useRef(null);
   const [isHovered, setIsHovered] = useState(false);
   const [touchStart, setTouchStart] = useState(0);
@@ -224,8 +224,7 @@ export default function AwardsSection() {
             )}
           </div>
         </section>
-
-        {/* Guest Editor Section */}
+   {showEditorial && (
         <section className="mt-16">
           <h2 className="text-2xl font-bold mb-6 text-gray-800 border-b pb-2">Editorial Roles</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -268,7 +267,7 @@ export default function AwardsSection() {
             ))}
           </div>
         </section>
-
+   )}
 
       {/* Include Faculty Awards, Guest Editors, Student Achievements sections here */}
       {/* You can also split them into 3 components if needed */}

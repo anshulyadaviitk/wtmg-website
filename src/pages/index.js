@@ -48,9 +48,9 @@ export default function Home() {
     </div>
 
     {/* Building Images with Logos in Between */}
-    <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 mb-12">
+    <div className="flex flex-col md:flex-row items-center justify-center gap-1 md:gap-8 mb-6">
       {/* IIT Roorkee Building - Left */}
-      <div className="w-full max-w-4xl">
+      <div className="w-full max-w-full">
         <img
           src="/images/IITR_JT.jpg"
           alt="IIT Roorkee Campus"
@@ -83,28 +83,30 @@ export default function Home() {
       </div>
 
       {/* WRDM Building - Right */}
-      <div className="w-full max-w-4xl">
+      <div className="w-full max-w-full">
         <img
+        
           src="/images/wrdm_photo.jpeg"
           alt="WRDM Department"
           className="rounded-xl shadow-2xl border-4 border-white/20 w-full h-auto object-cover min-h-[300px]"
+
         />
       </div>
     </div>
 
-    {/* Call to Action */}
-    <div className="flex flex-wrap justify-center gap-4 mt-8">
+   {/* Call to Action with modern buttons */}
+    <div className="flex flex-wrap justify-center gap-6 mt-8 animate-fade-in-up">
       <Link
         href="#about"
-        className="px-8 py-3 bg-white text-blue-800 font-medium rounded-lg hover:bg-blue-50 transition-all shadow-md hover:shadow-lg"
+        className="px-10 py-4 bg-white text-blue-800 font-semibold rounded-xl hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
       >
-        Explore Programs
+        Explore Programs →
       </Link>
       <Link
         href="/research"
-        className="px-8 py-3 border-2 border-white text-white font-medium rounded-lg hover:bg-white/10 transition-all"
+        className="px-10 py-4 border-2 border-white text-white font-semibold rounded-xl hover:bg-white/10 transition-all duration-300 backdrop-blur-sm hover:shadow-lg transform hover:-translate-y-1"
       >
-        Research Projects
+        Research Projects →
       </Link>
     </div>
   </div>
@@ -240,7 +242,7 @@ export default function Home() {
 
 
     {/* ✅ Awards section */}
-            <AwardsSection />
+            <AwardsSection showEditorial={false} />
     
 
     
