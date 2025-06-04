@@ -9,6 +9,11 @@ import Image from 'next/image';
 import { notices } from '@/content/noticedata';
 import { upcomingevents } from '@/content/noticedata';
 import ResearchSection from '@/components/ResearchSection';
+import AwardsSection from '@/components/sections/AwardsSection';
+// Replace your current Swiper imports with:
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
 import { 
   EnvelopeIcon, 
   PhoneIcon, 
@@ -28,25 +33,81 @@ export default function Home() {
         <title>Home | Water Treatment & Management Group</title>
       </Head>
 
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-800 to-blue-600 text-white py-20">
-        <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
-             Water Treatment & Management
-          </h1>
-          <p className="text-xl max-w-3xl mx-auto mb-8">
-            Innovative solutions for sustainable water management at IIT Roorkee
-          </p>
-          <div className="flex justify-center space-x-4">
-            <Button href="/research" variant="secondary" size="large">
-              Explore Research
-            </Button>
-            <Button href="/people" variant="outline" size="large" className="text-white border-white">
-              Meet Our Team
-            </Button>
-          </div>
+{/* Combined Hero Section */}
+<section className="relative bg-gradient-to-br from-blue-900 to-blue-700 py-16 px-6">
+  <div className="max-w-7xl mx-auto">
+    {/* Text Content */}
+    <div className="text-center mb-16">
+      <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
+        Water Resources Development <br className="hidden md:block" /> & Management
+      </h1>
+      <p className="text-lg text-blue-100 max-w-3xl mx-auto mb-8">
+        Advancing sustainable water solutions through innovation at IIT Roorkee
+      </p>
+    </div>
+
+    {/* Building Images with Logos in Between */}
+    <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 mb-12">
+      {/* IIT Roorkee Building - Left */}
+      <div className="w-full max-w-2xl">
+        <img
+          src="/images/IITR_JT.jpg"
+          alt="IIT Roorkee Campus"
+          className="rounded-xl shadow-2xl border-4 border-white/20 w-full h-auto object-cover min-h-[300px]"
+        />
+      </div>
+
+      {/* Logos in the middle with glass morphism */}
+      <div className="flex flex-col items-center justify-center gap-8 my-6">
+        {/* WRDM Logo */}
+        <div className="aspect-square w-24 md:w-32 rounded-full backdrop-blur-md bg-white/20 p-1 shadow-lg border border-white/20">
+          <img
+            src="/images/wrdm_logo2.png"
+            alt="WRDM Logo"
+            className="w-full h-full object-contain rounded-full"
+          />
         </div>
-      </section>
+
+        {/* Connecting line */}
+        <div className="h-5 w-1 bg-gradient-to-b from-blue-300 to-blue-500 rounded-full"></div>
+
+        {/* IIT Roorkee Logo */}
+        <div className="aspect-square w-24 md:w-32 rounded-full backdrop-blur-md bg-white/20 p-1 shadow-lg border border-white/20">
+          <img
+            src="/images/iitr_logo.png"
+            alt="IIT Roorkee Logo"
+            className="w-full h-full object-contain rounded-full"
+          />
+        </div>
+      </div>
+
+      {/* WRDM Building - Right */}
+      <div className="w-full max-w-2xl">
+        <img
+          src="/images/wrdm_photo.jpeg"
+          alt="WRDM Department"
+          className="rounded-xl shadow-2xl border-4 border-white/20 w-full h-auto object-cover min-h-[300px]"
+        />
+      </div>
+    </div>
+
+    {/* Call to Action */}
+    <div className="flex flex-wrap justify-center gap-4 mt-8">
+      <a
+        href="#about"
+        className="px-8 py-3 bg-white text-blue-800 font-medium rounded-lg hover:bg-blue-50 transition-all shadow-md hover:shadow-lg"
+      >
+        Explore Programs
+      </a>
+      <a
+        href="/research"
+        className="px-8 py-3 border-2 border-white text-white font-medium rounded-lg hover:bg-white/10 transition-all"
+      >
+        Research Projects
+      </a>
+    </div>
+  </div>
+</section>
 
       {/* PI Introduction */}
 <section className="py-16 bg-white">
@@ -177,30 +238,11 @@ export default function Home() {
 
 
 
-      {/* Recent Awards */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
-            Recent Honors & Awards
-          </h2>
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {featuredAwards.map((award) => (
-              <div key={award.id} className="border-l-4 border-blue-500 pl-6 py-2">
-                <h3 className="text-xl font-semibold text-gray-800">
-                  {award.title}
-                </h3>
-                <p className="text-gray-600">{award.organization}, {award.year}</p>
-                <p className="text-gray-700 mt-2">{award.description}</p>
-              </div>
-            ))}
-          </div>
-          <div className="text-center mt-10">
-            <Button href="/awards" variant="outline">
-              View All Awards
-            </Button>
-          </div>
-        </div>
-      </section>
+    {/* ✅ Awards section */}
+            <AwardsSection />
+    
+
+    
 
       {/* Notice Board */}
 <section className="py-16 bg-white">

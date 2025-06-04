@@ -178,8 +178,8 @@ const isActiveLink = (path, submenu = []) => {
             <div className="relative w-10 h-10 transition-transform duration-300 group-hover:scale-105">
               {isMounted && (
                 <Image
-                  src="/images/logos/iitr-logo-white.png"
-                  alt="IIT Roorkee Logo"
+                  src="/images/wrdm_logo2.png"
+                  alt="WRDM Logo"
                   width={40}
                   height={40}
                   className="object-contain"

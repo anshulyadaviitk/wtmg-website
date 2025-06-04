@@ -85,18 +85,22 @@ export default function PeopleView() {
         </div>
 
         {/* Research Interests */}
-        {researchInterests.length > 0 && (
-          <div className="mb-6">
-            <h2 className="text-xl font-semibold mb-2">Research Interests</h2>
-            <div className="flex flex-wrap gap-2">
-              {researchInterests.map((interest, idx) => (
-                <span key={idx} className="bg-blue-50 text-blue-800 px-3 py-1 rounded-full text-sm">
-                  {interest}
-                </span>
-              ))}
-            </div>
-          </div>
-        )}
+    {researchInterests.length > 0 && (
+  <div className="mb-6 text-left">
+    <h2 className="text-xl font-semibold mb-2">Research Interests</h2>
+    <div className="flex flex-wrap gap-2 justify-start">
+      {researchInterests.map((interest, idx) => (
+        <span
+          key={idx}
+          className="bg-blue-50 text-blue-800 px-3 py-1 rounded-full text-sm"
+        >
+          {interest}
+        </span>
+      ))}
+    </div>
+  </div>
+)}
+
 
         {/* Education */}
         {education.length > 0 && (
@@ -242,12 +246,15 @@ export default function PeopleView() {
                   <p className="whitespace-pre-line">{person.previousDegree}</p>
                 </div>
               )}
-              {person.topic && (
-                <div>
-                  <h3 className="font-medium text-gray-500">Research Topic</h3>
-                  <p>{person.topic}</p>
-                </div>
-              )}
+        <div className="w-full flex justify-start items-start text-left">
+  {person.topic && (
+    <div>
+      <h3 className="font-medium text-gray-500">Research Topic</h3>
+      <p>{person.topic}</p>
+    </div>
+  )}
+</div>
+
               {person.duration && (
                 <div>
                   <h3 className="font-medium text-gray-500">Duration</h3>

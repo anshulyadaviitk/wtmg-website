@@ -13,10 +13,10 @@ export default function Footer() {
             <div className="flex items-center mb-4">
               <div className="relative w-12 h-12 mr-3">
                 <Image
-                  src="/images/logos/iitr-logo-white.png"
+                  src="/images/wrdm_logo2.png"
                   alt="IIT Roorkee Logo"
                   fill
-                  className="object-contain"
+                  className="w-full h-full object-contain bg-white/10 backdrop-blur-sm rounded-full p-"
                 />
               </div>
               <div>
