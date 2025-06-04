@@ -136,7 +136,7 @@ images:[
     '/images/events/event3.jpg',
     '/images/events/event4.jpg'
 ],
-    previousDegree: 'MTech: NIT Warangal (2023)\nBTech: VIT (2021)',
+    previousDegree: 'MTech: NIT Jalandhar (2020)\nBTech: UPTU (2016)',
     topic: 'Development of Membrane Materials for Enhanced Electrodialysis Performance in Water and Wastewater Treatment',
     duration: 'January 2025 – Present',
     email: '',
@@ -151,23 +151,19 @@ images:[
   {
     id: 'phd-02',
     type: 'phd',
-    name: 'Mr. Yaswanth Araconda',
+    name: 'Mr. Yaswanth Aragonda',
     photo: '/images/people/phd/yaswanth.jpeg',
     position: 'PhD Scholar',
     peerReviewedPublications: [
-  'Development of Novel Polymeric Membranes for Electrodialysis, Journal of Membrane Science, 2024',
-  'Enhanced Water Treatment Using Functionalized Nanomaterials, Environmental Science & Technology, 2023'
 ],
 patents: [
-  'Nanocomposite Membrane for Water Purification, IN2024112345A, 2024'
+  
 ],
 conferences: [
-  'International Conference on Water Treatment Technologies, Singapore, 2023',
-  'Indian Membrane Society Annual Meeting, Mumbai, 2022'
+  '29th International Conference on Hydraulics, Water resources, River & Coastal Engineering (HYDRO 2024 International), CWPRS, Pune, 2024',
 ],
 awards: [
-  'Best Paper Award at International Conference on Water Technologies, 2023',
-  'MHRD Research Excellence Fellowship, 2022'
+ 
 ]
 ,
 images:[
@@ -176,8 +172,8 @@ images:[
     '/images/events/event3.jpg',
     '/images/events/event4.jpg'
 ],
-    previousDegree: 'MTech: NIT Jalandhar (2020)\nBTech: UPTU (2016)',
-    topic: 'AI-based flood prediction models; dynamic pollutant monitoring in rivers using multi-source remote sensing data and automated validation',
+    previousDegree: 'MTech: NIT Warangal (2023)\nBTech: VIT (2021)',
+    topic: 'Dynamic pollutant monitoring in rivers using multi-source remote sensing data and automated validation',
     duration: 'July 2025 – Present',
     email: '',
     contact: '',
@@ -303,7 +299,7 @@ images:[
     id: 'mtech-04',
     type: 'mtech',
     name: 'Abas Amri Makada',
-    photo: '/images/people/mtech/mtech4.jpeg',
+    photo: '/images/people/mtech/abbas.jpeg',
     position: 'MTech in Water Resources Development',
     peerReviewedPublications: [
   'Development of Novel Polymeric Membranes for Electrodialysis, Journal of Membrane Science, 2024',
@@ -336,7 +332,7 @@ images:[
     id: 'mtech-05',
     type: 'mtech',
     name: 'Aiswarya Priya',
-    photo: '/images/people/mtech/mtech5.jpeg',
+    photo: '/images/people/mtech/aishwarya.jpeg',
     position: 'MTech in Drinking Water Sanitation',
     peerReviewedPublications: [
   'Development of Novel Polymeric Membranes for Electrodialysis, Journal of Membrane Science, 2024',
@@ -360,7 +356,7 @@ images:[
     '/images/events/event3.jpg',
     '/images/events/event4.jpg'
 ],
-    previousDegree: 'BTech: UPTU (2024)',
+    previousDegree: 'Bachelor of planning (2024) from School of Planning and Architecture, Bhopal',
     topic: 'Understanding Water and Ion Transport Through Functionalized 2D Membranes Using Molecular Dynamics and Experimental Techniques',
     duration: 'July 2024 – Present',
     email: ''
@@ -468,7 +464,8 @@ images:[
     id: 'mtech-09',
     type: 'mtech',
     name: 'Prisca James',
-    photo: '/images/people/mtech/prisca.jpeg',
+    nationality: '',
+    photo: '/images/people/mtech/jamesprisca.jpeg',
     position: 'MTech in Water Resources Development',
     peerReviewedPublications: [
   'Development of Novel Polymeric Membranes for Electrodialysis, Journal of Membrane Science, 2024',
