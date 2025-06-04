@@ -59,28 +59,30 @@ export default function Home() {
       </div>
 
       {/* Logos in the middle with glass morphism */}
-      <div className="flex flex-col items-center justify-center gap-8 my-6">
-        {/* WRDM Logo */}
-        <div className="aspect-square w-24 md:w-32 rounded-full backdrop-blur-md bg-white/20 p-1 shadow-lg border border-white/20">
-          <img
-            src="/images/wrdm_logo_white.png"
-            alt="WRDM Logo"
-            className="w-full h-full object-contain rounded-full"
-          />
-        </div>
+      {/* Logos in the middle with glass morphism */}
+<div className="flex flex-row md:flex-col items-center justify-center gap-8 my-6">
+  {/* WRDM Logo */}
+  <div className="aspect-square w-24 md:w-32 rounded-full backdrop-blur-md bg-white/20 p-1 shadow-lg border border-white/20">
+    <img
+      src="/images/wrdm_logo_white.png"
+      alt="WRDM Logo"
+      className="w-full h-full object-contain rounded-full"
+    />
+  </div>
 
-        {/* Connecting line */}
-        <div className="h-2 w-1 bg-gradient-to-b from-blue-300 to-blue-500 rounded-full"></div>
+  {/* Connecting line */}
+  <div className="w-2 h-1 md:w-1 md:h-2 bg-gradient-to-r md:bg-gradient-to-b from-blue-300 to-blue-500 rounded-full"></div>
 
-        {/* IIT Roorkee Logo */}
-        <div className="aspect-square w-24 md:w-32 rounded-full backdrop-blur-md bg-white/20 p-1 shadow-lg border border-white/20">
-          <img
-            src="/images/iitr_logo.png"
-            alt="IIT Roorkee Logo"
-            className="w-full h-full object-contain rounded-full"
-          />
-        </div>
-      </div>
+  {/* IIT Roorkee Logo */}
+  <div className="aspect-square w-24 md:w-32 rounded-full backdrop-blur-md bg-white/20 p-1 shadow-lg border border-white/20">
+    <img
+      src="/images/iitr_logo.png"
+      alt="IIT Roorkee Logo"
+      className="w-full h-full object-contain rounded-full"
+    />
+  </div>
+</div>
+
 
       {/* WRDM Building - Right */}
       <div className="w-full max-w-full">
