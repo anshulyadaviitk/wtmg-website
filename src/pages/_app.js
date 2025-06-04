@@ -54,15 +54,19 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="description" content="WRDM Research Group - Advancing scientific discovery" />
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="manifest" href="/manifest.webmanifest" />
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-      </Head>
+  <meta charSet="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="description" content="WRDM Research Group - Advancing scientific discovery" />
+
+  {/* ✅ Use custom favicon */}
+  <link rel="icon" href="/wrdm_logo_white.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/wrdm_logo_white.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+</Head>
+
       <div className={`${inter.className} min-h-screen flex flex-col`}>
         <ErrorBoundary
           FallbackComponent={ErrorFallback}

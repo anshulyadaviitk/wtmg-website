@@ -178,7 +178,7 @@ const isActiveLink = (path, submenu = []) => {
             <div className="relative w-10 h-10 transition-transform duration-300 group-hover:scale-105">
               {isMounted && (
                 <Image
-                  src="/images/wrdm_logo2.png"
+                  src="/images/logos/wrdm_logo_white.png"
                   alt="WRDM Logo"
                   width={40}
                   height={40}

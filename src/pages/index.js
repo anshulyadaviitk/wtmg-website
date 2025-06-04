@@ -50,7 +50,7 @@ export default function Home() {
     {/* Building Images with Logos in Between */}
     <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 mb-12">
       {/* IIT Roorkee Building - Left */}
-      <div className="w-full max-w-2xl">
+      <div className="w-full max-w-4xl">
         <img
           src="/images/IITR_JT.jpg"
           alt="IIT Roorkee Campus"
@@ -63,14 +63,14 @@ export default function Home() {
         {/* WRDM Logo */}
         <div className="aspect-square w-24 md:w-32 rounded-full backdrop-blur-md bg-white/20 p-1 shadow-lg border border-white/20">
           <img
-            src="/images/wrdm_logo2.png"
+            src="/images/wrdm_logo_white.png"
             alt="WRDM Logo"
             className="w-full h-full object-contain rounded-full"
           />
         </div>
 
         {/* Connecting line */}
-        <div className="h-5 w-1 bg-gradient-to-b from-blue-300 to-blue-500 rounded-full"></div>
+        <div className="h-2 w-1 bg-gradient-to-b from-blue-300 to-blue-500 rounded-full"></div>
 
         {/* IIT Roorkee Logo */}
         <div className="aspect-square w-24 md:w-32 rounded-full backdrop-blur-md bg-white/20 p-1 shadow-lg border border-white/20">
@@ -83,7 +83,7 @@ export default function Home() {
       </div>
 
       {/* WRDM Building - Right */}
-      <div className="w-full max-w-2xl">
+      <div className="w-full max-w-4xl">
         <img
           src="/images/wrdm_photo.jpeg"
           alt="WRDM Department"
