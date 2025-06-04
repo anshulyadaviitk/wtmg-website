@@ -155,7 +155,7 @@ export default function Home() {
           </p>
         </div>
 
-        <Button href="/people/pi" className="mt-6" variant="outline">
+        <Button href="/PI" className="mt-6" variant="outline">
           View Full Profile & Publications →
         </Button>
       </div>

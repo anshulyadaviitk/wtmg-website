@@ -5,7 +5,7 @@ export default function PeopleTabs() {
   const router = useRouter();
   
   const tabs = [
-    { name: 'Principal Investigator', path: '/people/PI' },
+  /*  { name: 'Principal Investigator', path: '/people/PI' },*/
     { name: 'PhD Scholars', path: '/people/phd' },
     { name: 'Master Students', path: '/people/masters' },
     { name: 'Interns', path: '/people/interns' },

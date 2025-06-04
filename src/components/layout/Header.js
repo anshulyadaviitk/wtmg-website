@@ -97,7 +97,7 @@ export default function Header() {
       name: 'Group Members',
      path: '#',
       submenu: [
-        { name: 'PI', path: '/people/PI' },
+        { name: 'PI', path: '/PI' },
         { name: 'PhD Scholars', path: '/people/phd' },
         { name: 'Masters Students', path: '/people/masters' },
         { name: 'Interns', path: '/people/interns' },

@@ -1,31 +1,31 @@
 export const National = [
   {
     name: "Indian Space Research Organisation (ISRO), India",
-    logo: "/images/collaborations/logo_national/isro.png",
+    logo: "/images/collaborations/logo_national/isro.jfif",
   },
   {
     name: "Indian Institute of Technology, Indore, India",
-    logo: "/images/collaborations/logo_national/iit_indore.png",
+    logo: "/images/collaborations/logo_national/iit_indore.jpg",
   },
   {
     name: "Indian Institute of Science, Bangalore, India",
-    logo: "/images/collaborations/logo_national/iisc.png",
+    logo: "/images/collaborations/logo_national/iisc.jpg",
   },
   {
     name: "Indian Institute of Technology, Guwahati, India",
-    logo: "/images/collaborations/logo_national/iit_guwahati.png",
+    logo: "/images/collaborations/logo_national/IITG_logo.png",
   },
   {
     name: "National Institute of Hydrology, Roorkee, India",
-    logo: "/images/collaborations/logo_national/nih.png",
+    logo: "/images/collaborations/logo_national/im13.jpeg",
   },
   {
     name: "OMKROWN, India",
-    logo: "/images/collaborations/logo_national/omkrown.png",
+    logo: "/images/collaborations/logo_national/im12.jpeg",
   },
   {
     name: "Patanjali Research Institute, Haridwar, India",
-    logo: "/images/collaborations/logo_national/patanjali.png",
+    logo: "/images/collaborations/logo_national/im.jpg",
   },
 ];
 
@@ -44,7 +44,7 @@ export const International = [
   },
   {
     name: "University of the Philippines, Los Baños, Philippines",
-    logo: "/images/collaborations/logo_international/up_los_banos.png",
+    logo: "/images/collaborations/logo_international/up_los_banos.jpg",
   },
   {
     name: "XI'AN Jiaotong University, China",
@@ -61,5 +61,9 @@ export const International = [
   {
     name: "Technische Universität Hamburg, Germany",
     logo: "/images/collaborations/logo_international/tuhh_germany.png",
+  },
+   {
+    name: "",
+    logo: "/images/collaborations/logo_international/hong.jpg",
   },
 ];

@@ -7,22 +7,27 @@ const Section = ({ title, data }) => {
   if (!data || !Array.isArray(data)) return null;
 
   return (
-    <section className="mt-16 px-4">
-      <div className="text-center mb-10">
-        <h2 className="text-3xl md:text-4xl font-semibold text-gray-800 border-b-4 border-blue-500 inline-block pb-2">
-          {title}
-        </h2>
-      </div>
+   <section className="mt-16 px-4">
+  <div className="text-center mb-10">
+    <h2 className="text-3xl md:text-4xl font-semibold text-gray-800 border-b-4 border-blue-500 inline-block pb-2">
+      {title}
+    </h2>
+  </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 place-items-center text-center">
-        {data.map((item, index) => (
-          <div key={index} className="flex flex-col items-center max-w-[200px]">
-            <img src={item.logo} alt={item.name} className="h-24 object-contain mb-2" />
-            <p className="text-sm text-gray-700">{item.name}</p>
-          </div>
-        ))}
+  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 place-items-center text-center">
+    {data.map((item, index) => (
+      <div key={index} className="flex flex-col items-center max-w-[220px]">
+        <img
+          src={item.logo}
+          alt={item.name}
+          className="h-32 sm:h-36 md:h-40 object-contain mb-2 transition-transform duration-300 hover:scale-105"
+        />
+        <p className="text-sm text-gray-700">{item.name}</p>
       </div>
-    </section>
+    ))}
+  </div>
+</section>
+
   );
 };
 

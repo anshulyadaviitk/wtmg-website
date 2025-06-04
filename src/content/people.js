@@ -5,7 +5,7 @@ export const pi = {
   name: 'Dr. Anshul Yadav',
   position: 'Assistant Professor',
   photo: '/images/people/anshul-yadav.jpeg',
-  role: 'pi', // for conditional rendering if needed
+  role: 'pi',
   department: 'Department of Water Resources Development and Management,\nIndian Institute of Technology, Roorkee – 247667, Uttarakhand, India',
   researchInterests: [
     'Water treatment',
@@ -17,31 +17,95 @@ export const pi = {
     'Design of treatment systems'
   ],
   education: [
-    'PhD, Engineering Sciences, AcSIR, India (2022)',
-    'MTech, Mechanical Engineering, IIT Kanpur (2017)',
-    'BTech, Mechanical Engineering, IIT (2017)'
+    'Ph.D., Engineering Sciences, AcSIR, India (2022) - Thesis: Membrane distillation process for high saline and waste water treatment. Advisors: Dr. Pawan Kumar Labhasetwar, Dr. Vinod Kumar Shahi.',
+    'M.Tech, Mechanical Engineering, IIT Kanpur (2017) - Thesis: Thermal Field, Weld Bead Geometry and Characteristics in Submerged Arc Welded Plate. Advisor: Dr. Arvind Kumar.',
+    'B.Tech, Mechanical Engineering'
   ],
   contact: {
     email: 'anshul.yadav@wr.iitr.ac.in',
     phone: '+91-94735 83417 (Mob); +91-1332-285617 (O)',
-    office: 'WTM Department, Room 205',
- 
+    office: 'WTM Department, Room 205'
   },
-  bio: 'Dr. Anshul Yadav is an Assistant Professor in the Department of Water Resources Development & Management at IIT Roorkee and the founding Principal Investigator of the Water Treatment & Monitoring Group (WTMG). His research unites advanced separation science with smart sensing, spanning membrane distillation, electrodialysis, adsorption, and the design of polymeric, composite, and MOF/ZIF-based membranes. By coupling these materials with IoT-enabled water-quality sensor networks, he pursues real-time, data-driven solutions for drinking-water security and industrial wastewater reuse. His work has led to multiple patents—peer-reviewed publications, and competitive funding from national agencies. Beyond the lab, Dr. Yadav integrates research, teaching, and outreach.  ',
+  bio: 'Dr. Anshul Yadav is an Assistant Professor in the Department of Water Resources Development & Management at IIT Roorkee and the founding Principal Investigator of the Water Treatment & Monitoring Group (WTMG). His research unites advanced separation science with smart sensing, spanning membrane distillation, electrodialysis, adsorption, and the design of polymeric, composite, and MOF/ZIF-based membranes. By coupling these materials with IoT-enabled water-quality sensor networks, he pursues real-time, data-driven solutions for drinking-water security and industrial wastewater reuse. His work has led to multiple patents—peer-reviewed publications, and competitive funding from national agencies. Beyond the lab, Dr. Yadav integrates research, teaching, and outreach.',
   social: {
-    googleScholar: 'https://scholar.google.com/citations?user=gD5XxtYAAAAJ&hl=en',
+    googleScholar: 'https://scholar.google.com/citations?user=ZIGtPEIAAAAJ&hl=en',
     researchGate: 'https://www.researchgate.net/profile/Anshul-Yadav-14',
     linkedIn: 'https://www.linkedin.com/in/anshul-yadav-2b29ab305/'
   },
+  positionsHeld: [
+    {
+      position: 'Assistant Professor',
+      institute: 'Indian Institute of Technology Roorkee',
+      from: 'Sep 2024',
+      to: 'till date'
+    },
+    {
+      position: 'Scientist',
+      institute: 'CSIR-Central Salt and Marine Chemicals Research Institute, Bhavnagar',
+      from: 'Apr 2019',
+      to: 'Sep 2024'
+    },
+    {
+      position: 'Assistant Professor',
+      institute: 'AcSIR',
+      from: 'Jan 2023',
+      to: 'Sep 2024'
+    },
+    {
+      position: 'Assistant Professor',
+      institute: 'Kamla Nehru Institute of Technology Sultanpur',
+      from: 'Dec 2017',
+      to: 'Feb 2019'
+    },
+    {
+      position: 'Project Associate',
+      institute: 'Indian Institute of Technology Kanpur',
+      from: 'Jun 2017',
+      to: 'Sep 2017'
+    },
+    {
+      position: 'Teaching Assistant',
+      institute: 'Indian Institute of Technology Kanpur',
+      from: 'Jul 2016',
+      to: 'Apr 2017'
+    }
+  ],
+  awards: [
+    'Article among top 10% of highly cited work in Royal Society of Chemistry Journals (2023)',
+    'Young Scientist award by International Society for Energy, Environment and Sustainability (2023)',
+    'Among top 2% Scientist in world in the subject Materials (2022)',
+    'Best PhD thesis in Engineering Sciences award by AcSIR (2022)',
+    'Best PhD thesis award by Indian Membrane Society (2022)',
+    'Silver Medal for Ph.D. Thesis by International Sol-Gel Society (2022)',
+    'Two artworks selected for cover page of Colloids and Surfaces: A (Volumes 641 and 667)',
+    'Contributed to encyclopaedia of materials, published once in ten years by Elsevier (2022)',
+    'Received MHRD scholarship for M.Tech at IIT Kanpur (2016)',
+    'Best project award on Manufacturing processes at IIT Kanpur (2013)',
+    'Letter of Appreciation by Army Welfare Education Society (2012)',
+    'Certificate of Merit in English, Physics and Mathematics by CBSE (2011)'
+  ],
+  guestEditorships: [
+    {
+      title: 'Membrane Technologies for Wastewater Treatment and Resource Recovery',
+      journal: 'Water (IF: 3.0)',
+      link: 'https://www.mdpi.com/journal/water/special_issues/1162I5IOVJ'
+    },
+    {
+      title: 'Friction and Wear in Composite Materials',
+      journal: 'Lubricants (IF: 3.1)',
+      link: 'https://www.mdpi.com/journal/lubricants/special_issues/Friction_Wear_Composite_Materials'
+    }
+  ],
   projects: [
     {
-      title: 'Climate Resilient Water Systems',
-      funding: 'DST-SERB, ₹42 lakhs',
-      duration: '2022–2025',
-      description: 'Developing adaptation strategies for Himalayan water resources.'
-    }
+      title: 'Development of hydrophobic membranes for desalination and resource recovery using membrane distillation',
+      funding: '',
+      duration: '',
+      description: ''
+    },
   ]
 };
+
 
 export const phdScholars = [
   {
