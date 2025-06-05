@@ -34,7 +34,8 @@ useEffect(() => {
 
   return (
     <>
-      <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
+      <section className="py-20 bg-gradient-to-b from-gray-200 to-gray-50">
+
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
@@ -93,6 +94,7 @@ useEffect(() => {
         <SwiperSlide key={index}>
           <div className="relative w-full h-[350px]">
   {/* Background gradient */}
+  
   <div className="absolute inset-0 bg-gradient-to-t from-gray-900/10 to-transparent z-0" />
 
   {/* Image in front */}
@@ -108,6 +110,7 @@ useEffect(() => {
       ))}
     </Swiper>
   ) : (
+    
     <div className="relative w-full h-[350px]">
       <Image
         src={award.image}
@@ -120,8 +123,6 @@ useEffect(() => {
     </div>
   )}
 </div>
-
-                      <div className="absolute inset-0 bg-gradient-to-t from-gray-900/10 to-transparent" />
 
                     </div>
 
