@@ -92,14 +92,18 @@ useEffect(() => {
       {award.image.map((imgSrc, index) => (
         <SwiperSlide key={index}>
           <div className="relative w-full h-[350px]">
-            <Image
-              src={imgSrc}
-              alt={`${award.title} ${index + 1}`}
-              fill
-              className="object-contain"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-gray-900/30 to-transparent" />
-          </div>
+  {/* Background gradient */}
+  <div className="absolute inset-0 bg-gradient-to-t from-gray-900/10 to-transparent z-0" />
+
+  {/* Image in front */}
+  <Image
+    src={imgSrc}
+    alt={`${award.title} ${index + 1}`}
+    fill
+    className="object-contain z-10 relative"
+  />
+</div>
+
         </SwiperSlide>
       ))}
     </Swiper>
@@ -111,12 +115,14 @@ useEffect(() => {
         fill
         className="object-contain"
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-gray-900/30 to-transparent" />
+      
+
     </div>
   )}
 </div>
 
-                      <div className="absolute inset-0 bg-gradient-to-t from-gray-900/30 to-transparent" />
+                      <div className="absolute inset-0 bg-gradient-to-t from-gray-900/10 to-transparent" />
+
                     </div>
 
                     {/* Text Content */}

@@ -81,7 +81,8 @@ useEffect(() => {
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                     priority
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900/30 to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900/10 to-transparent" />
+
                 </div>
 
                 {/* Content area with constrained height and scroll */}
