@@ -46,7 +46,7 @@ export const awards = {
       organization: 'International Sol-Gel Society',
       year: 2022,
       description: 'Received silver medal for outstanding Ph.D. thesis in sol-gel science.',
-      image: '/images/awards/page_2.jpg',
+      image: '/images/awards/silver.jpg',
       link: 'https://www.isgs.org/community/the-isgs-phd-thesis-award-prize-for-2022-goes-to/#:~:text=Mathias%20Stanzel%2C%20Dr.-,Anshul%20Yadav%20and%20Dr.,%2C%20and%20US%24300%2C%20respectively.'
     },
     {
