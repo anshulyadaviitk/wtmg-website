@@ -10,19 +10,21 @@ import Link from 'next/link';
 import { useRef, useEffect, useState } from 'react';
 
 export default function ResearchSection({ researchAreas }) {
-  const prevRef = useRef(null);
-  const nextRef = useRef(null);
-  const [swiperInstance, setSwiperInstance] = useState(null);
+ const swiperRef = useRef(null);
+    const prevRef = useRef(null);
+const nextRef = useRef(null);
 
-   useEffect(() => {
-    if (swiperInstance && prevRef.current && nextRef.current) {
-      swiperInstance.params.navigation.prevEl = prevRef.current;
-      swiperInstance.params.navigation.nextEl = nextRef.current;
+useEffect(() => {
+  if (swiperRef.current && prevRef.current && nextRef.current) {
+    swiperRef.current.params.navigation.prevEl = prevRef.current;
+    swiperRef.current.params.navigation.nextEl = nextRef.current;
 
-      swiperInstance.navigation.init();
-      swiperInstance.navigation.update();
-    }
-  }, [swiperInstance]);
+    // Re-init navigation
+    swiperRef.current.navigation.destroy();
+    swiperRef.current.navigation.init();
+    swiperRef.current.navigation.update();
+  }
+}, []);
   
   return (
     <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
@@ -38,35 +40,33 @@ export default function ResearchSection({ researchAreas }) {
 
         <div className="relative">
            <Swiper
+  onSwiper={(swiper) => (swiperRef.current = swiper)}
   modules={[Pagination, Autoplay, Navigation]}
-  navigation={{
-    prevEl: prevRef.current,
-    nextEl: nextRef.current,
-  }}
-  onBeforeInit={(swiper) => {
-    swiper.params.navigation.prevEl = prevRef.current;
-    swiper.params.navigation.nextEl = nextRef.current;
-  }}
-  touchStartPreventDefault={false}
-  spaceBetween={32}
-  slidesPerView={1}
-  pagination={{
-    clickable: true,
-    el: '.custom-pagination',
-    bulletClass: 'custom-bullet',
-    bulletActiveClass: 'custom-bullet-active',
-  }}
-  autoplay={{
-    delay: 5000,
-    disableOnInteraction: false,
-  }}
-  breakpoints={{
-    640: { slidesPerView: 1, spaceBetween: 24 },
-    768: { slidesPerView: 2, spaceBetween: 28 },
-    1024: { slidesPerView: 3, spaceBetween: 32 },
-  }}
-  className="pb-16 relative z-0"
->
+  navigation={false} // Prevent premature init
+          spaceBetween={32}
+          slidesPerView={1}
+          onBeforeInit={(swiper) => {
+            // ✅ Attach refs before Swiper initializes
+            swiper.params.navigation.prevEl = prevRef.current;
+            swiper.params.navigation.nextEl = nextRef.current;
+          }}
+          pagination={{
+            clickable: true,
+            el: '.custom-pagination',
+            bulletClass: 'custom-bullet',
+            bulletActiveClass: 'custom-bullet-active',
+          }}
+          autoplay={{
+            delay: 5000,
+            disableOnInteraction: false,
+          }}
+          breakpoints={{
+            640: { slidesPerView: 1, spaceBetween: 24 },
+            768: { slidesPerView: 2, spaceBetween: 28 },
+            1024: { slidesPerView: 3, spaceBetween: 32 },
+          }}
+          className="pb-16"
+            >
 
           {researchAreas.map((area) => (
             <SwiperSlide key={area.id}>
@@ -162,8 +162,7 @@ export default function ResearchSection({ researchAreas }) {
 {/* Navigation Arrows */}
 <button
   ref={prevRef}
-  className="custom-prev absolute left-0 top-[35%] -translate-y-1/2 bg-white p-3 rounded-full shadow-md hover:bg-gray-50 transition-colors z-20"
-
+  className="custom-prev absolute left-0 top-[35%] -translate-y-1/2 bg-white p-3 rounded-full shadow-md hover:bg-gray-50 transition-colors z-10"
 >
   <svg className="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -172,8 +171,7 @@ export default function ResearchSection({ researchAreas }) {
 
 <button
   ref={nextRef}
-  className="custom-next absolute right-0 top-[35%] -translate-y-1/2 bg-white p-3 rounded-full shadow-md hover:bg-gray-50 transition-colors z-20"
-
+  className="custom-next absolute right-0 top-[35%] -translate-y-1/2 bg-white p-3 rounded-full shadow-md hover:bg-gray-50 transition-colors z-10"
 >
   <svg className="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
