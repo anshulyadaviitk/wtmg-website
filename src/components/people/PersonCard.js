@@ -59,7 +59,11 @@ export default function PersonCard({ person, className = '' }) {
 </p>
 
         )}
-
+ {person.nationality && (
+          <p className="text-sm mt-1">
+            <span className="font-medium">Nationality:</span> {person.nationality}
+          </p>
+        )}
         {person.coSupervisor && (
           <p className="text-sm mt-1">
             <span className="font-medium">Co-Supervisor:</span> {person.coSupervisor}
@@ -75,7 +79,10 @@ export default function PersonCard({ person, className = '' }) {
         {/* Contact Info */}
         {person.email && (
           <p className="text-sm mt-1">
-            <span className="font-medium">Email:</span> {person.email}
+             <span className="font-medium">Email: <a href={`mailto:${person.email}`} className="text-blue-600 hover:underline">
+                    {person.email}
+                  </a>
+            </span>
           </p>
         )}
         {person.contact?.phone && (

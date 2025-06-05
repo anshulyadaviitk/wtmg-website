@@ -14,7 +14,7 @@ export const awards = {
       organization: 'International Society for Energy, Environment and Sustainability',
       year: 2023,
       description: 'Awarded for early-career contributions in energy and sustainability.',
-      image: '/images/awards/page_5.jpg'
+      image: ['/images/awards/page_5.jpg','/images/awards/page_6.jpg','/images/awards/page_7.jpg']
     },
     {
       id: 'awd-03',

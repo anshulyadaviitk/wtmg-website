@@ -50,12 +50,13 @@ useEffect(() => {
             swiper.params.navigation.prevEl = prevRef.current;
             swiper.params.navigation.nextEl = nextRef.current;
           }}
-          pagination={{
-            clickable: true,
-            el: '.custom-pagination',
-            bulletClass: 'custom-bullet',
-            bulletActiveClass: 'custom-bullet-active',
-          }}
+         pagination={{
+  clickable: true,
+  el: '#research-pagination',
+  bulletClass: 'custom-bullet',
+  bulletActiveClass: 'custom-bullet-active',
+}}
+
           autoplay={{
             delay: 5000,
             disableOnInteraction: false,
@@ -158,7 +159,8 @@ useEffect(() => {
         </Swiper>
 
         {/* Rest of your existing code remains the same */}
-        <div className="custom-pagination flex justify-center gap-2 mt-6" />
+        <div id="research-pagination" className="custom-pagination flex justify-center gap-2 mt-6" />
+
 {/* Navigation Arrows */}
 <button
   ref={prevRef}

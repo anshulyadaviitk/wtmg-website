@@ -116,7 +116,7 @@ export const publications = {
     impact_factor:'8.2',
     link: 'https://www.sciencedirect.com/journal/colloids-and-surfaces-a-physicochemical-and-engineering-aspects/vol/641/suppl/C',
     publisher: 'Elsevier',
-    image: 'image1.jpg', // Replace with actual filename if needed
+    image: '/images/research/journal/page_12.jpg', // Replace with actual filename if needed
     featured: false
   },
   {
@@ -131,7 +131,7 @@ export const publications = {
     impact_factor:'8.2',
     link: 'https://www.sciencedirect.com/journal/colloids-and-surfaces-a-physicochemical-and-engineering-aspects/vol/667/suppl/C',
     publisher: 'Elsevier',
-    image: 'image2.jpg', // Replace with actual filename if needed
+    image: '/images/research/journal/page_11.jpg', // Replace with actual filename if needed
     featured: false
   },
     {
@@ -383,7 +383,7 @@ export const publications = {
    {
     id: 'book-01',
     title: 'Membrane-based point-of-use drinking water treatment systems',
-    authors: ['P.K. Labhasetwar', 'A. Yadav'],
+    authors: ['P.K. Labhasetwar', 'A.Yadav'],
     image: '/images/research/books/membre_book.jpeg',
     publisher: 'International Water Association Publishing',
     year: 2023,
@@ -395,7 +395,7 @@ export const publications = {
   },
   { id: 'book-04',
    title: 'Applications of two-dimensional nanomaterials for water and wastewater treatment',
-   authors: ['A. Yadav', 'R. Yadav', 'P.K. Labhasetwar'],
+   authors: ['A.Yadav', 'R. Yadav', 'P.K. Labhasetwar'],
    image: '/images/research/books/application_book.jpg',
    publisher: 'Apple Academic Publishers, CRC Press',
   year: 2026,
@@ -407,7 +407,7 @@ export const publications = {
   {
     id: 'book-02',
     title: 'Computational techniques for simulating and optimizing membrane processes for (waste)water treatment',
-    authors: ['A. Yadav', 'P.K. Labhasetwar'],
+    authors: ['A.Yadav', 'P.K. Labhasetwar'],
     image: '', 
     publisher: 'International Water Association Publishing',
     year: 2026,
@@ -420,7 +420,7 @@ export const publications = {
   {
     id: 'book-03',
     title: 'Computational techniques for simulating and optimizing adsorption processes for (waste)water treatment',
-    authors: ['A. Yadav', 'P.K. Labhasetwar'],
+    authors: ['A.Yadav', 'P.K. Labhasetwar'],
     image: '',
     publisher: 'International Water Association Publishing',
     year: 2026,
@@ -438,7 +438,7 @@ export const patents = [
   {
     id: 'pat-01',
     title: 'Multi-pass helical submerged membrane distillation module',
-    inventors: ['A. Yadav', 'B. Krishna', 'Nikhil', 'P.K. Labhasetwar'],
+    inventors: ['A.Yadav', 'B. Krishna', 'Nikhil', 'P.K. Labhasetwar'],
     patentNumber: 'IN2025110XXXXX',
     filingDate: '15–06–2025',
     status: 'Filed',
@@ -447,7 +447,7 @@ export const patents = [
   {
     id: 'pat-02',
     title: 'Twisted spacer filaments for low biofouling and scaling in the feed channel of membrane distillation',
-    inventors: ['A. Yadav', 'A. Kumar', 'C.P. Singh', 'R.V. Patel'],
+    inventors: ['A.Yadav', 'A. Kumar', 'C.P. Singh', 'R.V. Patel'],
     patentNumber: 'IN2025110XXXXX',
     filingDate: '15–06–2025',
     status: 'Filed',
@@ -456,7 +456,7 @@ export const patents = [
   {
     id: 'pat-03',
     title: 'A self-cleaning solar enabled smart device for real time surface water health monitoring',
-    inventors: ['A. Yadav', 'E. Padhi', 'B. Krishna', 'Nikhil'],
+    inventors: ['A.Yadav', 'E. Padhi', 'B. Krishna', 'Nikhil'],
     patentNumber: 'IN202511026994',
     filingDate: '24–03–2025',
     status: 'Published',
@@ -465,7 +465,7 @@ export const patents = [
   {
     id: 'pat-04',
     title: 'Multi-pass concentric tubular module for membrane distillation',
-    inventors: ['A. Yadav', 'R.V.P. Patel', 'B.M. Baladaniya', 'V.K. Shahi', 'P.K. Labhasetwar'],
+    inventors: ['A.Yadav', 'R.V.P. Patel', 'B.M. Baladaniya', 'V.K. Shahi', 'P.K. Labhasetwar'],
     patentNumber: 'IN202411067163',
     filingDate: '05–09–2024',
     status: 'Filed',

@@ -175,7 +175,7 @@ images:[
      previousDegree: "Master of Technology in Remote Sensing and Geographic Information Systems from National Institute of Technology Warangal (2025)\nBachelor of Technology from Vellore Institute of Technology",
     topic: 'Dynamic pollutant monitoring in rivers using multi-source remote sensing data and automated validation',
     duration: 'July 2025 – Present',
-    email: 'XXXX',
+    email: ' yaswantharagonda@gmail.com',
     contact: 'XXXX',
     coSupervisor: 'Dr. Manali Pal, National Institute of Technology, Warangal',
     links: {
@@ -216,7 +216,7 @@ images:[
     duration: "2021 - Ongoing",
     topic: 'Design and Development of Nanomaterial-Based Sensors for Real-Time Detection of Water Contaminants',
     duration: 'July 2025 – Present',
-    email: 'XXXX',
+    email: 'vineetmunda12@gmail.com',
     contact: 'XXXX',
     coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee',
     links: {
@@ -301,6 +301,7 @@ images:[
     type: 'MTech',
     name: 'Abas Amri Makada',
     photo: '/images/people/mtech/abbas.jpeg',
+    nationality:'Tanzania',
     position: 'Master of Technology in Water Resources Development',
     peerReviewedPublications: [
   'Development of Novel Polymeric Membranes for Electrodialysis, Journal of Membrane Science, 2024',
@@ -327,7 +328,7 @@ images:[
     previousDegree: 'Bacherol of Science in Environmental Science University from Open University of Tanzania',
     topic: 'Design of planted and unplanted dry bed fecal sludge treatment plant. Case study Didia Ward, Shinyanga, Tanzania',
     duration: 'July 2024 – Present',
-    email: 'XXXXXXXXXX',
+    email: 'abas_am@wr.iitr.ac.in',
     coSupervisor: 'XXXX'
   },
   {
@@ -403,6 +404,7 @@ images:[
     type: 'MTech',
     name: 'Issah Mtono',
     photo: '/images/people/mtech/issah.jpeg',
+    nationality:'Tanzania',
     position: 'Master of Technology in Drinking Water Sanitation',
     peerReviewedPublications: [
   'Development of Novel Polymeric Membranes for Electrodialysis, Journal of Membrane Science, 2024',
@@ -426,10 +428,10 @@ images:[
     '/images/events/event3.jpg',
     '/images/events/event4.jpg'
 ],
-    previousDegree: 'Bachelor of Technology from Uttar Pradesh Technical University (2024)',
+    previousDegree: 'Bacherol of Science in Environmental Science University from Open University of Tanzania',
     topic: 'Water quality assessment across irrigation schemes: a case study of wetland agriculture impacts in Ruvuma River Basin, Tanzania',
     duration: 'July 2024 – Present',
-    email: 'XXXXXXXXXX',
+    email: 'issah_m@wr.iitr.ac',
     coSupervisor: 'XXXX'
   },
   {
@@ -498,7 +500,7 @@ images:[
     previousDegree: 'Bachelor degree in water resources and irrigation engineering',
     topic: 'Designing of low cost and efficient wastewater treatment technologies for small town',
     duration: 'July 2024 – Present',
-    email: 'XXXXXXXXXX',
+    email: 'prisca_jm@wr.iitr.ac.in',
     coSupervisor: 'XXXX'
   }
 ];

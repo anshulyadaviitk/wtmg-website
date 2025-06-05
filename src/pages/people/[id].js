@@ -236,7 +236,7 @@ export default function PeopleView() {
         )}
 
         {/* Additional fields */}
-        {(person.topic || person.previousDegree || person.duration || person.email || person.currentStatus || person.thesisLink) && (
+        {(person.topic || person.previousDegree || person.nationality || person.duration || person.email || person.currentStatus || person.thesisLink) && (
           <div className="mt-8 pt-6 border-t border-gray-200">
             <h2 className="text-xl font-semibold mb-4">Additional Information</h2>
             <div className="space-y-4">
@@ -244,6 +244,12 @@ export default function PeopleView() {
                 <div>
                   <h3 className="font-medium text-gray-500">Previous Degree</h3>
                   <p className="whitespace-pre-line">{person.previousDegree}</p>
+                </div>
+              )}
+               {person.previousDegree && (
+                <div>
+                  <h3 className="font-medium text-gray-500">Nationality</h3>
+                  <p className="whitespace-pre-line">{person.nationality}</p>
                 </div>
               )}
         <div className="w-full flex justify-start items-start text-left">

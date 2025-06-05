@@ -2,6 +2,7 @@
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay, Navigation } from 'swiper/modules';
+import Link from 'next/link';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -57,12 +58,13 @@ useEffect(() => {
             swiper.params.navigation.prevEl = prevRef.current;
             swiper.params.navigation.nextEl = nextRef.current;
           }}
-          pagination={{
-            clickable: true,
-            el: '.custom-pagination',
-            bulletClass: 'custom-bullet',
-            bulletActiveClass: 'custom-bullet-active',
-          }}
+        pagination={{
+  clickable: true,
+  el: '#awards-pagination',
+  bulletClass: 'custom-bullet',
+  bulletActiveClass: 'custom-bullet-active',
+}}
+
           autoplay={{
             delay: 5000,
             disableOnInteraction: false,
@@ -79,13 +81,41 @@ useEffect(() => {
                   <div className="bg-white rounded-xl shadow-lg overflow-hidden h-full flex flex-col transition-all duration-300 hover:shadow-xl hover:-translate-y-1" style={{ height: '560px' }}>
                     {/* Image */}
                     <div className="relative w-full h-[350px] bg-gray-50">
-                      <Image
-                        src={award.image}
-                        alt={award.title}
-                        fill
-                        className="object-contain transition-transform duration-500 group-hover:scale-105"
-                        priority
-                      />
+                      <div className="relative w-full h-[350px] bg-gray-50">
+  {Array.isArray(award.image) ? (
+    <Swiper
+      modules={[Pagination, Navigation]}
+      pagination={{ clickable: true }}
+      navigation
+      className="h-full w-full"
+    >
+      {award.image.map((imgSrc, index) => (
+        <SwiperSlide key={index}>
+          <div className="relative w-full h-[350px]">
+            <Image
+              src={imgSrc}
+              alt={`${award.title} ${index + 1}`}
+              fill
+              className="object-contain"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-gray-900/30 to-transparent" />
+          </div>
+        </SwiperSlide>
+      ))}
+    </Swiper>
+  ) : (
+    <div className="relative w-full h-[350px]">
+      <Image
+        src={award.image}
+        alt={award.title}
+        fill
+        className="object-contain"
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-gray-900/30 to-transparent" />
+    </div>
+  )}
+</div>
+
                       <div className="absolute inset-0 bg-gradient-to-t from-gray-900/30 to-transparent" />
                     </div>
 
@@ -102,6 +132,17 @@ useEffect(() => {
                         </p>
                         <p className="text-sm text-gray-700 mt-1">
                           {award.description}
+                        </p>
+
+                         <p className="text-sm text-gray-700 mt-10">
+                          {award.link && (
+            <Link
+              href={award.link}
+              target="_blank"
+              className="px-3 py-1 bg-gray-50 text-gray-600 rounded-md text-sm hover:bg-gray-100 transition-colors"
+            >
+              View
+            </Link>)}
                         </p>
                       </div>
                     </div>
@@ -133,7 +174,8 @@ useEffect(() => {
           </div>
 
           {/* Pagination Dots */}
-          <div className="custom-pagination flex justify-center gap-2 mt-6" />
+          <div id="awards-pagination" className="custom-pagination flex justify-center gap-2 mt-6" />
+
 
           {/* Custom Bullet Styling */}
           <style jsx global>{`

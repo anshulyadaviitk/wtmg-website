@@ -81,9 +81,27 @@ export default function Research() {
         <div className="flex flex-col justify-between">
           <div>
             <h4 className="text-xl font-semibold text-gray-800 mb-2">{book.title}</h4>
-            {book.authors && (
-              <p className="text-sm text-gray-600 mb-1"><strong>Authors:</strong> {book.authors.join(', ')}</p>
-            )}
+            
+            
+          {book.authors && (
+  <p className="text-sm text-gray-600 mb-1">
+    <strong>Authors:</strong>{' '}
+    {book.authors.map((author, index) => {
+      const normalized = author.replace(/\s/g, '');
+      const isTarget = normalized === 'A.Yadav';
+      return (
+        <span key={index}>
+          <span className={isTarget ? 'font-semibold text-gray-800' : ''}>
+            {author}
+          </span>
+          {index < book.authors.length - 1 && ', '}
+        </span>
+      );
+    })}
+  </p>
+)}
+
+
             {book.publisher && (
               <p className="text-sm text-gray-600 mb-1"><strong>Publisher:</strong> {book.publisher}</p>
             )}
@@ -115,8 +133,28 @@ export default function Research() {
             <h3 className="text-2xl font-semibold mb-6 text-gray-800">Patents</h3>
             {patents.map((patent) => (
               <div key={patent.id} className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
+                
                 <h4 className="text-xl font-semibold text-gray-800 mb-2">{patent.title}</h4>
-                <p className="text-sm text-gray-600 mb-1"><strong>Inventors:</strong> {patent.inventors.join(', ')}</p>
+          
+          {patent.inventors && (
+  <p className="text-sm text-gray-600 mb-1">
+    <strong>Inventors:</strong>{' '}
+    {patent.inventors.map((inventor, index) => {
+      const normalized = inventor.replace(/\s/g, '');
+      const isTarget = normalized === 'A.Yadav';
+      return (
+        <span key={index}>
+          <span className={isTarget ? 'font-semibold text-gray-800' : ''}>
+            {inventor}
+          </span>
+          {index < patent.inventors.length - 1 && ', '}
+        </span>
+      );
+    })}
+  </p>
+)}
+
+
                 {patent.patentNumber && (
                   <p className="text-sm text-gray-600 mb-1"><strong>Patent Number:</strong> {patent.patentNumber}</p>
                 )}
