@@ -116,7 +116,7 @@ export default function Header() {
     },
     {
       name: 'Events',
-      path: '/event',
+      path: '/events',
     },
     { name: 'Awards', path: '/awards' },
     {
