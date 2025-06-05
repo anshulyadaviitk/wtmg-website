@@ -24,7 +24,8 @@ export default function DrAnshulYadav() {
             <title>Principal Investigator | WRDM Research Group</title>
           </Head>
 
-    <div className="p-6 max-w-5xl mx-auto space-y-10">
+  <div className="px-0 py-6 max-w-7xl mx-auto space-y-10">
+
       <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
         <Image
           src="/images/people/anshul-yadav.jpeg"
@@ -226,8 +227,10 @@ export default function DrAnshulYadav() {
 
 
        
-          {/*Awards section*/} 
-       <AwardsSection1 awards={awards} />
+          <section className="py-12">
+  <AwardsSection1 awards={awards} />
+</section>
+
 
         {/*Member ship section*/}
       <section className="my-10">

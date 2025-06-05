@@ -59,18 +59,19 @@ export default function PeopleView() {
 
       <div className="container mx-auto px-4 py-12 max-w-4xl">
         <div className="flex flex-col md:flex-row gap-8 mb-8">
-          {person.photo && (
-            <div className="relative w-48 h-48 flex-shrink-0">
-              <Image
-                src={person.photo}
-                alt={person.name}
-                fill
-                 className="object-cover object-top"
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                priority
-              />
-            </div>
-          )}
+        {person.photo && (
+  <div className="relative w-48 h-48 flex-shrink-0">
+    <Image
+      src={person.photo}
+      alt={person.name}
+      fill
+      className="object-contain md:object-contain object-top"
+      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+      priority
+    />
+  </div>
+)}
+
           
           <div>
             <h1 className="text-3xl font-bold mb-2">{person.name}</h1>

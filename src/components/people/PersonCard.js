@@ -18,19 +18,16 @@ export default function PersonCard({ person, className = '' }) {
   return (
     <div className={`bg-white rounded-lg shadow-sm p-4 flex flex-col sm:flex-row items-start gap-6 ${className}`}>
       {/* Image Section */}
-      <div className="relative w-full h-60 sm:w-40 sm:h-60 flex-shrink-0 overflow-hidden border border-gray-200 rounded">
-       <Image
-  src={person.photo}
-  alt={`Photo of ${person.name}`}
-  fill
-  sizes="(max-width: 640px) 100vw, 160px" // sm:w-40 = 160px
-  style={{
-    objectFit: 'cover',
-    objectPosition: 'top',
-  }}
-/>
+   <div className="relative w-full h-60 sm:w-40 sm:h-60 flex-shrink-0 overflow-hidden border border-gray-200 rounded">
+  <Image
+    src={person.photo}
+    alt={`Photo of ${person.name}`}
+    fill
+    sizes="(max-width: 640px) 100vw, 160px"
+    className="object-contain sm:object-cover object-top"
+  />
+</div>
 
-      </div>
 
       {/* Info Section */}
       <div className="flex flex-col text-gray-800">

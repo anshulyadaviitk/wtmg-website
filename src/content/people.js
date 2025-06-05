@@ -212,9 +212,9 @@ images:[
     '/images/events/event3.jpg',
     '/images/events/event4.jpg'
 ],
-    previousDegree: "Master of Technology in Soil and Water Conservation Engineering from Indian Agricultural Research Institute (2020)\nBachelor of Technology in Agricultural Engineering from Orissa University of Agriculture and Technology (2018)",
+    previousDegree: "Master of Technology (M.Tech) degree from the Indian Institute of Technology, Guwahati (2024)\nBachelor of Technology from Uttarakhand Technical University, Dehradun (2020)",
     duration: "2021 - Ongoing",
-    topic: 'Design and Development of Nanomaterial-Based Sensors for Real-Time Detection of Water Contaminants',
+    topic: 'Development of a Solar-Powered Electrocoagulation–Membrane Hybrid System for Treatment of Agro-Based Pulp and Paper Industry Wastewater.',
     duration: 'July 2025 – Present',
     email: 'vineetmunda12@gmail.com',
     contact: 'XXXX',
@@ -360,9 +360,9 @@ images:[
     '/images/events/event4.jpg'
 ],
     previousDegree: 'Bachelor of planning (2024) from School of Planning and Architecture, Bhopal',
-    topic: 'Understanding Water and Ion Transport Through Functionalized 2D Membranes Using Molecular Dynamics and Experimental Techniques',
+    topic: ' Integration of vertical wall for treatment of sewerage from STP;\n Graywater treatment using hydrophobic plants',
     duration: 'July 2024 – Present',
-    email: 'XXXXXXXXXX',
+    email: 'aiswarya.priya.p@gmail.com',
     coSupervisor: 'XXXX'
   },
   {
@@ -465,7 +465,7 @@ images:[
     previousDegree: 'Bachelor of Technology from Uttar Pradesh Technical University (2024)',
     topic: 'Decentralized wastewater treatment systems for rural communities: a feasibility and sustainability assessment',
     duration: 'July 2024 – Present',
-    email: 'XXXXXXXXXX',
+    email: 'nsanzurwimo_m@wr.iitr.ac.in',
     coSupervisor: 'XXXX'
   },
   {

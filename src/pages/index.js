@@ -7,6 +7,9 @@ import ResearchAreaCard from '@/components/research/ResearchAreaCard';
 import Button from '@/components/ui/Button';
 import Link from 'next/link';
 import Image from 'next/image';
+// Import at the top
+import { Navigation, Pagination } from 'swiper/modules';
+import 'swiper/css/pagination';
 import { notices } from '@/content/noticedata';
 import { upcomingevents } from '@/content/noticedata';
 import ResearchSection from '@/components/ResearchSection';
@@ -270,98 +273,128 @@ export default function Home() {
       News & Events
     </h2>
 
-    <div className="flex flex-col md:flex-row gap-10 md:gap-16">
-      {/* Notice Board (Left) */}
-      <div className="flex-1">
-        <h3 className="text-2xl font-semibold mb-6 border-b-2 border-blue-600 pb-2">
-          Notice Board
-        </h3>
-        <ul className="space-y-5 max-h-[400px] overflow-y-auto pr-3 scrollbar-thin scrollbar-thumb-blue-400 scrollbar-track-gray-200">
-          {notices.map((notice) => (
-            <li key={notice.id} className="border-l-4 border-blue-600 bg-gray-50 p-4 rounded-md shadow-sm">
-              <div className="flex justify-between items-start">
-                <div>
-                  <a
-                    href={notice.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-lg font-medium text-gray-800 hover:text-blue-600 transition-colors"
-                  >
-                    {notice.title}
-                  </a>
-                  {notice.isNew && (
-                    <span className="ml-3 inline-block px-2 py-0.5 text-xs font-semibold bg-red-100 text-red-700 rounded-full select-none">
-                      New
-                    </span>
-                  )}
-                </div>
-                <time
-                  dateTime={notice.date}
-                  className="text-sm text-gray-500 italic"
-                  title={new Date(notice.date).toLocaleString()}
-                >
-                  {new Date(notice.date).toLocaleDateString(undefined, {
-                    year: 'numeric',
-                    month: 'short',
-                    day: 'numeric',
-                  })}
-                </time>
-              </div>
-            </li>
-          ))}
-        </ul>
-        <div className="mt-6 text-center">
-          <Button href="/notice" variant="outline" className="px-8 py-3 text-lg">
-            View All Notices
-          </Button>
-        </div>
-      </div>
+    <div className="flex flex-col md:flex-row gap-5 md:gap-16">
+ {/* Notice  */}
+<div className="flex-1">
+  <h3 className="text-2xl font-bold mb-5 border-b-2 border-blue-600 pb-1 text-blue-900">
+    Notice Board
+  </h3>
+
+  <ul className="space-y-4 max-h-[360px] overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-blue-400 scrollbar-track-gray-100">
+
+    {[...notices]
+      .sort((a, b) => {
+        if (a.isNew && !b.isNew) return -1;
+        if (!a.isNew && b.isNew) return 1;
+        return new Date(b.date) - new Date(a.date);
+      })
+      .map((notice) => (
+        <li
+          key={notice.id}
+          className="bg-white border border-gray-200 rounded-md shadow-sm hover:shadow transition-all p-4"
+        >
+          <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-2">
+            <div>
+              <a
+                href={notice.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-base font-medium text-gray-800 hover:text-blue-600"
+              >
+                {notice.title}
+              </a>
+              {notice.isNew && (
+                <span className="ml-2 inline-block px-2 py-0.5 text-xs font-medium bg-red-100 text-red-700 rounded-full">
+                  New
+                </span>
+              )}
+            </div>
+            <time
+              dateTime={notice.date}
+              className="text-sm text-gray-500 italic min-w-fit"
+              title={new Date(notice.date).toLocaleString()}
+            >
+              {new Date(notice.date).toLocaleDateString(undefined, {
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric',
+              })}
+            </time>
+          </div>
+        </li>
+      ))}
+  </ul>
+
+  <div className="mt-6 text-center">
+    <Button href="/notice" variant="outline" className="px-6 py-2 text-base">
+      View All Notices
+    </Button>
+  </div>
+</div>
+
 
       {/* Upcoming Events (Right) */}
-      <div className="flex-1">
-        <h3 className="text-2xl font-semibold mb-6 border-b-2 border-blue-600 pb-2">
-          Upcoming Events
-        </h3>
-        <ul className="space-y-5 max-h-[400px] overflow-y-auto pr-3 scrollbar-thin scrollbar-thumb-blue-400 scrollbar-track-gray-200">
-          {upcomingevents.map((event) => (
-            <li key={event.id} className="border-l-4 border-green-600 bg-gray-50 p-4 rounded-md shadow-sm">
-              <div className="flex justify-between items-start">
-                <div>
-                  <a
-                    href={event.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-lg font-medium text-gray-800 hover:text-green-600 transition-colors"
-                  >
-                    {event.title}
-                  </a>
-                  {event.isNew && (
-                    <span className="ml-3 inline-block px-2 py-0.5 text-xs font-semibold bg-green-100 text-green-700 rounded-full select-none">
-                      New
-                    </span>
-                  )}
-                </div>
-                <time
-                  dateTime={event.date}
-                  className="text-sm text-gray-500 italic"
-                  title={new Date(event.date).toLocaleString()}
-                >
-                  {new Date(event.date).toLocaleDateString(undefined, {
-                    year: 'numeric',
-                    month: 'short',
-                    day: 'numeric',
-                  })}
-                </time>
-              </div>
-            </li>
-          ))}
-        </ul>
-        <div className="mt-6 text-center">
-          <Button href="/events" variant="outline" className="px-8 py-3 text-lg">
-            View All Events
-          </Button>
-        </div>
-      </div>
+<div className="flex-1">
+  <h3 className="text-2xl font-bold mb-5 border-b-2 border-green-600 pb-1 text-green-900">
+    Upcoming Events
+  </h3>
+
+  {/* Scrollable area */}
+  <ul className="space-y-4 max-h-[360px] overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-blue-400 scrollbar-track-gray-100">
+
+    {[...upcomingevents]
+      .sort((a, b) => {
+        if (a.isNew && !b.isNew) return -1;
+        if (!a.isNew && b.isNew) return 1;
+        return new Date(b.date) - new Date(a.date);
+      })
+      .map((event) => (
+        <li
+          key={event.id}
+          className="bg-white border border-gray-200 rounded-md shadow-sm hover:shadow transition-all p-4"
+        >
+          <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-2">
+            <div>
+              <a
+                href={event.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-base font-medium text-gray-800 hover:text-green-600"
+              >
+                {event.title}
+              </a>
+              {event.isNew && (
+                <span className="ml-2 inline-block px-2 py-0.5 text-xs font-medium bg-green-100 text-green-700 rounded-full">
+                  New
+                </span>
+              )}
+            </div>
+            <time
+              dateTime={event.date}
+              className="text-sm text-gray-500 italic min-w-fit"
+              title={new Date(event.date).toLocaleString()}
+            >
+              {new Date(event.date).toLocaleDateString(undefined, {
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric',
+              })}
+            </time>
+          </div>
+        </li>
+      ))}
+  </ul>
+
+  <div className="mt-6 text-center">
+    <Button href="/events" variant="outline" className="px-6 py-2 text-base">
+      View All Events
+    </Button>
+  </div>
+</div>
+
+
+
+
     </div>
   </div>
 </section>
