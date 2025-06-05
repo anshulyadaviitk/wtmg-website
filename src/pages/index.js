@@ -37,91 +37,115 @@ export default function Home() {
         <title>Home | Water Treatment & Management Group</title>
       </Head>
 
-{/* Combined Hero Section */}
-<section className="relative bg-gradient-to-br from-blue-900 to-blue-700 py-16 px-6">
-  <div className="max-w-7xl mx-auto">
+{/* Modern Professional Hero Section */}
+{/* Modern Hero Section */}
+<section className="relative bg-gradient-to-br from-sky-50 to-blue-100 py-24 px-1 text-gray-800 overflow-hidden">
+  {/* Decorative elements */}
+  <div className="absolute inset-0 overflow-hidden">
+    <div className="absolute top-0 left-0 w-64 h-64 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
+    <div className="absolute top-0 right-0 w-64 h-64 bg-sky-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
+    <div className="absolute bottom-0 left-1/2 w-64 h-64 bg-cyan-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
+  </div>
+
+  <div className="max-w-7xl mx-auto relative z-10">
     {/* Text Content */}
     <div className="text-center mb-16">
-      <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
-        Water Resources Development <br className="hidden md:block" /> & Management
+      <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
+        <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-cyan-600">
+          Water Resources Development 
+        </span>
+        <br className="hidden md:block" />
+        <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-600 to-blue-600">
+          & Management
+        </span>
       </h1>
-      <p className="text-lg text-blue-100 max-w-3xl mx-auto mb-8">
-        Advancing sustainable water solutions through innovation at IIT Roorkee
+      <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8 leading-relaxed">
+        Pioneering sustainable water solutions through cutting-edge research and innovation at Indian Institute of Technology Roorkee
       </p>
     </div>
 
-    {/* Building Images with Logos in Between */}
-    <div className="flex flex-col md:flex-row items-center justify-center gap-1 md:gap-8 mb-6">
-      {/* IIT Roorkee Building - Left */}
-      <div className="w-full max-w-full">
-        <img
-          src="/images/IITR_JT.jpg"
-          alt="IIT Roorkee Campus"
-          className="rounded-xl shadow-2xl border-4 border-white/20 w-full h-auto object-cover min-h-[300px]"
-        />
+    {/* Logo and Images Section */}
+    <div className="flex flex-col items-center justify-center relative">
+      {/* Top Logo with decorative line */}
+      <div className="relative mb-16 w-full flex justify-center items-center">
+        <div className="absolute left-0 right-0 h-px bg-gradient-to-r from-transparent via-blue-400 to-transparent z-0" />
+        <div className="relative z-10 w-32 aspect-square rounded-full bg-white/80 backdrop-blur-md border-2 border-white shadow-lg flex items-center justify-center transition-all duration-500 hover:scale-105 hover:shadow-xl">
+          <img
+            src="/images/iitr_logo.png"
+            alt="IIT Roorkee Logo"
+            className="w-28 aspect-square object-contain rounded-full"
+          />
+        </div>
       </div>
 
-      {/* Logos in the middle with glass morphism */}
-      {/* Logos in the middle with glass morphism */}
-<div className="flex flex-row md:flex-col items-center justify-center gap-8 my-6">
-  {/* WRDM Logo */}
-  <div className="aspect-square w-24 md:w-32 rounded-full backdrop-blur-md bg-white/20 p-1 shadow-lg border border-white/20">
-    <img
-      src="/images/wrdm_logo_white.png"
-      alt="WRDM Logo"
-      className="w-full h-full object-contain rounded-full"
-    />
-  </div>
+      {/* Side-by-side buildings with modern layout */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 z-10 w-full">
+        <div className="relative group overflow-hidden rounded-3xl shadow-2xl border-4 border-white/30 transition-all duration-700 hover:shadow-2xl hover:border-blue-300/50">
+          <img
+            src="/images/IITR_JT.jpg"
+            alt="IIT Roorkee Campus"
+            className="w-full h-80 md:h-96 object-cover transition-transform duration-700 group-hover:scale-105"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent flex items-end p-6">
+            <h3 className="text-white text-2xl font-semibold">IIT Roorkee Campus</h3>
+          </div>
+        </div>
+        <div className="relative group overflow-hidden rounded-3xl shadow-2xl border-4 border-white/30 transition-all duration-700 hover:shadow-2xl hover:border-cyan-300/50">
+          <img
+            src="/images/logos/wrdm_building.jpg"
+            alt="WRDM Department"
+            className="w-full h-80 md:h-96 object-cover transition-transform duration-700 group-hover:scale-105"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent flex items-end p-6">
+            <h3 className="text-white text-2xl font-semibold">WRDM Department</h3>
+          </div>
+        </div>
+      </div>
 
-  {/* Connecting line */}
-  <div className="w-2 h-1 md:w-1 md:h-2 bg-gradient-to-r md:bg-gradient-to-b from-blue-300 to-blue-500 rounded-full"></div>
-
-  {/* IIT Roorkee Logo */}
-  <div className="aspect-square w-24 md:w-32 rounded-full backdrop-blur-md bg-white/20 p-1 shadow-lg border border-white/20">
-    <img
-      src="/images/iitr_logo.png"
-      alt="IIT Roorkee Logo"
-      className="w-full h-full object-contain rounded-full"
-    />
-  </div>
-</div>
-
-
-      {/* WRDM Building - Right */}
-      <div className="w-full max-w-full">
-        <img
-        
-          src="/images/wrdm_photo.jpeg"
-          alt="WRDM Department"
-          className="rounded-xl shadow-2xl border-4 border-white/20 w-full h-auto object-cover min-h-[300px]"
-
-        />
+      {/* Bottom Logo with decorative line */}
+      <div className="relative mt-16 w-full flex justify-center items-center">
+        <div className="absolute left-0 right-0 h-px bg-gradient-to-r from-transparent via-blue-400 to-transparent z-0" />
+        <div className="relative z-10 w-32 aspect-square rounded-full bg-white/80 backdrop-blur-md border-2 border-white shadow-lg flex items-center justify-center transition-all duration-500 hover:scale-105 hover:shadow-xl">
+          <img
+            src="/images/wrdm_logo_white.png"
+            alt="WRDM Logo"
+            className="w-28 aspect-square object-contain rounded-full"
+          />
+        </div>
       </div>
     </div>
 
-   {/* Call to Action with modern buttons */}
-    <div className="flex flex-wrap justify-center gap-6 mt-8 animate-fade-in-up">
-     <a
-  href="https://iitr.ac.in/Departments/Water%20Resources%20Development%20and%20Management%20Department/Home.html"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="px-10 py-4 bg-white text-blue-800 font-semibold rounded-xl hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
->
-  Explore Programs →
-</a>
+    {/* Call to Action Buttons */}
+    <div className="flex flex-wrap justify-center gap-6 mt-20">
+      <a
+        href="https://iitr.ac.in/Departments/Water%20Resources%20Development%20and%20Management%20Department/Home.html"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="px-10 py-4 bg-gradient-to-r from-blue-600 to-cyan-600 text-white font-semibold rounded-xl hover:from-blue-700 hover:to-cyan-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 flex items-center gap-2"
+      >
+        Explore Programs
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+          <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+        </svg>
+      </a>
 
       <Link
         href="/research"
-        className="px-10 py-4 border-2 border-white text-white font-semibold rounded-xl hover:bg-white/10 transition-all duration-300 backdrop-blur-sm hover:shadow-lg transform hover:-translate-y-1"
+        className="px-10 py-4 bg-white text-blue-800 font-semibold rounded-xl hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 flex items-center gap-2 border border-blue-200"
       >
-        Research →
+        Research
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+          <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+        </svg>
       </Link>
     </div>
   </div>
 </section>
 
+
+
       {/* PI Introduction */}
-<section className="py-16 bg-white">
+<section className="py-12 bg-white">
   <div className="container mx-auto px-4">
     <div className="flex flex-col md:flex-row items-start gap-8">
       {/* Photo Section */}

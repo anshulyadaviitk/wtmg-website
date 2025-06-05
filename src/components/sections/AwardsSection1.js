@@ -39,6 +39,15 @@ useEffect(() => {
 
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
+               {/* <div className="relative mx-auto w-full max-w-md h-24 sm:h-32">
+      <Image
+        src="/images/awards/awardpic1.png"
+        alt="Awards and Recognitions"
+        layout="fill"
+        objectFit="contain"
+        priority
+      />
+    </div> */}
             <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
               Awards & Recognitions
             </h2>

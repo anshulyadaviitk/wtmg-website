@@ -3,7 +3,7 @@ export const researchAreas = [
     id: 'ra-01',
     title: 'Membrane-Based Water and Wastewater Treatment',
     description: 'Exploration of membrane technologies for efficient water and wastewater treatment.',
-    image: '/images/research/membrane.jpg',
+    image: '/images/researcharea/membrane.png',
     projects: [
       'Pressure-driven membrane processes',
       'Membrane distillation',
@@ -15,6 +15,7 @@ export const researchAreas = [
     id: 'ra-02',
     title: 'Advanced Materials for Separation',
     description: 'Development of novel materials for pollutant separation and removal.',
+    image: '/images/researcharea/advance_material.jpeg',
     projects: [
       'Polymeric and composite membranes',
       'MOFs/ZIFs for targeted pollutant removal',
@@ -26,6 +27,7 @@ export const researchAreas = [
     id: 'ra-03',
     title: 'Smart Water Quality Monitoring',
     description: 'Real-time monitoring of water quality with smart sensors and IoT.',
+    image: '/images/researcharea/smart.jpeg',
     projects: [
       'Real-time water quality sensors',
       'IoT integration using microcontrollers',
@@ -37,6 +39,7 @@ export const researchAreas = [
     id: 'ra-04',
     title: 'Decentralized Water & Sanitation Solutions',
     description: 'Innovative sanitation and water solutions for rural and peri-urban areas.',
+    image: '/images/researcharea/decentralisation.jpeg',
     projects: [
       'Low-cost treatment systems',
       'Fecal sludge management technologies',
@@ -48,6 +51,7 @@ export const researchAreas = [
     id: 'ra-05',
     title: 'Adsorption-Based Treatment Technologies',
     description: 'Utilizing adsorption methods for removal of contaminants.',
+    image: '/images/researcharea/absorption.jpg',
     projects: [
       'Bio-adsorbents and engineered materials',
       'Heavy metal and dye removal',
@@ -59,6 +63,7 @@ export const researchAreas = [
     id: 'ra-06',
     title: 'Sustainable Desalination Technologies',
     description: 'Environmentally friendly methods for seawater desalination.',
+    image: '/images/researcharea/desalination.jpg',
     projects: [
       'Hybrid desalination systems',
       'Solar-enabled desalination',
@@ -70,6 +75,7 @@ export const researchAreas = [
     id: 'ra-07',
     title: 'Process Integration & Optimization',
     description: 'Designing integrated and efficient treatment processes.',
+    image: '/images/researcharea/process.jpeg',
     projects: [
       'Energy-efficient process design',
       'Multi-barrier treatment trains',
@@ -81,6 +87,7 @@ export const researchAreas = [
     id: 'ra-08',
     title: 'Waste Valorization',
     description: 'Converting waste into valuable resources.',
+    image: '/images/researcharea/waste.jpeg',
     projects: [
       'Resource recovery (nutrients, energy)',
       'Circular economy in water sector',
@@ -92,6 +99,7 @@ export const researchAreas = [
     id: 'ra-09',
     title: 'Environmental Sensing & Digital Twins',
     description: 'Simulating and monitoring water systems with digital technologies.',
+    image: '/images/researcharea/sensing.jpeg',
     projects: [
       'Simulation and modeling of water systems',
       'Digital twins for smart cities',

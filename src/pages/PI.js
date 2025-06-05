@@ -37,7 +37,7 @@ export default function DrAnshulYadav() {
       <div>
   <h1 className="text-3xl font-bold">Dr. Anshul Yadav</h1>
   <p className="text-lg">Assistant Professor</p>
-  <p>Department of Water Resources Development and Management, IIT Roorkee</p>
+  <p>Department of Water Resources Development and Management,<br/>Indian Institute of Technology Roorkee</p>
 
   {/* Email & Phone with Icons */}
   <div className="mt-2 space-y-1 text-sm text-gray-700">
@@ -96,7 +96,7 @@ export default function DrAnshulYadav() {
 
       <section>
         <h2 className="text-2xl font-semibold">Biography</h2>
-        <p>Dr. Anshul Yadav is an Assistant Professor in the Department of Water Resources Development & Management at IIT Roorkee and the founding Principal Investigator of the Water Treatment & Monitoring Group (WTMG). His research unites advanced separation science with smart sensing, spanning membrane distillation, electrodialysis, adsorption, and the design of polymeric, composite, and MOF/ZIF-based membranes. By coupling these materials with IoT-enabled water-quality sensor networks, he pursues real-time, data-driven solutions for drinking-water security and industrial wastewater reuse. His work has led to multiple patents, peer-reviewed publications, and competitive funding from national agencies. Beyond the lab, Dr. Yadav integrates research, teaching, and outreach.</p>
+        <p>Dr. Anshul Yadav is an Assistant Professor in the Department of Water Resources Development & Management at Indian Institute of Technology Roorkee and the founding Principal Investigator of the Water Treatment & Monitoring Group (WTMG). His research unites advanced separation science with smart sensing, spanning membrane distillation, electrodialysis, adsorption, and the design of polymeric, composite, and MOF/ZIF-based membranes. By coupling these materials with IoT-enabled water-quality sensor networks, he pursues real-time, data-driven solutions for drinking-water security and industrial wastewater reuse. His work has led to multiple patents, peer-reviewed publications, and competitive funding from national agencies. Beyond the lab, Dr. Yadav integrates research, teaching, and outreach.</p>
       </section>
 
       <section>
@@ -164,8 +164,8 @@ export default function DrAnshulYadav() {
 
 
    <section className="py-16 bg-gray-50">
-  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-    <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 className="text-4xl font-bold text-gray-900 mb-1 text-center">
       Professional Experience
       <span className="block w-16 h-1 bg-blue-600 mx-auto mt-4"></span>
     </h2>
@@ -221,7 +221,7 @@ export default function DrAnshulYadav() {
           description: "Assisted in teaching [course names] and grading assignments."
         }
       ].map((exp, index) => (
-        <li className="mb-12 ml-6 relative group" key={index}>
+        <li className="mb-0.5 ml-1 relative group" key={index}>
           <span className="absolute flex items-center justify-center w-8 h-8 bg-blue-600 rounded-full -left-4 ring-4 ring-white transform group-hover:scale-110 transition-transform duration-200">
             <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
@@ -240,9 +240,10 @@ export default function DrAnshulYadav() {
               <h3 className="text-xl font-bold text-gray-900">{exp.position}</h3>
               <p className="text-lg font-medium text-gray-700">{exp.institute}</p>
               <p className="text-sm text-gray-500 mt-1">{exp.description}</p>
-              <span className="inline-block mt-2 px-3 py-1 text-sm font-semibold text-blue-700 bg-blue-100 rounded-full">
-                {exp.from} – {exp.to}
-              </span>
+              <span className="absolute top-4 right-4 text-sm font-medium text-gray-600">
+  {exp.from} – {exp.to}
+</span>
+
             </div>
           </div>
         </li>
@@ -262,7 +263,7 @@ export default function DrAnshulYadav() {
         {/*Member ship section*/}
       <section className="my-10">
   <h2 className="text-2xl font-semibold mb-6">Memberships</h2>
-  <div className="space-y-4">
+  <div className="space-y-0.1">
     <div className="p-4 border rounded-2xl shadow-sm bg-white">
       <div className="flex justify-between items-start">
         <div>

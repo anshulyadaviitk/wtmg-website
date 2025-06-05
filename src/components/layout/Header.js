@@ -103,7 +103,7 @@ export default function Header() {
         { name: 'Interns', path: '/people/interns' },
       ]
     },
-    { name: 'Alumni', path: '/people/alumni' },
+    { name: 'Past Members', path: '/people/alumni' },
     {
       name: 'Research',
       path: '#',
@@ -190,7 +190,7 @@ const isActiveLink = (path, submenu = []) => {
             </div>
             <div className="leading-tight">
               <span className="block text-lg font-bold text-gray-800 group-hover:text-blue-600 transition-colors duration-300">WTM Research Group</span>
-              <span className="block text-xs text-gray-500 group-hover:text-blue-500 transition-colors duration-300">IIT Roorkee</span>
+              <span className="block text-xs text-gray-500 group-hover:text-blue-500 transition-colors duration-300">Indian Institute of Technology Roorkee</span>
             </div>
           </Link>
 

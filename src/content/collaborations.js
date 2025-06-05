@@ -1,14 +1,6 @@
 export const National = [
   {
-    name: "Indian Space Research Organisation (ISRO), India",
-    logo: "/images/collaborations/logo_national/isro.jfif",
-  },
-  {
-    name: "Indian Institute of Technology, Indore, India",
-    logo: "/images/collaborations/logo_national/iit_indore.jpg",
-  },
-  {
-    name: "Indian Institute of Science, Bangalore, India",
+    name: "Indian Institute of Science, Bengaluru, India",
     logo: "/images/collaborations/logo_national/iisc.jpg",
   },
   {
@@ -20,50 +12,44 @@ export const National = [
     logo: "/images/collaborations/logo_national/im13.jpeg",
   },
   {
-    name: "OMKROWN, India",
-    logo: "/images/collaborations/logo_national/im12.jpeg",
+    name: "Indian Institute of Technology, Kanpur, India",
+    logo: "/images/collaborations/logo_national/iitkanpur.jpg",
   },
   {
-    name: "Patanjali Research Institute, Haridwar, India",
-    logo: "/images/collaborations/logo_national/im.jpg",
+    name: "National Institute of Technology, Warangal, India",
+    logo: "/images/collaborations/logo_national/nit_warangal.png",
+  },
+  {
+    name: "School of Advanced Sciences, SOA University, India",
+    logo: "/images/collaborations/logo_national/soa_university.png",
+  },
+  {
+    name: "Kamla Nehru Institute of Technology, Sultanpur, India",
+    logo: "/images/collaborations/logo_national/knit.jpg",
+  },
+  {
+    name: "National Institute of Technology, Uttarakhand, India",
+    logo: "/images/collaborations/logo_national/nit_uttarakhand.png",
+  },
+  {
+    name: "CSIR - Central Salt and Marine Chemicals Research Institute, Bhavnagar, India",
+    logo: "/images/collaborations/logo_national/csir.png",
+  },
+  {
+    name: "CSIR - Structural Engineering Research Centre, Chennai, India",
+    logo: "/images/collaborations/logo_national/csir_serc.jpg",
+  },
+  {
+    name: "Gujarat Forestry Science Centre (GFSC), India",
+    logo: "/images/collaborations/logo_national/gfsc_gujarat.png",
   },
 ];
 
+
+
 export const International = [
   {
-    name: "City University of Hong Kong",
-    logo: "/images/collaborations/logo_international/city_u_hk.png",
-  },
-  {
-    name: "University of Technology Sydney, Australia",
-    logo: "/images/collaborations/logo_international/uts_australia.png",
-  },
-  {
-    name: "Pusan National University, South Korea",
-    logo: "/images/collaborations/logo_international/pusan_korea.png",
-  },
-  {
-    name: "University of the Philippines, Los Baños, Philippines",
-    logo: "/images/collaborations/logo_international/up_los_banos.jpg",
-  },
-  {
-    name: "XI'AN Jiaotong University, China",
-    logo: "/images/collaborations/logo_international/xian_china.png",
-  },
-  {
-    name: "King Mongkut's Institute of Technology Ladkrabang, Thailand",
-    logo: "/images/collaborations/logo_international/kmitl_thailand.png",
-  },
-  {
-    name: "Helmholtz-Zentrum Hereon, Germany",
-    logo: "/images/collaborations/logo_international/hereon_germany.png",
-  },
-  {
-    name: "Technische Universität Hamburg, Germany",
-    logo: "/images/collaborations/logo_international/tuhh_germany.png",
-  },
-   {
-    name: "",
-    logo: "/images/collaborations/logo_international/hong.jpg",
+    name: "Czestochowa University of Technology, Poland",
+    logo: "/images/collaborations/logo_international/czestochowa_poland.jpg",
   },
 ];
