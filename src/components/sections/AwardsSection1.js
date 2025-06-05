@@ -34,7 +34,8 @@ useEffect(() => {
 
   return (
     <>
-      <section className="py-20 bg-gradient-to-b from-gray-200 to-gray-50">
+      <section className="py-20 bg-gradient-to-b from-gray-300 via-gray-200 to-gray-100">
+
 
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -111,16 +112,16 @@ useEffect(() => {
     </Swiper>
   ) : (
     
-    <div className="relative w-full h-[350px]">
-      <Image
-        src={award.image}
-        alt={award.title}
-        fill
-        className="object-contain"
-      />
-      
+  <div className="relative w-full h-[350px]">
+  <div className="absolute inset-0 bg-gradient-to-t from-gray-900/10 to-transparent z-0" />
+  <Image
+    src={award.image}
+    alt={award.title}
+    fill
+    className="object-contain z-10 relative"
+  />
+</div>
 
-    </div>
   )}
 </div>
 
