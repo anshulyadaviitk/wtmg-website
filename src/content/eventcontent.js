@@ -74,26 +74,5 @@ export const events = {
         datasets: "/downloads/cfd-workshop-datasets.zip"
       }
     },
-    {
-      title: "International Conference on Water Resources",
-      date: "10–12 March 2025",
-      time: "9:00 AM - 6:00 PM",
-      location: "Grand Conference Center",
-      description: "Our flagship conference bringing together 200+ experts from 15 countries to discuss sustainable water resource management, innovative technologies, and policy frameworks.",
-      image: "/images/events/water-conference-2025.jpg",
-      photos: [
-        "/images/gallery/conference-1.jpg",
-        "/images/gallery/conference-2.jpg",
-        "/images/gallery/conference-3.jpg",
-        "/images/gallery/conference-4.jpg"
-      ],
-      youtubeLinks: {
-        keynote: "https://youtube.com/watch?v=pqr901",
-        panel1: "https://youtube.com/watch?v=stu234",
-        panel2: "https://youtube.com/watch?v=vwx567"
-      },
-      sponsors: ["AquaTech", "HydroSolutions", "BluePlanet Foundation"],
-      proceedings: "/downloads/conference-proceedings-2025.pdf"
-    }
   ],
 };

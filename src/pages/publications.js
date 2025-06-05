@@ -32,7 +32,7 @@ export default function PublicationsPage() {
                     <p className="text-gray-900 font-medium">{pub.title}</p>
                     <p className="text-gray-700 text-sm italic">{pub.authors.join(', ')}</p>
                     <p className="text-gray-600 text-sm">
-                      {pub.journal}, {pub.year} {pub.volume && `Vol ${pub.volume}`} {pub.pages && `pp. ${pub.pages}`}
+                      {pub.pages && `pp. ${pub.pages}`},{pub.volume && `Vol ${pub.volume}`},{pub.journal}, {pub.year}  
                     </p>
                     <div className="flex space-x-4 mt-1 text-sm">
                       {pub.doi && (

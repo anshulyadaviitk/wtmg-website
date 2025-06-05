@@ -9,6 +9,7 @@ export default function PublicationCard({ publication }) {
     year,
     volume,
     pages,
+    impact_factor,
     publisher,
     location,
     doi,
@@ -27,26 +28,37 @@ export default function PublicationCard({ publication }) {
           </h3>
 
           {authors.length > 0 && (
-            <p className="text-gray-600 mt-1">
-              {authors.join(', ')}
-            </p>
-          )}
+  <p className="text-gray-600 mt-1">
+    {authors.map((author, index) => (
+      <span key={index}>
+        <span className={author === 'A.Yadav' ? 'text-black-700 font-semibold' : ''}>
+          {author}
+        </span>
+        {index < authors.length - 1 && ', '}
+      </span>
+    ))}
+  </p>
+)}
+
 
           <p className="text-sm text-gray-500 mt-2 space-y-1">
+             {pages && <span>Pages: {pages},   </span>}
+             {volume && <span>Volume: {volume},   </span>}
             {journal && <span>{journal}</span>}
             {conference && <span>{conference}</span>}
             {year && <span> • {year}</span>}
           </p>
 
-          {volume && (
-            <p className="text-sm text-gray-500">Volume: {volume}</p>
-          )}
-          {pages && (
-            <p className="text-sm text-gray-500">Pages: {pages}</p>
-          )}
+          
+         
           {publisher && (
             <p className="text-sm text-gray-500">Publisher: {publisher}</p>
           )}
+
+{impact_factor && ( 
+  <p className="text-sm text-gray-500">Impact Factor: {impact_factor}</p>
+   )}
+   
           {isbn && (
   <p className="text-sm text-gray-500">ISBN: {isbn}</p>
 )}

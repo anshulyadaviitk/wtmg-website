@@ -104,6 +104,36 @@ export const researchAreas = [
 
 export const publications = {
   journalArticles: [
+     {
+    id: 'pub-colloid',
+    type: 'journal',
+    title: 'Colloids and Surfaces A: Physicochemical and Engineering Aspects',
+    authors: ['A.Yadav', 'S.S. Dindonkar'],
+    journal: 'Colloids and Surfaces A: Physicochemical and Engineering Aspects',
+    year: 2022,
+    volume: '641',
+    pages: '',
+    impact_factor:'8.2',
+    link: 'https://www.sciencedirect.com/journal/colloids-and-surfaces-a-physicochemical-and-engineering-aspects/vol/641/suppl/C',
+    publisher: 'Elsevier',
+    image: 'image1.jpg', // Replace with actual filename if needed
+    featured: false
+  },
+  {
+    id: 'pub-colloid2',
+    type: 'journal',
+    title: 'Colloids and Surfaces A: Physicochemical and Engineering Aspects',
+    authors: ['C.P. Singh', 'A.Yadav', 'A. Kumar'],
+    journal: 'Colloids and Surfaces A: Physicochemical and Engineering Aspects',
+    year: 2023,
+    volume: '667',
+    pages: '',
+    impact_factor:'8.2',
+    link: 'https://www.sciencedirect.com/journal/colloids-and-surfaces-a-physicochemical-and-engineering-aspects/vol/667/suppl/C',
+    publisher: 'Elsevier',
+    image: 'image2.jpg', // Replace with actual filename if needed
+    featured: false
+  },
     {
       id: 'pub-01',
       type: 'journal',
@@ -332,34 +362,7 @@ export const publications = {
       publisher: 'Elsevier',
       featured: false
     },
-     {
-    id: 'pub-02',
-    type: 'journal',
-    title: 'Colloids and Surfaces A: Physicochemical and Engineering Aspects',
-    authors: ['A. Yadav', 'S.S. Dindonkar'],
-    journal: 'Colloids and Surfaces A: Physicochemical and Engineering Aspects',
-    year: 2022,
-    volume: '641',
-    pages: '',
-    link: 'https://www.sciencedirect.com/journal/colloids-and-surfaces-a-physicochemical-and-engineering-aspects/vol/641/suppl/C',
-    publisher: 'Elsevier',
-    image: 'image1.jpg', // Replace with actual filename if needed
-    featured: false
-  },
-  {
-    id: 'pub-03',
-    type: 'journal',
-    title: 'Colloids and Surfaces A: Physicochemical and Engineering Aspects',
-    authors: ['C.P. Singh', 'A. Yadav', 'A. Kumar'],
-    journal: 'Colloids and Surfaces A: Physicochemical and Engineering Aspects',
-    year: 2023,
-    volume: '667',
-    pages: '',
-    link: 'https://www.sciencedirect.com/journal/colloids-and-surfaces-a-physicochemical-and-engineering-aspects/vol/667/suppl/C',
-    publisher: 'Elsevier',
-    image: 'image2.jpg', // Replace with actual filename if needed
-    featured: false
-  }
+    
   ]
 
 ,
@@ -381,7 +384,7 @@ export const publications = {
     id: 'book-01',
     title: 'Membrane-based point-of-use drinking water treatment systems',
     authors: ['P.K. Labhasetwar', 'A. Yadav'],
-    image: '/images/research/books/membre_book.jpeg', // crop image 1
+    image: '/images/research/books/membre_book.jpeg',
     publisher: 'International Water Association Publishing',
     year: 2023,
     link: 'https://iwaponline.com/ebooks/book/867/Membrane-Based-Point-of-Use-Drinking-Water',
@@ -390,11 +393,22 @@ export const publications = {
     doi: '',
     featured: true
   },
+  { id: 'book-04',
+   title: 'Applications of two-dimensional nanomaterials for water and wastewater treatment',
+   authors: ['A. Yadav', 'R. Yadav', 'P.K. Labhasetwar'],
+   image: '/images/research/books/application_book.jpg',
+   publisher: 'Apple Academic Publishers, CRC Press',
+  year: 2026,
+  link: '',
+  isbn: '9781779642967',
+  eisbn: '978-1-77964-297-4',
+  doi: '',
+  featured: true },
   {
     id: 'book-02',
     title: 'Computational techniques for simulating and optimizing membrane processes for (waste)water treatment',
     authors: ['A. Yadav', 'P.K. Labhasetwar'],
-    image: '/images/research/books/book2.jpg', // add image 2
+    image: '', 
     publisher: 'International Water Association Publishing',
     year: 2026,
     link: '',
@@ -407,7 +421,7 @@ export const publications = {
     id: 'book-03',
     title: 'Computational techniques for simulating and optimizing adsorption processes for (waste)water treatment',
     authors: ['A. Yadav', 'P.K. Labhasetwar'],
-    image: '/images/research/books/book3.jpg',
+    image: '',
     publisher: 'International Water Association Publishing',
     year: 2026,
     link: '',
@@ -416,19 +430,7 @@ export const publications = {
     doi: '',
     featured: false
   },
-  {
-    id: 'book-04',
-    title: 'Applications of two-dimensional nanomaterials for water and wastewater treatment',
-    authors: ['A. Yadav', 'R. Yadav', 'P.K. Labhasetwar'],
-    image: '/images/research/books/application_book.jpg',
-    publisher: 'Apple Academic Publishers, CRC Press',
-    year: 2026,
-    link: '',
-    isbn: '9781779642967',
-    eisbn: '978-1-77964-297-4',
-    doi: '',
-    featured: true
-  },
+ 
 ]
 };
 

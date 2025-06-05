@@ -29,8 +29,8 @@ export default function DrAnshulYadav() {
         <Image
           src="/images/people/anshul-yadav.jpeg"
           alt="Dr. Anshul Yadav"
-          width={200}
-          height={200}
+          width={300}
+          height={300}
           className="rounded-2xl shadow-lg"
         />
       <div>
@@ -41,30 +41,29 @@ export default function DrAnshulYadav() {
   {/* Email & Phone with Icons */}
   <div className="mt-2 space-y-1 text-sm text-gray-700">
   <p className="flex items-start gap-2 text-gray-700">
-    <BuildingOfficeIcon className="h-5 w-5 text-blue-600 mt-1" />
-    First floor, Department of Water Resources Development and Management, IIT Roorkee
+    <BuildingOfficeIcon className="h-6 w-6 text-blue-600 mt-[2px] flex-shrink-0" />
+    <span>
+      First floor, Department of Water Resources Development and Management, <br />
+      Indian Institute of Technology Roorkee
+    </span>
   </p>
   <p className="flex items-center gap-2 text-gray-700">
-    <EnvelopeIcon className="h-5 w-5 text-blue-600" />
-    anshul.yadav@wr.iitr.ac.in
+    <EnvelopeIcon className="h-5 w-5 text-blue-600 flex-shrink-0" />
+    <span>anshul.yadav@wr.iitr.ac.in</span>
   </p>
-  <p className="flex items-center gap-2 text-gray-700">
-    <PhoneIcon className="h-5 w-5 text-blue-600" />
-    +91-94735 83417 (Mob)<br/>
-    +91-1332-285617 (O)
+  <p className="flex items-start gap-2 text-gray-700">
+    <PhoneIcon className="h-5 w-5 text-blue-600 mt-[2px] flex-shrink-0" />
+    <span>
+      +91-94735 83417 (Mobile)<br />
+      +91-1332-285617 (Office)
+    </span>
   </p>
-  </div>
+</div>
+
 
   {/* Social Links with Icons */}
   <div className="flex gap-6 mt-4 items-center">
-  <Link href="https://scholar.google.com/citations?user=ZIGtPEIAAAAJ&hl=en" target="_blank">
-    <img
-      src="/images/logos/scholars.png"
-      alt="Google Scholar"
-      className="h-10 w-10 object-contain rounded-xl shadow-sm border border-gray-200"
-    />
-  </Link>
-
+  
   <Link href="https://www.researchgate.net/profile/Anshul-Yadav-14" target="_blank">
     <img
       src="/images/logos/research.png"
@@ -77,6 +76,13 @@ export default function DrAnshulYadav() {
     <img
       src="/images/logos/LinkedIn_logo.png"
       alt="LinkedIn"
+      className="h-10 w-10 object-contain rounded-xl shadow-sm border border-gray-200"
+    />
+  </Link>
+  <Link href="https://scholar.google.com/citations?user=ZIGtPEIAAAAJ&hl=en" target="_blank">
+    <img
+      src="/images/logos/scholars.png"
+      alt="Google Scholar"
       className="h-10 w-10 object-contain rounded-xl shadow-sm border border-gray-200"
     />
   </Link>
@@ -118,7 +124,7 @@ export default function DrAnshulYadav() {
   {/* M.Tech - IIT Kanpur */}
   <div className="flex gap-6 mb-6">
     <img
-      src="/images/logos/iitkanpur.jpg"
+      src="/images/logos/iitkanpur_logo.png"
       alt="IIT Kanpur"
       className="w-20 h-20 object-contain mt-1"
     />
@@ -138,7 +144,7 @@ export default function DrAnshulYadav() {
   {/*B.Tech*/}
   <div className="flex gap-6 mb-6">
   <img
-    src="/images/logos/iitkanpur.jpg"
+    src="/images/logos/iitkanpur_logo.png"
     alt="IIT Kanpur"
     className="w-20 h-20 object-contain mt-1"
   />
