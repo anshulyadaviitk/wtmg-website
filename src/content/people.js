@@ -23,8 +23,8 @@ export const pi = {
   ],
   contact: {
     email: 'anshul.yadav@wr.iitr.ac.in',
-    phone: '+91-94735 83417 (Mob); +91-1332-285617 (O)',
-    office: 'WTM Department, Room 205'
+    phone: '+91-94735 83417 (Mob)\n+91-1332-285617 (O)',
+    office: ' First floor, Department of Water Resources Development and Management,\nIndian Institute of Technology Roorkee'
   },
   bio: 'Dr. Anshul Yadav is an Assistant Professor in the Department of Water Resources Development & Management at IIT Roorkee and the founding Principal Investigator of the Water Treatment & Monitoring Group (WTMG). His research unites advanced separation science with smart sensing, spanning membrane distillation, electrodialysis, adsorption, and the design of polymeric, composite, and MOF/ZIF-based membranes. By coupling these materials with IoT-enabled water-quality sensor networks, he pursues real-time, data-driven solutions for drinking-water security and industrial wastewater reuse. His work has led to multiple patents—peer-reviewed publications, and competitive funding from national agencies. Beyond the lab, Dr. Yadav integrates research, teaching, and outreach.',
   social: {

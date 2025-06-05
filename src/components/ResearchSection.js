@@ -10,6 +10,7 @@ import Link from 'next/link';
 import { useRef, useEffect, useState } from 'react';
 
 export default function ResearchSection({ researchAreas }) {
+  const swiperRef = useRef(null);
   const prevRef = useRef(null);
   const nextRef = useRef(null);
   const [swiperInstance, setSwiperInstance] = useState(null);

@@ -14,8 +14,22 @@ export default function AwardsSection1({
   awards = { faculty: [], guestEditors: [] }, 
   showEditorial = true 
 }) {
+  const swiperRef = useRef(null);
     const prevRef = useRef(null);
 const nextRef = useRef(null);
+
+useEffect(() => {
+  if (swiperRef.current && prevRef.current && nextRef.current) {
+    swiperRef.current.params.navigation.prevEl = prevRef.current;
+    swiperRef.current.params.navigation.nextEl = nextRef.current;
+
+    // Re-init navigation
+    swiperRef.current.navigation.destroy();
+    swiperRef.current.navigation.init();
+    swiperRef.current.navigation.update();
+  }
+}, []);
+
 
   return (
     <>
@@ -33,7 +47,9 @@ const nextRef = useRef(null);
           {/* Swiper & Arrows inside same relative container */}
           <div className="relative">
             <Swiper
-          modules={[Pagination, Autoplay, Navigation]}
+  onSwiper={(swiper) => (swiperRef.current = swiper)}
+  modules={[Pagination, Autoplay, Navigation]}
+  navigation={false} // Prevent premature init
           spaceBetween={32}
           slidesPerView={1}
           onBeforeInit={(swiper) => {
@@ -97,8 +113,9 @@ const nextRef = useRef(null);
           {/* Navigation Arrows */}
 <button
   ref={prevRef}
-  className="custom-prev absolute left-0 top-[35%] -translate-y-1/2 bg-white p-3 rounded-full shadow-md hover:bg-gray-50 transition-colors z-10"
+  className="custom-prev absolute left-0 top-[35%] -translate-y-1/2 bg-white p-3 rounded-full shadow-md hover:bg-gray-50 transition-colors z-50 pointer-events-auto"
 >
+
   <svg className="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
   </svg>

@@ -142,24 +142,41 @@ export default function Home() {
             </li>
             <li className="flex items-start">
               <PhoneIcon className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
-              <span className="text-gray-700">{pi.contact.phone}</span>
+              <span className="text-gray-700 whitespace-pre-line">{pi.contact.phone}</span>
             </li>
             <li className="flex items-start">
-              <BuildingOfficeIcon className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
-              <span className="text-gray-700">{pi.contact.office}</span>
+              <BuildingOfficeIcon className="h-10 w-10 text-blue-600 mr-2 mt-0.5" />
+              <span className="text-gray-700 whitespace-pre-line">{pi.contact.office}</span>
             </li>
           </ul>
           
           {/* Social Links */}
-          { <div className="mt-4 flex space-x-4">
-            <a href={pi.social.googleScholar} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600">
-              <AcademicCapIcon className="h-6 w-6" />
-            </a>
-            <a href={pi.social.researchGate} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600">
-              <BookOpenIcon className="h-6 w-6" />
-            </a>
-            
-          </div> }
+       {/* Social Links with Icons */}
+  <div className="flex gap-6 mt-4 items-center">
+  
+  <Link href="https://www.researchgate.net/profile/Anshul-Yadav-14" target="_blank">
+    <img
+      src="/images/logos/research.png"
+      alt="ResearchGate"
+      className="h-10 w-10 object-contain rounded-xl shadow-sm border border-gray-200"
+    />
+  </Link>
+
+  <Link href="https://www.linkedin.com/in/anshul-yadav-2b29ab305/" target="_blank">
+    <img
+      src="/images/logos/LinkedIn_logo.png"
+      alt="LinkedIn"
+      className="h-10 w-10 object-contain rounded-xl shadow-sm border border-gray-200"
+    />
+  </Link>
+  <Link href="https://scholar.google.com/citations?user=ZIGtPEIAAAAJ&hl=en" target="_blank">
+    <img
+      src="/images/logos/scholars.png"
+      alt="Google Scholar"
+      className="h-10 w-10 object-contain rounded-xl shadow-sm border border-gray-200"
+    />
+  </Link>
+</div>
   
         </div>
       </div>

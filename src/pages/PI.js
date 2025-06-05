@@ -40,13 +40,7 @@ export default function DrAnshulYadav() {
 
   {/* Email & Phone with Icons */}
   <div className="mt-2 space-y-1 text-sm text-gray-700">
-  <p className="flex items-start gap-2 text-gray-700">
-    <BuildingOfficeIcon className="h-6 w-6 text-blue-600 mt-[2px] flex-shrink-0" />
-    <span>
-      First floor, Department of Water Resources Development and Management, <br />
-      Indian Institute of Technology Roorkee
-    </span>
-  </p>
+ 
   <p className="flex items-center gap-2 text-gray-700">
     <EnvelopeIcon className="h-5 w-5 text-blue-600 flex-shrink-0" />
     <span>anshul.yadav@wr.iitr.ac.in</span>
@@ -56,6 +50,13 @@ export default function DrAnshulYadav() {
     <span>
       +91-94735 83417 (Mobile)<br />
       +91-1332-285617 (Office)
+    </span>
+  </p>
+   <p className="flex items-start gap-2 text-gray-700">
+    <BuildingOfficeIcon className="h-6 w-6 text-blue-600 mt-[2px] flex-shrink-0" />
+    <span>
+      First floor, Department of Water Resources Development and Management, <br />
+      Indian Institute of Technology Roorkee
     </span>
   </p>
 </div>
