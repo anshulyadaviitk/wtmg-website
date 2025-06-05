@@ -82,7 +82,7 @@ export default function Home() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 z-10 w-full">
         <div className="relative group overflow-hidden rounded-3xl shadow-2xl border-4 border-white/30 transition-all duration-700 hover:shadow-2xl hover:border-blue-300/50">
           <img
-            src="/images/IITR_JT.jpg"
+            src="/images/iitr_building.jpg"
             alt="IIT Roorkee Campus"
             className="w-full h-80 md:h-96 object-cover transition-transform duration-700 group-hover:scale-105"
           />
