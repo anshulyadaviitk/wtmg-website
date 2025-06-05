@@ -66,7 +66,7 @@ export const instruments = [
   },
   {
     name: 'Digital Ultrasonic Cleaner',
-    image: '/images/instruments/inst-14.png',
+    image: '/images/instruments/inst-14.PNG',
     link: 'https://www.industrybuying.com/ultrasonic-bath-phoenix-LAB.ULT.33295076',
   },
   {
@@ -76,17 +76,17 @@ export const instruments = [
   },
   {
     name: 'Drop Shape Analyzer (WCA)',
-    image: '/images/instruments/inst-16.png',
+    image: '/images/instruments/inst-16.PNG',
     link: 'https://www.kruss-scientific.com/en/products/drop-shape-analyzers/',
   },
   {
     name: 'Viscometer',
-    image: '/images/instruments/inst-17.png',
+    image: '/images/instruments/inst-17.PNG',
     link: 'https://www.industrybuying.com/lab-measuring-instrument-labtronics-LAB.LAB.524157305',
   },
   {
     name: 'Workstation',
-    image: '/images/instruments/inst-18.png',
+    image: '/images/instruments/inst-18.PNG',
     link: 'https://www.dell.com/en-in/shop/precision-3660-tower-workstation/spd/precision-3660-workstation',
   },
   {
@@ -96,12 +96,12 @@ export const instruments = [
   },
   {
     name: 'Muffle Furnace',
-    image: '/images/instruments/inst-20.png',
+    image: '/images/instruments/inst-20.PNG',
     link: 'https://www.industrybuying.com/muffle-furnace-nsaw-LAB.FUR.69140363',
   },
   {
     name: 'Hot Air Oven',
-    image: '/images/instruments/inst-21.png',
+    image: '/images/instruments/inst-21.PNG',
     link: 'https://www.industrybuying.com/lab-ovens-wkm-LAB.LAB.120412767',
   },
   {
@@ -121,7 +121,7 @@ export const instruments = [
   },
   {
     name: 'Digital Hot Plate Magnetic Stirrer',
-    image: '/images/instruments/inst-25.png',
+    image: '/images/instruments/inst-25.PNG',
     link: 'https://www.abdoslifesciences.com/product/hot-plate-swirltop-digital-led-magnetic-stirrer-hot-plate/',
   },
   {
@@ -156,12 +156,12 @@ export const instruments = [
   },
   {
     name: 'Laboratory Refrigerator',
-    image: '/images/instruments/inst-32.png',
+    image: '/images/instruments/inst-32.PNG',
     link: 'https://www.industrybuying.com/visi-cooler-celfrost-FUR.VIS.47912968',
   },
   {
     name: 'Multispin Stirrer',
-    image: '/images/instruments/inst-33.png',
+    image: '/images/instruments/inst-33.PNG',
     link: 'https://www.industrybuying.com/labware-tarson-LAB.MUL.23086228',
   },
   {
