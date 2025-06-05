@@ -52,18 +52,20 @@ export const awards = {
     {
       id: 'awd-07',
       title: 'Cover Art Selected',
-      organization: 'Colloids and Surfaces: A (Volumes 667)',
+      organization: 'Colloids and Surfaces A: Physicochemical and Engineering Aspects (Volumes 667)',
       year: 2022,
       description: 'Two artworks selected for cover pages of Colloids and Surfaces A.',
       image: '/images/awards/page_11.jpg',
+      link: 'https://www.sciencedirect.com/journal/colloids-and-surfaces-a-physicochemical-and-engineering-aspects/vol/667/suppl/C',
     },
         {
       id: 'awd-071',
       title: 'Cover Art Selected',
-      organization: 'Colloids and Surfaces: A (Volumes 641)',
+      organization: 'Colloids and Surfaces A: Physicochemical and Engineering Aspects (Volumes 641)',
       year: 2022,
       description: 'Two artworks selected for cover pages of Colloids and Surfaces A.',
       image: '/images/awards/page_12.jpg',
+      link: 'https://www.sciencedirect.com/journal/colloids-and-surfaces-a-physicochemical-and-engineering-aspects/vol/641/suppl/C',
     },
     {
       id: 'awd-08',
@@ -71,7 +73,8 @@ export const awards = {
       organization: 'Elsevier',
       year: 2022,
       description: 'Contributed to Elsevier’s Encyclopaedia of Materials published every ten years.',
-      image: '/images/awards/page_5.jpg'
+      image: '/images/awards/page_5.jpg',
+
     },
     {
       id: 'awd-09',

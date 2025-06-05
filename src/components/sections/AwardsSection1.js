@@ -151,7 +151,7 @@ useEffect(() => {
                           {award.description}
                         </p>
 
-                         <p className="text-sm text-gray-700 mt-10">
+                         <p className="text-sm text-gray-700 mt-4">
                           {award.link && (
             <Link
               href={award.link}

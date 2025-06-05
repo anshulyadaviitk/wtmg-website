@@ -76,6 +76,9 @@ export default function Home() {
             className="w-28 aspect-square object-contain rounded-full"
           />
         </div>
+
+
+        
       </div>
 
       {/* Side-by-side buildings with modern layout */}
