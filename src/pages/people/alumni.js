@@ -59,7 +59,7 @@ export default function PastMembersPage() {
               <h2 className="text-2xl md:text-3xl font-bold mb-6 text-gray-800 border-b pb-2">
                 Master&apos;s Alumni
               </h2>
-              <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-6">
                 {past.masters.map(member => (
                   <PastMemberCard 
                     key={member.id} 
@@ -77,7 +77,7 @@ export default function PastMembersPage() {
               <h2 className="text-2xl md:text-3xl font-bold mb-6 text-gray-800 border-b pb-2">
                 Former Interns & Dissertation
               </h2>
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="space-y-6">
                 {past.interns.map(member => (
                   <PastMemberCard 
                     key={member.id} 

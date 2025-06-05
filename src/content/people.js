@@ -17,8 +17,8 @@ export const pi = {
     'Design of treatment systems'
   ],
   education: [
-    'Ph.D., Engineering Sciences, AcSIR, India (2022) - Thesis: Membrane distillation process for high saline and waste water treatment. Advisors: Dr. Pawan Kumar Labhasetwar, Dr. Vinod Kumar Shahi.',
-    'M.Tech, Mechanical Engineering, IIT Kanpur (2017) - Thesis: Thermal Field, Weld Bead Geometry and Characteristics in Submerged Arc Welded Plate. Advisor: Dr. Arvind Kumar.',
+    'Ph.D., Engineering Sciences, Academy of Scientific and Innovative Research (AcSIR), India (2022)',
+    'M.Tech, Mechanical Engineering, ndian Institute of Technology, Kanpur (2017)',
     'B.Tech, Mechanical Engineering'
   ],
   contact: {
@@ -115,8 +115,7 @@ export const phdScholars = [
     photo: '/images/people/phd/nikhil.jpeg',
     position: 'PhD Scholar',
     peerReviewedPublications: [
-  'Development of Novel Polymeric Membranes for Electrodialysis, Journal of Membrane Science, 2024',
-  'Enhanced Water Treatment Using Functionalized Nanomaterials, Environmental Science & Technology, 2023'
+ 
 ],
 patents: [
   'Nanocomposite Membrane for Water Purification, IN2024112345A, 2024'
@@ -329,7 +328,7 @@ images:[
     topic: 'Design of planted and unplanted dry bed fecal sludge treatment plant. Case study Didia Ward, Shinyanga, Tanzania',
     duration: 'July 2024 – Present',
     email: 'abas_am@wr.iitr.ac.in',
-    coSupervisor: 'XXXX'
+    coSupervisor: ''
   },
   {
     id: 'mtech-05',
@@ -363,7 +362,7 @@ images:[
     topic: ' Integration of vertical wall for treatment of sewerage from STP;\n Graywater treatment using hydrophobic plants',
     duration: 'July 2024 – Present',
     email: 'aiswarya.priya.p@gmail.com',
-    coSupervisor: 'XXXX'
+    coSupervisor: ''
   },
   {
     id: 'mtech-06',
@@ -397,7 +396,7 @@ images:[
     topic: 'Zero liquid discharge and resource recovery for industrial tannery wastewater using a hybrid reverse osmosis–membrane distillation treatment process',
     duration: 'July 2024 – Present',
     email: 'XXXXXXXXXX',
-    coSupervisor: 'XXXX'
+    coSupervisor: ''
   },
   {
     id: 'mtech-07',
@@ -432,7 +431,7 @@ images:[
     topic: 'Water quality assessment across irrigation schemes: a case study of wetland agriculture impacts in Ruvuma River Basin, Tanzania',
     duration: 'July 2024 – Present',
     email: 'issah_m@wr.iitr.ac',
-    coSupervisor: 'XXXX'
+    coSupervisor: ''
   },
   {
     id: 'mtech-08',
@@ -466,7 +465,7 @@ images:[
     topic: 'Decentralized wastewater treatment systems for rural communities: a feasibility and sustainability assessment',
     duration: 'July 2024 – Present',
     email: 'nsanzurwimo_m@wr.iitr.ac.in',
-    coSupervisor: 'XXXX'
+    coSupervisor: ''
   },
   {
     id: 'mtech-09',
@@ -501,7 +500,7 @@ images:[
     topic: 'Designing of low cost and efficient wastewater treatment technologies for small town',
     duration: 'July 2024 – Present',
     email: 'prisca_jm@wr.iitr.ac.in',
-    coSupervisor: 'XXXX'
+    coSupervisor: ''
   }
 ];
 
@@ -616,7 +615,7 @@ export const past = {
     {
     name: "Ms. Rupal Niranjan",
     college: "Madan Mohan Malaviya University of Technology",
-    photo: '/images/people/alumni/interns/rupal.jpeg',
+    photo: '/images/people/alumni/interns/rupal1.jpeg',
     duration: "May-June 2025 (Two months)",
     topic: "Computational Fluid Dynamics Study of Ion Transport and Flow Behavior in Electrodialysis Cells",
     affiliation: "Assistant Professor",

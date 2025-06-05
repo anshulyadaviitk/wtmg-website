@@ -5,17 +5,15 @@ export default function PastMemberCard({ member }) {
     <div className="bg-white rounded-lg shadow-sm p-4 hover:shadow-md transition-shadow">
       <div className="flex flex-col sm:flex-row gap-4">
         {member.photo && (
-        <div className="relative w-24 h-24 flex-shrink-0">
+        <div className="relative w-full h-60 sm:w-40 sm:h-60 flex-shrink-0 overflow-hidden border border-gray-200 rounded">
 
           <Image
             src={member.photo}
             alt={`Photo of ${member.name}`}
             fill
-            style={{
-    objectFit: 'cover',
-    objectPosition: 'top',
-  }}
-            className="rounded-full"
+        sizes="(max-width: 640px) 100vw, 160px"
+    className="object-contain sm:object-cover object-top"
+            
           />
         </div>
         )}

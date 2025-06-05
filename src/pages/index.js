@@ -101,17 +101,20 @@ export default function Home() {
 
    {/* Call to Action with modern buttons */}
     <div className="flex flex-wrap justify-center gap-6 mt-8 animate-fade-in-up">
-      <Link
-        href="#about"
-        className="px-10 py-4 bg-white text-blue-800 font-semibold rounded-xl hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-      >
-        Explore Programs →
-      </Link>
+     <a
+  href="https://iitr.ac.in/Departments/Water%20Resources%20Development%20and%20Management%20Department/Home.html"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-10 py-4 bg-white text-blue-800 font-semibold rounded-xl hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+>
+  Explore Programs →
+</a>
+
       <Link
         href="/research"
         className="px-10 py-4 border-2 border-white text-white font-semibold rounded-xl hover:bg-white/10 transition-all duration-300 backdrop-blur-sm hover:shadow-lg transform hover:-translate-y-1"
       >
-        Research Projects →
+        Research →
       </Link>
     </div>
   </div>
@@ -242,7 +245,7 @@ export default function Home() {
         </div>
 
         <Button href="/PI" className="mt-6" variant="outline">
-          View Full Profile & Publications →
+          View Full Profile →
         </Button>
       </div>
     </div>

@@ -163,67 +163,94 @@ export default function DrAnshulYadav() {
 
 
 
-    <section className="py-12">
-  <h2 className="text-3xl font-bold text-gray-800 mb-10 text-center">Professional Experience</h2>
-  <ol className="relative border-l border-blue-200">
-    {[
-      
-  {
-    position: "Assistant Professor",
-    institute: "Indian Institute of Technology Roorkee",
-    from: "Sep 2024",
-    to: "Present",
-  },
-  {
-    position: "Assistant Professor",
-    institute: "Academy of Scientific and Innovative Research",
-    from: "Jan 2023",
-    to: "Sep 2024",
-  },
-  {
-    position: "Scientist",
-    institute: "Central Salt and Marine Chemicals Research Institute",
-    from: "Apr 2019",
-    to: "Sep 2024",
-  },
-  {
-    position: "Assistant Professor",
-    institute: "Kamla Nehru Institute of Technology, Sultanpur",
-    from: "Dec 2017",
-    to: "Feb 2019",
-  },
-  {
-    position: "Project Associate",
-    institute: "Indian Institute of Technology Kanpur",
-    from: "Jun 2017",
-    to: "Sep 2017",
-  },
-  {
-    position: "Teaching Assistant",
-    institute: "Indian Institute of Technology Kanpur",
-    from: "Jul 2016",
-    to: "Apr 2017",
-  }
-
-
-    ].map((exp, index) => (
-      <li className="mb-10 ml-6" key={index}>
-        <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-600 rounded-full -left-3 ring-8 ring-white">
-          <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
-            <path d="M10 2a8 8 0 108 8 8 8 0 00-8-8zM9 11V7h2v4zm0 4h2v-2H9z" />
-          </svg>
-        </span>
-        <div className="bg-white p-6 rounded-lg shadow-md">
-          <h3 className="text-lg font-semibold text-gray-900">{exp.position}</h3>
-          <p className="text-sm text-gray-600">{exp.institute}</p>
-          <span className="text-sm text-blue-600 mt-1 inline-block">
-            {exp.from} – {exp.to}
+   <section className="py-16 bg-gray-50">
+  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
+      Professional Experience
+      <span className="block w-16 h-1 bg-blue-600 mx-auto mt-4"></span>
+    </h2>
+    
+    <ol className="relative border-l-2 border-blue-100">
+      {[
+        {
+          position: "Assistant Professor",
+          institute: "Indian Institute of Technology Roorkee",
+          logo: "images/logos/iitr-logo-white.png",
+          from: "Sep 2024",
+          to: "Present",
+          description: "Teaching and research in [your specialization] department."
+        },
+        {
+          position: "Assistant Professor",
+          institute: "Academy of Scientific and Innovative Research",
+          logo: "images/logos/acsir.jpeg",
+          from: "Jan 2023",
+          to: "Sep 2024",
+          description: "Conducted research and mentored graduate students in [your field]."
+        },
+        {
+          position: "Scientist",
+          institute: "Central Salt and Marine Chemicals Research Institute",
+          logo: "images/logos/csir.png",
+          from: "Apr 2019",
+          to: "Sep 2024",
+          description: "Led research projects focused on [specific research areas]."
+        },
+        {
+          position: "Assistant Professor",
+          institute: "Kamla Nehru Institute of Technology, Sultanpur",
+          logo: "images/logos/knit.jpg",
+          from: "Dec 2017",
+          to: "Feb 2019",
+          description: "Taught undergraduate courses in [subjects] and supervised student projects."
+        },
+        {
+          position: "Project Associate",
+          institute: "Indian Institute of Technology Kanpur",
+          logo: "images/logos/iitkanpur.jpg",
+          from: "Jun 2017",
+          to: "Sep 2017",
+          description: "Worked on [specific project name] under the guidance of [advisor name]."
+        },
+        {
+          position: "Teaching Assistant",
+          institute: "Indian Institute of Technology Kanpur",
+          logo: "images/logos/iitkanpur.jpg",
+          from: "Jul 2016",
+          to: "Apr 2017",
+          description: "Assisted in teaching [course names] and grading assignments."
+        }
+      ].map((exp, index) => (
+        <li className="mb-12 ml-6 relative group" key={index}>
+          <span className="absolute flex items-center justify-center w-8 h-8 bg-blue-600 rounded-full -left-4 ring-4 ring-white transform group-hover:scale-110 transition-transform duration-200">
+            <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+              <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
+            </svg>
           </span>
-        </div>
-      </li>
-    ))}
-  </ol>
+          <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-6">
+            <div className="flex-shrink-0">
+              <img
+                src={exp.logo}
+                alt={`${exp.institute} logo`}
+                className="w-20 h-20 sm:w-20 sm:h-20 object-contain"
+                loading="lazy"
+              />
+            </div>
+            <div className="flex-1">
+              <h3 className="text-xl font-bold text-gray-900">{exp.position}</h3>
+              <p className="text-lg font-medium text-gray-700">{exp.institute}</p>
+              <p className="text-sm text-gray-500 mt-1">{exp.description}</p>
+              <span className="inline-block mt-2 px-3 py-1 text-sm font-semibold text-blue-700 bg-blue-100 rounded-full">
+                {exp.from} – {exp.to}
+              </span>
+            </div>
+          </div>
+        </li>
+      ))}
+    </ol>
+  </div>
 </section>
+
 
 
        

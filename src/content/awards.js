@@ -52,10 +52,18 @@ export const awards = {
     {
       id: 'awd-07',
       title: 'Cover Art Selected',
-      organization: 'Colloids and Surfaces: A (Volumes 641 and 667)',
+      organization: 'Colloids and Surfaces: A (Volumes 667)',
       year: 2022,
       description: 'Two artworks selected for cover pages of Colloids and Surfaces A.',
-      image: ['/images/awards/page_11.jpg', '/images/awards/page_12.jpg']
+      image: '/images/awards/page_11.jpg',
+    },
+        {
+      id: 'awd-071',
+      title: 'Cover Art Selected',
+      organization: 'Colloids and Surfaces: A (Volumes 641)',
+      year: 2022,
+      description: 'Two artworks selected for cover pages of Colloids and Surfaces A.',
+      image: '/images/awards/page_12.jpg',
     },
     {
       id: 'awd-08',

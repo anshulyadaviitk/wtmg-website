@@ -393,7 +393,7 @@ export const publications = {
     doi: '',
     featured: true
   },
-  { id: 'book-04',
+  { id: 'book-02',
    title: 'Applications of two-dimensional nanomaterials for water and wastewater treatment',
    authors: ['A.Yadav', 'R. Yadav', 'P.K. Labhasetwar'],
    image: '/images/research/books/application_book.jpg',
@@ -404,32 +404,6 @@ export const publications = {
   eisbn: '978-1-77964-297-4',
   doi: '',
   featured: true },
-  {
-    id: 'book-02',
-    title: 'Computational techniques for simulating and optimizing membrane processes for (waste)water treatment',
-    authors: ['A.Yadav', 'P.K. Labhasetwar'],
-    image: '', 
-    publisher: 'International Water Association Publishing',
-    year: 2026,
-    link: '',
-    isbn: '',
-    eisbn: '',
-    doi: '',
-    featured: false
-  },
-  {
-    id: 'book-03',
-    title: 'Computational techniques for simulating and optimizing adsorption processes for (waste)water treatment',
-    authors: ['A.Yadav', 'P.K. Labhasetwar'],
-    image: '',
-    publisher: 'International Water Association Publishing',
-    year: 2026,
-    link: '',
-    isbn: '',
-    eisbn: '',
-    doi: '',
-    featured: false
-  },
  
 ]
 };
