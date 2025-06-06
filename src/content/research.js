@@ -154,7 +154,7 @@ export const publications = {
       pages: '178749',
       impact_factor:'8.2',
       image: '/images/research/journal/advances.jpeg',
-      link: 'https://www.sciencedirect.com/science/article/abs/pii/S0048969725003833?via%3Dihub',
+      link: 'https://www.sciencedirect.com/science/article/abs/pii/S0048969725003833',
       publisher: 'Elsevier',
       featured: true
     },
@@ -184,7 +184,7 @@ export const publications = {
       pages: '160965',
       impact_factor:'8.2',
     image: '/images/research/journal/carbon.png',
-    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal/vol/509/suppl/C',
+    link: 'https://www.sciencedirect.com/science/article/abs/pii/S1385894725017863',
       publisher: 'Elsevier',
       featured: true
     },
@@ -199,7 +199,7 @@ export const publications = {
       pages: '160965',
       impact_factor:'8.2',
     image: '/images/research/journal/carbon.png',
-    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal/vol/508/suppl/C',
+    link: 'https://www.sciencedirect.com/science/article/abs/pii/S1385894725017863',
       publisher: 'Elsevier',
       featured: false
     },
@@ -214,7 +214,7 @@ export const publications = {
       pages: '115783',
       impact_factor:'8.2',
     image: '/images/research/journal/chemical.jpeg',
-    link: 'https://www.sciencedirect.com/journal/journal-of-environmental-chemical-engineering/vol/13/issue/1',
+    link: 'https://www.sciencedirect.com/science/article/abs/pii/S1385894725017863',
       publisher: 'Elsevier',
       featured: false
     },
@@ -303,8 +303,8 @@ export const publications = {
       volume: '633',
       pages: '127858',
       impact_factor:'8.2',
-    image: '/images/research/journal/chemical.jpeg',
-    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal',
+    image: '/images/research/journal/colloids_633.jpg',
+    link: 'https://www.sciencedirect.com/science/article/abs/pii/S0927775721017271',
       publisher: 'Elsevier',
       featured: false
     },
