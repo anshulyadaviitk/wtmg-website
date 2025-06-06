@@ -538,7 +538,7 @@ export const invitedTalks = [
     title: 'Optimizing Fouling Resistant Membranes for High Flux Distillation',
     event: '2nd International Online Conference on Sustainable Technologies in Water Treatment and Desalination',
     speaker: 'Dr. A. Yadav',
-    images:['/images/research/invited_talk/IT1(1).jpg','/images/research/invited_talk/IT1(2).jpg','/images/research/invited_talk/IT1(3).jpg','/images/research/invited_talk/IT1(4).jpg','/images/research/invited_talk/IT1(5).jpg'],
+    images:['/images/research/invited_talk/IT1(1).JPG','/images/research/invited_talk/IT1(2).JPG','/images/research/invited_talk/IT1(3).JPG','/images/research/invited_talk/IT1(4).JPG','/images/research/invited_talk/IT1(5).JPG'],
     year: 2022,
     mode:'Offline',
     location: 'Location of place',
