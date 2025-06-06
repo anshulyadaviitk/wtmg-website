@@ -540,7 +540,8 @@ export const invitedTalks = [
     speaker: 'Dr. A. Yadav',
     images:['/images/research/invited_talk/IT1(1).jpg','/images/research/invited_talk/IT1(2).jpg','/images/research/invited_talk/IT1(3).jpg','/images/research/invited_talk/IT1(4).jpg','/images/research/invited_talk/IT1(5).jpg'],
     year: 2022,
-    location: 'Online',
+    mode:'Offline',
+    location: 'Location of place',
     abstract: 'Presented recent developments in optimizing membranes to reduce fouling and enhance distillation flux.'
   },
   {

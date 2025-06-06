@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef, useEffect } from 'react';
+import { useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import PropTypes from 'prop-types';
@@ -12,14 +12,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 export default function UpdateSection({ updates }) {
-  // Create refs for navigation buttons
   const prevRef = useRef(null);
   const nextRef = useRef(null);
-
-  // Swiper requires refs to be set after mount
-  useEffect(() => {
-    // No-op, just to ensure refs are attached before Swiper renders
-  }, []);
 
   if (!updates || updates.length === 0) return null;
 
@@ -34,49 +28,19 @@ export default function UpdateSection({ updates }) {
         </div>
 
         <div className="relative">
-          {/* Custom Arrows with refs and improved accessibility */}
-<button
-  ref={prevRef}
-  aria-label="Previous Slide"
-  className="
-    group absolute left-0 top-1/2 -translate-y-1/2 z-10
-    w-10 h-10 flex items-center justify-center
-    transition-transform duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-blue-400
-
-    // Only show background, shadow, and rounded on sm and up
-    sm:bg-white sm:text-gray-700 sm:shadow-lg sm:hover:bg-gray-100 sm:rounded-full
-    // On mobile, just show the icon
-    bg-transparent text-gray-700
-  "
-  type="button"
->
-  <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
-  </svg>
-</button>
-
-<button
-  ref={nextRef}
-  aria-label="Next Slide"
-  className="
-    group absolute right-0 top-1/2 -translate-y-1/2 z-10
-    w-10 h-10 flex items-center justify-center
-    transition-transform duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-blue-400
-
-    sm:bg-white sm:text-gray-700 sm:shadow-lg sm:hover:bg-gray-100 sm:rounded-full
-    bg-transparent text-gray-700
-  "
-  type="button"
->
-  <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-  </svg>
-</button>
-<button
+          {/* Custom Arrows with responsive background */}
+          <button
             ref={prevRef}
             aria-label="Previous Slide"
-            className="group absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white text-gray-700 shadow-lg hover:bg-gray-100 rounded-full w-10 h-10 flex items-center justify-center transition-transform duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-blue-400"
+            className={`
+              group absolute left-0 top-1/2 -translate-y-1/2 z-20
+              w-10 h-10 flex items-center justify-center
+              transition-transform duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-blue-400
+              bg-transparent text-gray-700
+              sm:bg-white sm:text-gray-700 sm:shadow-lg sm:hover:bg-gray-100 sm:rounded-full
+            `}
             type="button"
+            style={{ touchAction: 'manipulation' }}
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
@@ -86,8 +50,15 @@ export default function UpdateSection({ updates }) {
           <button
             ref={nextRef}
             aria-label="Next Slide"
-            className="group absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white text-gray-700 shadow-lg hover:bg-gray-100 rounded-full w-10 h-10 flex items-center justify-center transition-transform duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-blue-400"
+            className={`
+              group absolute right-0 top-1/2 -translate-y-1/2 z-20
+              w-10 h-10 flex items-center justify-center
+              transition-transform duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-blue-400
+              bg-transparent text-gray-700
+              sm:bg-white sm:text-gray-700 sm:shadow-lg sm:hover:bg-gray-100 sm:rounded-full
+            `}
             type="button"
+            style={{ touchAction: 'manipulation' }}
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
@@ -111,10 +82,11 @@ export default function UpdateSection({ updates }) {
               prevEl: prevRef.current,
               nextEl: nextRef.current,
             }}
-            onBeforeInit={(swiper) => {
-              // Attach refs to Swiper navigation
-              swiper.params.navigation.prevEl = prevRef.current;
-              swiper.params.navigation.nextEl = nextRef.current;
+            onBeforeInit={swiper => {
+              if (typeof swiper.params.navigation !== 'boolean') {
+                swiper.params.navigation.prevEl = prevRef.current;
+                swiper.params.navigation.nextEl = nextRef.current;
+              }
             }}
             pagination={{ clickable: true }}
             loop
