@@ -32,13 +32,8 @@ export const events = {
       location: "Main Auditorium, University Campus",
       description: "An annual event showcasing cutting-edge research and innovations by our scholars. Featured 15 presentations across various disciplines with keynote addresses from leading experts.",
       image: "/images/events/research-day-2025.jpg",
-      photos: [
-        "/images/gallery/research-day-1.jpg",
-        "/images/gallery/research-day-2.jpg",
-        "/images/gallery/research-day-3.jpg",
-        "/images/gallery/research-day-4.jpg",
-        "/images/gallery/research-day-5.jpg"
-      ],
+      photos:[
+        '/images/research/invited_talk/IT1(1).JPG','/images/research/invited_talk/IT1(2).JPG','/images/research/invited_talk/IT1(3).JPG','/images/research/invited_talk/IT1(4).JPG','/images/research/invited_talk/IT1(5).JPG'],
       youtubeLinks: {
         inauguration: "https://youtube.com/watch?v=xyz123",
         lecture: "https://youtube.com/watch?v=abc456",

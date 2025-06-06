@@ -153,17 +153,19 @@ export default function EventPage() {
                     >
                       {event.photos.map((url, i) => (
                         <SwiperSlide key={i}>
-                          <div className="relative aspect-video overflow-hidden">
-                            <Image
-                              src={url}
-                              alt={`Event photo ${i+1}`}
-                              fill
-                              className="object-cover transition-transform duration-300 group-hover:scale-105"
-                              sizes="(max-width: 768px) 100vw, 75vw"
-                              priority={i === 0}
-                            />
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
-                          </div>
+                    <div className="flex justify-center">  {/* Centering wrapper */}
+  <div className="relative aspect-video max-h-[300px] w-full overflow-hidden">
+    <Image
+      src={url}
+      alt={`Event photo ${i+1}`}
+      fill
+      className="object-contain transition-transform duration-300 group-hover:scale-105"
+      sizes="(max-width: 768px) 100vw, 75vw"
+      priority={i === 0}
+    />
+    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+  </div>
+</div>
                         </SwiperSlide>
                       ))}
                     </Swiper>
