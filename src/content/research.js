@@ -137,9 +137,10 @@ export const publications = {
     volume: '667',
     pages: '',
     impact_factor:'8.2',
+    image: '/images/research/journal/page_11.jpg',
     link: 'https://www.sciencedirect.com/journal/colloids-and-surfaces-a-physicochemical-and-engineering-aspects/vol/667/suppl/C',
     publisher: 'Elsevier',
-    image: '/images/research/journal/page_11.jpg', // Replace with actual filename if needed
+     // Replace with actual filename if needed
     featured: false
   },
     {
@@ -151,6 +152,9 @@ export const publications = {
       year: 2025,
       volume: '966',
       pages: '178749',
+      impact_factor:'8.2',
+      image: '/images/research/journal/advances.jpeg',
+      link: 'https://www.sciencedirect.com/science/article/abs/pii/S0048969725003833?via%3Dihub',
       publisher: 'Elsevier',
       featured: true
     },
@@ -163,6 +167,9 @@ export const publications = {
       year: 2024,
       volume: '12',
       pages: '112746',
+      impact_factor:'8.2',
+    image: '/images/research/journal/chemical.jpeg',
+    link: 'https://www.sciencedirect.com/science/article/abs/pii/S2213343724008765',
       publisher: 'Elsevier',
       featured: true
     },
@@ -175,6 +182,9 @@ export const publications = {
       year: 2025,
       volume: '509',
       pages: '160965',
+      impact_factor:'8.2',
+    image: '/images/research/journal/carbon.png',
+    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal',
       publisher: 'Elsevier',
       featured: true
     },
@@ -187,6 +197,9 @@ export const publications = {
       year: 2025,
       volume: '508',
       pages: '160965',
+      impact_factor:'8.2',
+    image: '/images/research/journal/carbon.png',
+    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal',
       publisher: 'Elsevier',
       featured: false
     },
@@ -199,6 +212,9 @@ export const publications = {
       year: 2025,
       volume: '13',
       pages: '115783',
+      impact_factor:'8.2',
+    image: '/images/research/journal/chemical.jpeg',
+    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal',
       publisher: 'Elsevier',
       featured: false
     },
@@ -211,6 +227,9 @@ export const publications = {
       year: 2022,
       volume: '525',
       pages: '115501',
+      impact_factor:'8.2',
+    image: '/images/research/journal/chemical.jpeg',
+    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal',
       publisher: 'Elsevier',
       featured: true
     },
@@ -223,6 +242,9 @@ export const publications = {
       year: 2022,
       volume: '654',
       pages: '130111',
+      impact_factor:'8.2',
+    image: '/images/research/journal/chemical.jpeg',
+    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal',
       publisher: 'Elsevier',
       featured: false
     },
@@ -235,6 +257,9 @@ export const publications = {
       year: 2022,
       volume: '653',
       pages: '129955',
+      impact_factor:'8.2',
+    image: '/images/research/journal/chemical.jpeg',
+    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal',
       publisher: 'Elsevier',
       featured: false
     },
@@ -247,6 +272,9 @@ export const publications = {
       year: 2022,
       volume: '645',
       pages: '128918',
+      impact_factor:'8.2',
+    image: '/images/research/journal/chemical.jpeg',
+    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal',
       publisher: 'Elsevier',
       featured: false
     },
@@ -259,6 +287,9 @@ export const publications = {
       year: 2022,
       volume: '635',
       pages: '128070',
+      impact_factor:'8.2',
+    image: '/images/research/journal/chemical.jpeg',
+    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal',
       publisher: 'Elsevier',
       featured: false
     },
@@ -271,6 +302,9 @@ export const publications = {
       year: 2022,
       volume: '633',
       pages: '127858',
+      impact_factor:'8.2',
+    image: '/images/research/journal/chemical.jpeg',
+    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal',
       publisher: 'Elsevier',
       featured: false
     },
@@ -283,6 +317,9 @@ export const publications = {
       year: 2022,
       volume: '22',
       pages: '6262-6280',
+      impact_factor:'8.2',
+    image: '/images/research/journal/chemical.jpeg',
+    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal',
       publisher: 'International Water Association',
       featured: false
     },
@@ -295,6 +332,9 @@ export const publications = {
       year: 2022,
       volume: '806',
       pages: '150692',
+      impact_factor:'8.2',
+    image: '/images/research/journal/chemical.jpeg',
+    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal',
       publisher: 'Elsevier',
       featured: true
     },
@@ -307,6 +347,9 @@ export const publications = {
       year: 2021,
       volume: '44',
       pages: '102393',
+      impact_factor:'8.2',
+    image: '/images/research/journal/chemical.jpeg',
+    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal',
       publisher: 'Elsevier',
       featured: true
     },
@@ -319,6 +362,9 @@ export const publications = {
       year: 2021,
       volume: '43',
       pages: '102317',
+      impact_factor:'8.2',
+    image: '/images/research/journal/chemical.jpeg',
+    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal',
       publisher: 'Elsevier',
       featured: false
     },
@@ -331,6 +377,9 @@ export const publications = {
       year: 2021,
       volume: '9',
       pages: '106560',
+      impact_factor:'8.2',
+    image: '/images/research/journal/chemical.jpeg',
+    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal',
       publisher: 'Elsevier',
       featured: false
     },
@@ -343,6 +392,9 @@ export const publications = {
       year: 2021,
       volume: '9',
       pages: '105904',
+      impact_factor:'8.2',
+    image: '/images/research/journal/chemical.jpeg',
+    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal',
       publisher: 'Elsevier',
       featured: false
     },
@@ -355,6 +407,9 @@ export const publications = {
       year: 2021,
       volume: '9',
       pages: '105818',
+      impact_factor:'8.2',
+    image: '/images/research/journal/chemical.jpeg',
+    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal',
       publisher: 'Elsevier',
       featured: true
     },
@@ -367,6 +422,9 @@ export const publications = {
       year: 2021,
       volume: '271',
       pages: '118840',
+      impact_factor:'8.2',
+    image: '/images/research/journal/chemical.jpeg',
+    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal',
       publisher: 'Elsevier',
       featured: false
     },

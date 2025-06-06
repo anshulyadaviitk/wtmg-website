@@ -324,7 +324,7 @@ images:[
     '/images/events/event3.jpg',
     '/images/events/event4.jpg'
 ],
-    previousDegree: 'Bacherol of Science in Environmental Science University from Open University of Tanzania',
+    previousDegree: 'Bachelor of Science in Environmental Science University from Open University of Tanzania',
     topic: 'Design of planted and unplanted dry bed fecal sludge treatment plant. Case study Didia Ward, Shinyanga, Tanzania',
     duration: 'July 2024 – Present',
     email: 'abas_am@wr.iitr.ac.in',
@@ -427,7 +427,7 @@ images:[
     '/images/events/event3.jpg',
     '/images/events/event4.jpg'
 ],
-    previousDegree: 'Bacherol of Science in Environmental Science University from Open University of Tanzania',
+    previousDegree: 'Bachelor of Science in Environmental Science University from Open University of Tanzania',
     topic: 'Water quality assessment across irrigation schemes: a case study of wetland agriculture impacts in Ruvuma River Basin, Tanzania',
     duration: 'July 2024 – Present',
     email: 'issah_m@wr.iitr.ac',
