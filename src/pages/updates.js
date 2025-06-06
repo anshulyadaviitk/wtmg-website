@@ -5,47 +5,7 @@ import { updates, twitter } from "@/content/updatescontent";
 import { TwitterTweetEmbed } from "react-twitter-embed";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
-
-const UpdateCard = ({ update }) => (
-  <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden h-full flex flex-col">
-    {update.image && (
-      <div className="relative h-48 w-full">
-        <Image
-          src={update.image}
-          alt={update.title}
-          fill
-          className="object-cover"
-          sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-        />
-      </div>
-    )}
-    <div className="p-6 flex flex-col flex-grow">
-      <div className="flex-grow">
-        <h3 className="text-xl font-bold text-gray-800 mb-2">{update.title}</h3>
-        <p className="text-gray-500 text-sm mb-3 flex items-center">
-          <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-          </svg>
-          {update.date}
-        </p>
-        <p className="text-gray-700 mb-4">{update.description}</p>
-      </div>
-      {update.link && (
-        <a
-          href={update.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-auto inline-flex items-center text-blue-600 hover:text-blue-800 font-medium"
-        >
-          Read more
-          <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-          </svg>
-        </a>
-      )}
-    </div>
-  </div>
-);
+import UpdateSection from "@/components/sections/UpdateSection";
 
 export default function Updates() {
   const scrollRef = useRef(null);
@@ -61,7 +21,10 @@ export default function Updates() {
     <Layout>
       <Head>
         <title>News & Updates | WTM Research Group</title>
-        <meta name="description" content="Latest news, research updates, and announcements from WTM Research Group" />
+        <meta
+          name="description"
+          content="Latest news, research updates, and announcements from WTM Research Group"
+        />
       </Head>
 
       {/* Hero Section */}
@@ -84,23 +47,8 @@ export default function Updates() {
         </div>
       </div>
 
-      {/* Update Cards Grid */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-3">Recent Highlights</h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Discover our most recent achievements and important announcements
-            </p>
-          </div>
-          
-          <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            {updates.map((update, index) => (
-              <UpdateCard key={index} update={update} />
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* 🆕 Combined Update Section */}
+      <UpdateSection updates={updates} />
 
       {/* Twitter Feed Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
@@ -120,11 +68,11 @@ export default function Updates() {
             >
               <ChevronLeft className="w-6 h-6 text-gray-700" />
             </button>
-            
+
             <div
               ref={scrollRef}
               className="flex gap-6 overflow-x-auto scroll-smooth px-2 pb-4 -mx-2"
-              style={{ scrollbarWidth: 'none' }}
+              style={{ scrollbarWidth: "none" }}
             >
               {twitter.map((item, index) => (
                 <div
@@ -132,12 +80,12 @@ export default function Updates() {
                   className="flex-shrink-0 w-[350px] md:w-[400px] bg-white p-4 rounded-xl shadow-md border border-gray-200"
                 >
                   {item.type === "tweet" && (
-                    <TwitterTweetEmbed 
+                    <TwitterTweetEmbed
                       tweetId={item.tweetId}
-                      options={{ 
-                        conversation: 'none',
-                        cards: 'hidden',
-                        align: 'center'
+                      options={{
+                        conversation: "none",
+                        cards: "hidden",
+                        align: "center",
                       }}
                     />
                   )}

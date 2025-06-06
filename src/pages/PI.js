@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Head from 'next/head';
 import Layout from '@/components/layout/Layout';
+import { pi } from '@/content/people';
 import { awards } from '@/content/awards';
 import AwardsSection1 from '@/components/sections/AwardsSection1';
 import { 
@@ -162,7 +163,7 @@ export default function DrAnshulYadav() {
 
 
 
-
+{/*Proffessional Experience */}
    <section className="py-16 bg-gray-50">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <h2 className="text-4xl font-bold text-gray-900 mb-1 text-center">
@@ -249,6 +250,49 @@ export default function DrAnshulYadav() {
         </li>
       ))}
     </ol>
+  </div>
+</section>
+{/*Project Section */}
+<section className="py-12 md:py-16">
+  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center mb-10">
+      <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">Current Research Projects</h2>
+      <div className="mt-4 h-1 w-20 bg-blue-600 mx-auto"></div>
+    </div>
+    
+    <div className="grid gap-8 md:grid-cols-2 lg:gap-10">
+      {pi.projects.map((project, index) => (
+        <div
+          key={index}
+          className="bg-white group rounded-xl shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 overflow-hidden"
+        >
+          <div className="p-6 md:p-7">
+            <div className="flex items-start justify-between">
+              <h3 className="text-lg font-semibold text-gray-900 leading-snug">
+                {project.title}
+              </h3>
+              <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800 ml-3">
+                Ongoing
+              </span>
+            </div>
+            <p className="mt-2 text-sm text-gray-500">
+              <span className="font-medium">{project.funding}</span> • {project.duration}
+            </p>
+            <p className="mt-4 text-gray-600 text-sm leading-relaxed">
+              {project.description}
+            </p>
+            <div className="mt-5 pt-4 border-t border-gray-100">
+              <a 
+                href="#" 
+                className="text-sm font-medium text-blue-600 hover:text-blue-800 transition-colors"
+              >
+                View details →
+              </a>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
   </div>
 </section>
 

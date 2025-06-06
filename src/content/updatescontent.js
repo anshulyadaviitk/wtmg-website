@@ -1,10 +1,10 @@
 export const updates = [
   {
-    title: "WTM Group Featured in The Hindu",
+    title: "WTM Group Featured in The Times of India",
     date: "March 2025",
     description:
       "Our groundbreaking research on advanced membrane technologies was recently covered in *The Hindu*, highlighting its national impact on clean water solutions.",
-    image: "/images/updates/hindu-news.jpg",
+    image: "/images/updates/article1.jpg",
     link: "https://example.com/the-hindu-feature",
   },
   {
@@ -16,6 +16,14 @@ export const updates = [
     link: "https://example.com/membrane-workshop",
   },
   {
+    title: "Dr. Anshul Yadav",
+    date: "January 2025",
+    description:
+      "Proud Achievement",
+    image: "/images/updates/article2.jpg",
+    link: "https://example.com/dst-funding-news",
+  },
+    {
     title: "Major Research Grant Awarded by DST",
     date: "January 2025",
     description:

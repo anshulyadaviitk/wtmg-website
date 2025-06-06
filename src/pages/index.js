@@ -12,7 +12,7 @@ import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css/pagination';
 import { notices } from '@/content/noticedata';
 import { upcomingevents } from '@/content/noticedata';
-import ResearchSection from '@/components/ResearchSection';
+import ResearchSection from '@/components/sections/ResearchSection';
 import AwardsSection1 from '@/components/sections/AwardsSection1';
 // Replace your current Swiper imports with:
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -247,20 +247,6 @@ export default function Home() {
               </li>
             ))}
           </ul>
-        </div>
-
-        {/* Current Projects */}
-        <div>
-          <h3 className="text-xl font-semibold text-gray-800 mb-2">Current Projects</h3>
-          <div className="space-y-4">
-            {pi.projects.map((project, index) => (
-              <div key={index} className="bg-gray-50 p-4 rounded-lg">
-                <h4 className="font-medium text-gray-800">{project.title}</h4>
-                <p className="text-gray-600 text-sm mt-1">{project.funding} • {project.duration}</p>
-                <p className="text-gray-700 mt-2">{project.description}</p>
-              </div>
-            ))}
-          </div>
         </div>
 
         {/* Bio */}

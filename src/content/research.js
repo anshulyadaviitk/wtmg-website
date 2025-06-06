@@ -112,42 +112,6 @@ export const researchAreas = [
 
 export const publications = {
   journalArticles: [
-     {
-    id: 'pub-colloid',
-    type: 'journal',
-    title: 'Colloids and Surfaces A: Physicochemical and Engineering Aspects',
-    authors: ['A.Yadav', 'S.S. Dindonkar'],
-    journal: 'Colloids and Surfaces A: Physicochemical and Engineering Aspects',
-    year: 2022,
-    abstract:'The recovery of salts from sub-soil brine can fulfil the demand for the salts and chemicals for the industries and mitigate the problem of fresh water at the same time. This study reported the performance of a vacuum-assisted membrane distillation crystallization (VMDCr) for CaSO4 and NaCl salts recovery from sub-soil brine. The facile one-step synthesis of porous MOF5 and CNT@MOF5 composites was also reported. Poly(vinylidene fluoride-hexafluoropropylene) (PVDF-HFP) mixed matrix flat-sheet membranes incorporated with 1 wt% of MOF5 and CNT@MOF5 were used for VMDCr. The membranes and materials were characterized by scanning electron microscope (SEM), thermogravimetric analysis (TGA), X-ray diffraction (XRD) and Fourier-transform infrared (FT-IR) analyses. The incorporation of CNTs to MOF5 did not affect the MOF5 crystallinity, confirmed by XRD and FT-IR. The MOF5 and CNT@MOF5 incorporated PVDF-HFP matrix membranes (designated as M-ZM and M-CZM, respectively) showed rough and porous morphology. Moreover, the M-CZM showed improved porosity and number of pores than the M-ZM membrane. As a result, M-CZM produced 2.1 times the flux than the pristine PVDF-HFP membrane facilitating faster crystallization. In the density span of 15.83°Be CaSO4 precipitated over the membrane surface, and complete precipitation of CaSO4 was achieved once the feed (sub-soil brine) reached 24.5°Be',
-    volume: '641',
-    pages: '',
-    citescore:'9.6',
-    impact_factor:'4.9',
-    quartile:'Q1',
-    link: 'https://www.sciencedirect.com/journal/colloids-and-surfaces-a-physicochemical-and-engineering-aspects/vol/641/suppl/C',
-    publisher: 'Elsevier',
-    image: '/images/research/journal/page_12.jpg', // Replace with actual filename if needed
-    featured: false
-  },
-  {
-    id: 'pub-colloid2',
-    type: 'journal',
-    title: 'Colloids and Surfaces A: Physicochemical and Engineering Aspects',
-    authors: ['C.P. Singh', 'A.Yadav', 'A. Kumar'],
-    journal: 'Colloids and Surfaces A: Physicochemical and Engineering Aspects',
-    year: 2023,
-    volume: '667',
-    pages: '',
-    citescore:'9.6',
-   impact_factor:'4.9',
-    quartile:'Q1',
-    image: '/images/research/journal/page_11.jpg',
-    link: 'https://www.sciencedirect.com/journal/colloids-and-surfaces-a-physicochemical-and-engineering-aspects/vol/667/suppl/C',
-    publisher: 'Elsevier',
-     // Replace with actual filename if needed
-    featured: false
-  },
     {
       id: 'pub-01',
       type: 'journal',
@@ -198,23 +162,6 @@ export const publications = {
     link: 'https://www.sciencedirect.com/science/article/abs/pii/S1385894725017863',
       publisher: 'Elsevier',
       featured: true
-    },
-    {
-      id: 'pub-04',
-      type: 'journal',
-      title: 'Carbon chain grafted polyvinylidene fluoride membranes for textile water remediation: Experimental and computational studies',
-      authors: ['R.V.Patel', 'S.Chaubey', 'A.Yadav', 'B.G.Vyas', 'V.K.Shahi'],
-      journal: 'Chemical Engineering Journal',
-      year: 2025,
-      volume: '508',
-      pages: '160965',
-      citescore:'20.6',
-      impact_factor:'13.4',
-    quartile:'Q1',
-    image: '/images/research/journal/carbon.png',
-    link: 'https://www.sciencedirect.com/science/article/abs/pii/S1385894725017863',
-      publisher: 'Elsevier',
-      featured: false
     },
     {
       id: 'pub-05',
@@ -508,11 +455,38 @@ export const publications = {
    image: '/images/research/books/application_book.jpg',
    publisher: 'Apple Academic Publishers, CRC Press',
   year: 2026,
-  link: '',
+  link: 'https://www.appleacademicpress.com/applications-of-two-dimensional-nanomaterials-in-water-and-wastewater-treatment-/9781779642967',
   isbn: '9781779642967',
-  eisbn: '978-1-77964-297-4',
+  eisbn: '9781779642974',
   doi: '',
   featured: true },
+  {
+  id: 'book-02',
+  title: 'Computational techniques for simulating and optimizing membrane processes for (waste)water treatment',
+  authors: ['A.Yadav', 'P.K. Labhasetwar'],
+  image: '', 
+  publisher: 'International Water Association Publishing',
+  year: 2026,
+  link: '',
+  isbn: '',
+  eisbn: '',
+  doi: '',
+  featured: false
+},
+{
+  id: 'book-03',
+  title: 'Computational techniques for simulating and optimizing adsorption processes for (waste)water treatment',
+  authors: ['A.Yadav', 'P.K. Labhasetwar'],
+  image: '', // Replace with correct image if needed
+  publisher: 'International Water Association Publishing',
+  year: 2026,
+  link: '',
+  isbn: '',
+  eisbn: '',
+  doi: '',
+  featured: false
+}
+
  
 ]
 };
@@ -564,6 +538,7 @@ export const invitedTalks = [
     title: 'Optimizing Fouling Resistant Membranes for High Flux Distillation',
     event: '2nd International Online Conference on Sustainable Technologies in Water Treatment and Desalination',
     speaker: 'Dr. A. Yadav',
+    images:['/images/research/invited_talk/IT1(1).jpg','/images/research/invited_talk/IT1(2).jpg','/images/research/invited_talk/IT1(3).jpg','/images/research/invited_talk/IT1(4).jpg','/images/research/invited_talk/IT1(5).jpg'],
     year: 2022,
     location: 'Online',
     abstract: 'Presented recent developments in optimizing membranes to reduce fouling and enhance distillation flux.'

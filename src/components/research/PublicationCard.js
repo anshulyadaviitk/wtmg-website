@@ -78,8 +78,10 @@ export default function PublicationCard({ publication }) {
   </p>
 )}
  {abstract && (
-            <p className="text-sm text-gray-500">Abstract: {abstract}</p>
-          )}
+          <div className="mt-4">
+            <p className="text-sm text-gray-700 line-clamp-3">{abstract}</p>
+          </div>
+        )}
           {impact_factor && (
             <p className="text-sm text-gray-500">Impact Factor: {impact_factor}</p>
           )}
@@ -119,12 +121,7 @@ export default function PublicationCard({ publication }) {
           )}
         </div>
 
-        {/* Abstract */}
-        {abstract && (
-          <div className="mt-4">
-            <p className="text-sm text-gray-700 line-clamp-3">{abstract}</p>
-          </div>
-        )}
+    
       </div>
     </div>
   );
