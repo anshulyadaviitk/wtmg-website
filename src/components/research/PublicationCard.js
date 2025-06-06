@@ -11,6 +11,8 @@ export default function PublicationCard({ publication }) {
     volume,
     pages,
     impact_factor,
+    citescore,
+    quartile,
     publisher,
     location,
     doi,
@@ -57,8 +59,9 @@ export default function PublicationCard({ publication }) {
 
 
           <p className="text-sm text-gray-500 mt-2">
-            {pages && <span>Pages: {pages}, </span>}
-            {volume && <span>Volume: {volume}, </span>}
+            
+            {volume && <span>Volume {volume}, </span>}
+            {pages && <span>{pages}, </span>}
             {journal && <span>{journal}</span>}
             {conference && <span>{conference}</span>}
             {year && <span> • {year}</span>}
@@ -67,6 +70,12 @@ export default function PublicationCard({ publication }) {
           {publisher && (
             <p className="text-sm text-gray-500">Publisher: {publisher}</p>
           )}
+
+{citescore && (
+  <p className="text-sm text-gray-500">
+    CiteScore: {citescore} {quartile ? `(${quartile})` : ''}
+  </p>
+)}
 
           {impact_factor && (
             <p className="text-sm text-gray-500">Impact Factor: {impact_factor}</p>
