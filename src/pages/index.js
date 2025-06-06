@@ -39,7 +39,7 @@ export default function Home() {
 
 {/* Modern Professional Hero Section */}
 {/* Modern Hero Section */}
-<section className="relative bg-gradient-to-br from-sky-50 to-blue-100 py-24 px-1 text-gray-800 overflow-hidden">
+<section className="relative bg-gradient-to-br from-sky-50 to-blue-100 py-24 px-2 text-gray-800 overflow-hidden">
   {/* Decorative elements */}
   <div className="absolute inset-0 overflow-hidden">
     <div className="absolute top-0 left-0 w-64 h-64 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>

@@ -52,7 +52,7 @@ export default function ContactPage() {
                 <h3 className="text-lg font-medium text-gray-800">Office Address</h3>
                 <p className="text-gray-600 whitespace-pre-line">
                   First floor, Department of Water Resources Development & Management,{"\n"}
-                  IIT Roorkee, Uttarakhand, India - 247667
+                  Indian Institute of Technology Roorkee, Uttarakhand, India - 247667
                 </p>
               </div>
             </div>

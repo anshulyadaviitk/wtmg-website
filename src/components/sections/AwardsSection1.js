@@ -171,22 +171,22 @@ useEffect(() => {
           {/* Navigation Arrows */}
 <button
   ref={prevRef}
-  className="custom-prev absolute left-0 top-[35%] -translate-y-1/2 bg-white p-3 rounded-full shadow-md hover:bg-gray-50 transition-colors z-10"
+  className="custom-prev absolute left-0 top-[35%] -translate-y-1/2 p-2 sm:p-3 rounded-full hover:bg-gray-50 transition-colors z-10"
 >
-
-  <svg className="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <svg className="h-5 w-5 sm:h-6 sm:w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
   </svg>
 </button>
 
 <button
   ref={nextRef}
-  className="custom-next absolute right-0 top-[35%] -translate-y-1/2 bg-white p-3 rounded-full shadow-md hover:bg-gray-50 transition-colors z-10"
+  className="custom-next absolute right-0 top-[35%] -translate-y-1/2 p-2 sm:p-3 rounded-full hover:bg-gray-50 transition-colors z-10"
 >
-  <svg className="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <svg className="h-5 w-5 sm:h-6 sm:w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
   </svg>
 </button>
+
 
           </div>
 
