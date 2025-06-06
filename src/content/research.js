@@ -184,7 +184,7 @@ export const publications = {
       pages: '160965',
       impact_factor:'8.2',
     image: '/images/research/journal/carbon.png',
-    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal',
+    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal/vol/509/suppl/C',
       publisher: 'Elsevier',
       featured: true
     },
@@ -199,7 +199,7 @@ export const publications = {
       pages: '160965',
       impact_factor:'8.2',
     image: '/images/research/journal/carbon.png',
-    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal',
+    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal/vol/508/suppl/C',
       publisher: 'Elsevier',
       featured: false
     },
@@ -214,7 +214,7 @@ export const publications = {
       pages: '115783',
       impact_factor:'8.2',
     image: '/images/research/journal/chemical.jpeg',
-    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal',
+    link: 'https://www.sciencedirect.com/journal/journal-of-environmental-chemical-engineering/vol/13/issue/1',
       publisher: 'Elsevier',
       featured: false
     },
@@ -228,8 +228,8 @@ export const publications = {
       volume: '525',
       pages: '115501',
       impact_factor:'8.2',
-    image: '/images/research/journal/chemical.jpeg',
-    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal',
+    image: '/images/research/journal/desalinations.jpg',
+    link: 'https://www.sciencedirect.com/journal/desalination',
       publisher: 'Elsevier',
       featured: true
     },
@@ -243,7 +243,7 @@ export const publications = {
       volume: '654',
       pages: '130111',
       impact_factor:'8.2',
-    image: '/images/research/journal/chemical.jpeg',
+    image: '/images/research/journal/colloids_654.jpg',
     link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal',
       publisher: 'Elsevier',
       featured: false
@@ -258,8 +258,8 @@ export const publications = {
       volume: '653',
       pages: '129955',
       impact_factor:'8.2',
-    image: '/images/research/journal/chemical.jpeg',
-    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal',
+    image: '/images/research/journal/colloids_653.jpg',
+    link: 'https://www.sciencedirect.com/journal/colloids-and-surfaces-a-physicochemical-and-engineering-aspects/vol/653/suppl/C',
       publisher: 'Elsevier',
       featured: false
     },
@@ -273,8 +273,8 @@ export const publications = {
       volume: '645',
       pages: '128918',
       impact_factor:'8.2',
-    image: '/images/research/journal/chemical.jpeg',
-    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal',
+    image: '/images/research/journal/colloids_645.jpg',
+    link: 'https://www.sciencedirect.com/journal/colloids-and-surfaces-a-physicochemical-and-engineering-aspects/vol/645/suppl/C',
       publisher: 'Elsevier',
       featured: false
     },
@@ -288,8 +288,8 @@ export const publications = {
       volume: '635',
       pages: '128070',
       impact_factor:'8.2',
-    image: '/images/research/journal/chemical.jpeg',
-    link: 'https://www.sciencedirect.com/journal/chemical-engineering-journal',
+    image: '/images/research/journal/colloids_635.jpg',
+    link: 'https://www.sciencedirect.com/journal/colloids-and-surfaces-a-physicochemical-and-engineering-aspects/vol/635/suppl/C',
       publisher: 'Elsevier',
       featured: false
     },
