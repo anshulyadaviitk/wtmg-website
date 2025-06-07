@@ -26,7 +26,7 @@ export default function LabOpenings() {
           </ul>
 
           <p className="mt-6 text-gray-600">
-            If you're interested, please email your resume and area of interest to:{' '}
+            If you&apos;re interested, please email your resume and area of interest to:{' '}
             <a href="mailto:your.email@iitr.ac.in" className="text-blue-600 hover:underline">
               anshul.yadav@wr.iitr.ac.in
             </a>
