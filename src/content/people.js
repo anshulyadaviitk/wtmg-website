@@ -30,7 +30,7 @@ export const pi = {
   social: {
     googleScholar: 'https://scholar.google.com/citations?user=ZIGtPEIAAAAJ&hl=en',
     researchGate: 'https://www.researchgate.net/profile/Anshul-Yadav-14',
-    linkedIn: 'https://www.linkedin.com/in/anshul-yadav-2b29ab305/'
+    linkedIn: 'https://in.linkedin.com/in/anshul-yadav-2b29ab305'
   },
   positionsHeld: [
     {
@@ -120,15 +120,13 @@ export const phdScholars = [
  
 ],
 patents: [
-  'Nanocomposite Membrane for Water Purification, IN2024112345A, 2024'
+  'N/A'
 ],
 conferences: [
-  'International Conference on Water Treatment Technologies, Singapore, 2023',
-  'Indian Membrane Society Annual Meeting, Mumbai, 2022'
+  'N/A'
 ],
 awards: [
-  'Best Paper Award at International Conference on Water Technologies, 2023',
-  'MHRD Research Excellence Fellowship, 2022'
+  'N/A'
 ]
 ,
 images:[
@@ -192,19 +190,16 @@ images:[
     photo: '/images/people/phd/vineet.jpeg',
     position: 'PhD Scholar',
     peerReviewedPublications: [
-  'Development of Novel Polymeric Membranes for Electrodialysis, Journal of Membrane Science, 2024',
-  'Enhanced Water Treatment Using Functionalized Nanomaterials, Environmental Science & Technology, 2023'
+  'N/A'
 ],
 patents: [
-  'Nanocomposite Membrane for Water Purification, IN2024112345A, 2024'
+  'N/A'
 ],
 conferences: [
-  'International Conference on Water Treatment Technologies, Singapore, 2023',
-  'Indian Membrane Society Annual Meeting, Mumbai, 2022'
+  'N/A'
 ],
 awards: [
-  'Best Paper Award at International Conference on Water Technologies, 2023',
-  'MHRD Research Excellence Fellowship, 2022'
+  'N/A'
 ]
 ,
 images:[
@@ -236,19 +231,16 @@ export const mastersStudents = [
     photo: '/images/people/mtech/abhishek.jpeg',
     position: 'Master of Technology in Water Resources Development',
     peerReviewedPublications: [
-  'Development of Novel Polymeric Membranes for Electrodialysis, Journal of Membrane Science, 2024',
-  'Enhanced Water Treatment Using Functionalized Nanomaterials, Environmental Science & Technology, 2023'
+  'N/A'
 ],
 patents: [
-  'Nanocomposite Membrane for Water Purification, IN2024112345A, 2024'
+  'N/A'
 ],
 conferences: [
-  'International Conference on Water Treatment Technologies, Singapore, 2023',
-  'Indian Membrane Society Annual Meeting, Mumbai, 2022'
+  'N/A'
 ],
 awards: [
-  'Best Paper Award at International Conference on Water Technologies, 2023',
-  'MHRD Research Excellence Fellowship, 2022'
+  'N/A'
 ]
 ,
 images:[
@@ -270,19 +262,16 @@ images:[
     photo: '/images/people/mtech/shivam.jpeg',
     position: 'Master of Technology in Water Resources Development',
     peerReviewedPublications: [
-  'Development of Novel Polymeric Membranes for Electrodialysis, Journal of Membrane Science, 2024',
-  'Enhanced Water Treatment Using Functionalized Nanomaterials, Environmental Science & Technology, 2023'
+  'N/A'
 ],
 patents: [
-  'Nanocomposite Membrane for Water Purification, IN2024112345A, 2024'
+  'N/A'
 ],
 conferences: [
-  'International Conference on Water Treatment Technologies, Singapore, 2023',
-  'Indian Membrane Society Annual Meeting, Mumbai, 2022'
+  'N/A'
 ],
 awards: [
-  'Best Paper Award at International Conference on Water Technologies, 2023',
-  'MHRD Research Excellence Fellowship, 2022'
+  'N/A'
 ]
 ,
 images:[
@@ -305,19 +294,16 @@ images:[
     nationality:'Tanzania',
     position: 'Master of Technology in Water Resources Development',
     peerReviewedPublications: [
-  'Development of Novel Polymeric Membranes for Electrodialysis, Journal of Membrane Science, 2024',
-  'Enhanced Water Treatment Using Functionalized Nanomaterials, Environmental Science & Technology, 2023'
+  'N/A'
 ],
 patents: [
-  'Nanocomposite Membrane for Water Purification, IN2024112345A, 2024'
+  'N/A'
 ],
 conferences: [
-  'International Conference on Water Treatment Technologies, Singapore, 2023',
-  'Indian Membrane Society Annual Meeting, Mumbai, 2022'
+  'N/A'
 ],
 awards: [
-  'Best Paper Award at International Conference on Water Technologies, 2023',
-  'MHRD Research Excellence Fellowship, 2022'
+  'N/A'
 ]
 ,
 images:[
@@ -339,19 +325,16 @@ images:[
     photo: '/images/people/mtech/aishwarya.jpeg',
     position: 'Master of Technology in Drinking Water Sanitation',
     peerReviewedPublications: [
-  'Development of Novel Polymeric Membranes for Electrodialysis, Journal of Membrane Science, 2024',
-  'Enhanced Water Treatment Using Functionalized Nanomaterials, Environmental Science & Technology, 2023'
+  'N/A'
 ],
 patents: [
-  'Nanocomposite Membrane for Water Purification, IN2024112345A, 2024'
+  'N/A'
 ],
 conferences: [
-  'International Conference on Water Treatment Technologies, Singapore, 2023',
-  'Indian Membrane Society Annual Meeting, Mumbai, 2022'
+  'N/A'
 ],
 awards: [
-  'Best Paper Award at International Conference on Water Technologies, 2023',
-  'MHRD Research Excellence Fellowship, 2022'
+  'N/A'
 ]
 ,
 images:[
@@ -373,19 +356,16 @@ images:[
     photo: '/images/people/mtech/balkrishan.jpeg',
     position: 'Master of Technology in Drinking Water Sanitation',
     peerReviewedPublications: [
-  'Development of Novel Polymeric Membranes for Electrodialysis, Journal of Membrane Science, 2024',
-  'Enhanced Water Treatment Using Functionalized Nanomaterials, Environmental Science & Technology, 2023'
+  'N/A'
 ],
 patents: [
-  'Nanocomposite Membrane for Water Purification, IN2024112345A, 2024'
+  'N/A'
 ],
 conferences: [
-  'International Conference on Water Treatment Technologies, Singapore, 2023',
-  'Indian Membrane Society Annual Meeting, Mumbai, 2022'
+  'N/A'
 ],
 awards: [
-  'Best Paper Award at International Conference on Water Technologies, 2023',
-  'MHRD Research Excellence Fellowship, 2022'
+  'N/A'
 ]
 ,
 images:[
@@ -408,19 +388,16 @@ images:[
     nationality:'Tanzania',
     position: 'Master of Technology in Drinking Water Sanitation',
     peerReviewedPublications: [
-  'Development of Novel Polymeric Membranes for Electrodialysis, Journal of Membrane Science, 2024',
-  'Enhanced Water Treatment Using Functionalized Nanomaterials, Environmental Science & Technology, 2023'
+  'N/A'
 ],
 patents: [
-  'Nanocomposite Membrane for Water Purification, IN2024112345A, 2024'
+  'N/A'
 ],
 conferences: [
-  'International Conference on Water Treatment Technologies, Singapore, 2023',
-  'Indian Membrane Society Annual Meeting, Mumbai, 2022'
+  'N/A'
 ],
 awards: [
-  'Best Paper Award at International Conference on Water Technologies, 2023',
-  'MHRD Research Excellence Fellowship, 2022'
+  'N/A'
 ]
 ,
 images:[
@@ -442,19 +419,16 @@ images:[
     photo: '/images/people/mtech/nsanzurwimo.jpeg',
     position: 'Master of Technology in Drinking Water Sanitation',
     peerReviewedPublications: [
-  'Development of Novel Polymeric Membranes for Electrodialysis, Journal of Membrane Science, 2024',
-  'Enhanced Water Treatment Using Functionalized Nanomaterials, Environmental Science & Technology, 2023'
+  'N/A'
 ],
 patents: [
-  'Nanocomposite Membrane for Water Purification, IN2024112345A, 2024'
+  'N/A'
 ],
 conferences: [
-  'International Conference on Water Treatment Technologies, Singapore, 2023',
-  'Indian Membrane Society Annual Meeting, Mumbai, 2022'
+  'N/A'
 ],
 awards: [
-  'Best Paper Award at International Conference on Water Technologies, 2023',
-  'MHRD Research Excellence Fellowship, 2022'
+  'N/A'
 ]
 ,
 images:[
@@ -477,19 +451,16 @@ images:[
     photo: '/images/people/mtech/jamesprisca.jpeg',
     position: 'Master of Technology in Water Resources Development',
     peerReviewedPublications: [
-  'Development of Novel Polymeric Membranes for Electrodialysis, Journal of Membrane Science, 2024',
-  'Enhanced Water Treatment Using Functionalized Nanomaterials, Environmental Science & Technology, 2023'
+  'N/A'
 ],
 patents: [
-  'Nanocomposite Membrane for Water Purification, IN2024112345A, 2024'
+  'N/A'
 ],
 conferences: [
-  'International Conference on Water Treatment Technologies, Singapore, 2023',
-  'Indian Membrane Society Annual Meeting, Mumbai, 2022'
+  'N/A'
 ],
 awards: [
-  'Best Paper Award at International Conference on Water Technologies, 2023',
-  'MHRD Research Excellence Fellowship, 2022'
+  'N/A'
 ]
 ,
 images:[
@@ -696,9 +667,9 @@ export const past = {
     name: "Ms. Kaneria Falshruti Bhaveshbhai",
      degree: "Intern",
     college: "NA",
-     photo: '/images/people/alumni/interns/kaneria.jpeg',
+     photo: '/images/people/alumni/interns/falshruti.jpeg',
     duration: "Jan-April 2024 (Three months)",
-    topic: "NA",
+    topic: "Enhanced the photocatalytic & Antibacterial potential of polysulfon membrane augmented with ZnO,SiO2 & TiO2",
     affiliation: "Assistant Professor",
     email: ""
   },
@@ -799,7 +770,7 @@ export const past = {
      photo: '/images/people/alumni/interns/pushpmala.jpeg',
     duration: "March-August 2021 (Six months)",
     topic: "Adsorption",
-    affiliation: "Assistant Professor",
+    affiliation: "",
     email: ""
   },
   {
@@ -809,7 +780,7 @@ export const past = {
      photo: '/images/people/alumni/interns/prathibha.jpeg',
     duration: "March-August 2021 (Six months)",
     topic: "Membranes",
-    affiliation: "Assistant Professor",
+    affiliation: "",
     email: ""
   },
   {
@@ -817,9 +788,9 @@ export const past = {
      degree: "Intern",
     college: "NIT Surat",
      photo: '/images/people/alumni/interns/rutu.jpeg',
-    duration: "March-August 2021 (Six months)",
-    topic: "Membranes",
-    affiliation: "PhD",
+    duration: "July-December, 2021 (Six months)",
+    topic: "Catalytic adsorption treatmenr process of dye wastewater",
+    affiliation: "",
     email: ""
   },
   ],
