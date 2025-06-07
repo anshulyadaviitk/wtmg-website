@@ -99,8 +99,10 @@ export const pi = {
   projects: [
     {
       title: 'Development of hydrophobic membranes for desalination and resource recovery using membrane distillation',
-      funding: '',
-      duration: '',
+      funding: '20 lakhs',
+      duration: '2025-2027',
+      sponsor:'Indian Institute of Technology Roorkee',
+      images:'images/logos/iitr-logo-white.png',
       description: ''
     },
   ]
@@ -592,7 +594,7 @@ export const past = {
   ], interns: [
     {
     name: "Ms. Rupal Niranjan",
-    degree: "intern",
+    degree: "Intern",
     college: "Madan Mohan Malaviya University of Technology",
     photo: '/images/people/alumni/interns/rupal1.jpeg',
     duration: "May-June 2025 (Two months)",
@@ -602,7 +604,7 @@ export const past = {
   },
   {
     name: "Ms. Khushi Mishra",
-     degree: "intern",
+     degree: "Intern",
     college: "Madan Mohan Malaviya University of Technology",
      photo: '/images/people/alumni/interns/khushi.jpeg',
     duration: "May-June 2025 (Two months)",
@@ -612,7 +614,7 @@ export const past = {
   },
   {
     name: "Mr. Manas Mani Tripathi",
-     degree: "intern",
+     degree: "Intern",
     college: "Madan Mohan Malaviya University of Technology",
      photo: '/images/people/alumni/interns/manas.jpeg',
     duration: "May-June 2025 (Two months)",
@@ -622,7 +624,7 @@ export const past = {
   },
   {
     name: "Mr. Ankit Shukla",
-     degree: "intern",
+     degree: "Intern",
     college: "Madan Mohan Malaviya University of Technology",
      photo: '/images/people/alumni/interns/ankit.jpeg',
     duration: "May-June 2025 (Two months)",
@@ -632,7 +634,7 @@ export const past = {
   },
   {
     name: "Mr. Vaibhav Kumar",
-     degree: "intern",
+     degree: "Intern",
     college: "IIEST, Shibpur",
      photo: '/images/people/alumni/interns/vaibhav.jpeg',
     duration: "May-June 2025 (Two months)",
@@ -642,7 +644,7 @@ export const past = {
   },
   {
     name: "Mr. Ambresh Kumar Bakshi",
-     degree: "intern",
+     degree: "Intern",
     college: "Madan Mohan Malaviya University of Technology",
     photo: '/images/people/alumni/interns/ambresh.jpeg',
     duration: "May-June 2025 (Two months)",
@@ -652,7 +654,7 @@ export const past = {
   },
   {
     name: "Pranjal Shrivastav",
-     degree: "intern",
+     degree: "Intern",
     college: "Madan Mohan Malaviya University of Technology",
      photo: '/images/people/alumni/interns/pranjal.jpeg',
     duration: "May-June 2025 (Two months)",
@@ -662,37 +664,37 @@ export const past = {
   },
   {
     name: "Mr. Akash Pandey",
-     degree: "intern",
+     degree: "Intern",
     college: "NA",
      photo: '/images/people/alumni/interns/akash.jpeg',
     duration: "June-August 2024 (Three months)",
     topic: "NA",
-    affiliation: "Assistant Professor",
+    affiliation: "",
     email: ""
   },
   {
     name: "Ms. Vedanshi Kuvadia",
-     degree: "intern",
+     degree: "Intern",
     college: "NA",
      photo: '/images/people/alumni/interns/vedanshi.jpeg',
     duration: "Jan-April 2024 (Three months)",
-    topic: "NA",
-    affiliation: "Assistant Professor",
+    topic: "Response Surface Methodology and Artificial Neural Networks in Water Treatment Processes",
+    affiliation: "",
     email: ""
   },
   {
     name: "Ms. Parmar Jahanviben Mahipatsinh",
-     degree: "intern",
+     degree: "Intern",
     college: "NA",
-     photo: '/images/people/alumni/interns/parmar.jpeg',
+     photo: '/images/people/alumni/interns/jahanvi.jpeg',
     duration: "Feb-April 2024 (Three months)",
-    topic: "NA",
-    affiliation: "Assistant Professor",
+    topic: "Innovative Strategies for Enhancing Concrete Durability: Bacillus Species Encapsulation with Synthesized Polyurea",
+    affiliation: "",
     email: ""
   },
   {
     name: "Ms. Kaneria Falshruti Bhaveshbhai",
-     degree: "intern",
+     degree: "Intern",
     college: "NA",
      photo: '/images/people/alumni/interns/kaneria.jpeg',
     duration: "Jan-April 2024 (Three months)",
@@ -702,7 +704,7 @@ export const past = {
   },
   {
     name: "Mr. Shubham Rank",
-     degree: "intern",
+     degree: "Intern",
     college: "NA",
      photo: '/images/people/alumni/interns/shubham.jpeg',
     duration: "Feb-April 2024 (Three months)",
@@ -712,7 +714,7 @@ export const past = {
   },
   {
     name: "Mr. Rajyaguru Deep",
-     degree: "intern",
+     degree: "Intern",
     college: "BITS Pilani",
      photo: '/images/people/alumni/interns/rajyaguru.jpeg',
     duration: "May-July 2023 (Three months)",
@@ -722,7 +724,7 @@ export const past = {
   },
   {
     name: "Mr. Abhishek Bhatt",
-     degree: "intern",
+     degree: "Intern",
     college: "NA",
      photo: '/images/people/alumni/interns/abhishek.jpeg',
     duration: "Feb-May 2023 (Three months)",
@@ -732,7 +734,7 @@ export const past = {
   },
   {
     name: "Mr. Tarun Mangukiya",
-     degree: "intern",
+     degree: "Intern",
     college: "NA",
      photo: '/images/people/alumni/interns/tarun.jpeg',
     duration: "Feb-May 2023 (Three months)",
@@ -742,7 +744,7 @@ export const past = {
   },
   {
     name: "Mr. Monish Jatakiya",
-     degree: "intern",
+     degree: "Intern",
     college: "NA",
      photo: '/images/people/alumni/interns/monish.jpeg',
     duration: "Dec 2022 (One month)",
@@ -752,7 +754,7 @@ export const past = {
   },
   {
     name: "Ms. Gopika B. Raj",
-     degree: "intern",
+     degree: "Intern",
     college: "Central Institute of Petrochemicals Technology Kochi",
      photo: '/images/people/alumni/interns/gopika.jpeg',
     duration: "March-May 2022 (Three months)",
@@ -762,7 +764,7 @@ export const past = {
   },
   {
     name: "Mr. Rashmi Ranjan Mandal",
-     degree: "intern",
+     degree: "Intern",
     college: "NA",
      photo: '/images/people/alumni/interns/rashmi.jpeg',
     duration: "March-May 2022 (Three months)",
@@ -770,9 +772,19 @@ export const past = {
     affiliation: "Assistant Professor",
     email: ""
   },
+    {
+    name: "Ms. Anju Nair",
+     degree: "Intern",
+    college: "NA",
+     photo: '/images/people/alumni/interns/anju.jpeg',
+    duration: "January-June 2022 (6 months)",
+    topic: "Computational studies on nanomaterials for water treatment",
+    affiliation: "",
+    email: ""
+  },
   {
     name: "Ms. Pushpmala Kuwer",
-     degree: "intern",
+     degree: "Intern",
     college: "Institute for Excellence in Higher Education, Bhopal",
      photo: '/images/people/alumni/interns/pushpmala.jpeg',
     duration: "March-August 2021 (Six months)",
@@ -782,7 +794,7 @@ export const past = {
   },
   {
     name: "Ms. Prathibha Yadav",
-     degree: "intern",
+     degree: "Intern",
     college: "Institute for Excellence in Higher Education, Bhopal",
      photo: '/images/people/alumni/interns/prathibha.jpeg',
     duration: "March-August 2021 (Six months)",
@@ -792,7 +804,7 @@ export const past = {
   },
   {
     name: "Ms. Rutu Gajera",
-     degree: "intern",
+     degree: "Intern",
     college: "NIT Surat",
      photo: '/images/people/alumni/interns/rutu.jpeg',
     duration: "March-August 2021 (Six months)",

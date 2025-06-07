@@ -253,41 +253,68 @@ export default function DrAnshulYadav() {
   </div>
 </section>
 {/*Project Section */}
-<section className="py-12 md:py-16">
-  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="text-center mb-10">
-      <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">Current Research Projects</h2>
-      <div className="mt-4 h-1 w-20 bg-blue-600 mx-auto"></div>
-    </div>
+<section id="research-projects" className="py-12 md:py-16 bg-gray-50">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     
-    <div className="grid gap-8 md:grid-cols-2 lg:gap-10">
+    {/* Section Heading */}
+    <div className="text-center mb-10">
+      <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
+        Current Research Projects
+      </h2>
+      <div className="mt-3 h-1 w-24 bg-blue-600 mx-auto rounded-full"></div>
+    </div>
+
+    {/* Project Cards */}
+    <div className="space-y-5">
       {pi.projects.map((project, index) => (
         <div
           key={index}
-          className="bg-white group rounded-xl shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 overflow-hidden"
+          className="bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden"
         >
-          <div className="p-6 md:p-7">
-            <div className="flex items-start justify-between">
-              <h3 className="text-lg font-semibold text-gray-900 leading-snug">
-                {project.title}
-              </h3>
-              <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800 ml-3">
-                Ongoing
-              </span>
+          <div className="p-5 sm:p-6 flex gap-4 items-start">
+            
+            {/* Logo on Left */}
+            <div className="flex-shrink-0">
+              <img
+                src={project.images}
+                alt={project.title}
+                className="w-16 h-16 object-contain"
+              />
             </div>
-            <p className="mt-2 text-sm text-gray-500">
-              <span className="font-medium">{project.funding}</span> • {project.duration}
-            </p>
-            <p className="mt-4 text-gray-600 text-sm leading-relaxed">
-              {project.description}
-            </p>
-            <div className="mt-5 pt-4 border-t border-gray-100">
-              <a 
-                href="#" 
-                className="text-sm font-medium text-blue-600 hover:text-blue-800 transition-colors"
-              >
-                View details →
-              </a>
+
+            {/* Content */}
+            <div className="flex-1">
+              <div className="flex justify-between items-start mb-1">
+                <h3 className="text-base font-semibold text-gray-900 leading-snug">
+                  {project.title}
+                </h3>
+                <span className="text-xs font-medium bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full ml-3">
+                  Ongoing
+                </span>
+              </div>
+
+              {/* Metadata */}
+              <p className="text-xs text-gray-500">
+                <span className="font-medium">Sponsoring Agency:</span> {project.sponsor}
+              </p>
+              <p className="text-xs text-gray-500">
+                <span className="font-medium">Budget:</span> {project.funding}
+              </p>
+              <p className="text-xs text-gray-500">
+                <span className="font-medium">Duration:</span> {project.duration}
+              </p>
+
+              {/* Description */}
+              <p className="mt-2 text-sm text-gray-600 line-clamp-3">
+                {project.description}
+              </p>
+                {/* View Details Link */}
+          <a 
+  href="#" 
+  className="text-sm text-blue-600 hover:text-blue-800 font-medium ml-auto block"
+>
+  View details →
+</a>
             </div>
           </div>
         </div>

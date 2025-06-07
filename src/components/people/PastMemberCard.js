@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 export default function PastMemberCard({ member }) {
-  const isIntern = member.degree === 'intern';
+  const isIntern = member.degree === 'Intern';
 
   return (
     <div className="bg-white rounded-lg shadow-sm p-4 hover:shadow-md transition-shadow">
