@@ -6,7 +6,7 @@ import { Inter } from 'next/font/google';
 import { ErrorBoundary } from 'react-error-boundary';
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
-
+import Script from "next/script";
 const inter = Inter({ 
   subsets: ['latin'],
   variable: '--font-inter',
@@ -53,6 +53,11 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
+<Script
+  src="https://platform.twitter.com/widgets.js"
+  strategy="afterInteractive"
+/>
+
       <Head>
   <meta charSet="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
