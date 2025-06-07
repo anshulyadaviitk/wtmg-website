@@ -104,7 +104,7 @@ export default function Updates() {
 
           <div className="text-center mt-8">
             <a
-              href="https://twitter.com/YourTwitterHandle"
+              href="https://twitter.com/WRDM_IITROORKEE?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1882671337514451109%7Ctwgr%5Ee73861486ce246f002c8b6e59dc0ffa6f2b6c394%7Ctwcon%5Es1_&ref_url=http%3A%2F%2Flocalhost%3A3001%2Fupdates"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 transition-colors"

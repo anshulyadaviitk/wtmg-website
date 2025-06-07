@@ -20,8 +20,8 @@ export default function Footer() {
                 />
               </div>
               <div>
-                <h3 className="text-xl font-bold">Water Resources Research Group</h3>
-                <p className="text-gray-300 text-sm">WRDM Department</p>
+                <h6 className="text-xl font-bold">Department of Water Resources<br/> Development & Management</h6>
+                
               </div>
             </div>
             <p className="text-gray-300 mb-4">

@@ -14,6 +14,7 @@ import { notices } from '@/content/noticedata';
 import { upcomingevents } from '@/content/noticedata';
 import ResearchSection from '@/components/sections/ResearchSection';
 import AwardsSection1 from '@/components/sections/AwardsSection1';
+import { InvitedTalksSection } from '@/components/sections/talksection';
 // Replace your current Swiper imports with:
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -266,7 +267,7 @@ export default function Home() {
 </section>
 
    {/* Research Areas */}
-<section className="py-16 bg-gray-50">
+<section id="research" className="py-16 bg-gray-50">
   <div className="container mx-auto px-4">
 
     <ResearchSection researchAreas={researchAreas} />

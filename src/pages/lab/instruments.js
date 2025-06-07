@@ -48,18 +48,7 @@ export default function Instruments() {
           ))}
         </div>
 
-        <div className="mt-12 text-gray-700 space-y-4">
-          <h2 className="text-2xl font-bold text-gray-800">Lab-scale Experimental Setups</h2>
-          <ul className="list-disc pl-6">
-            <li>
-              Lab-scale experimental setups for <strong>Reverse Osmosis, Nanofiltration,
-              Ultrafiltration, and Microfiltration</strong>.
-            </li>
-            <li>
-              Lab-scale experimental setups for <strong>Forward Osmosis and Membrane Distillation</strong>.
-            </li>
-          </ul>
-        </div>
+        
       </section>
     </Layout>
   );

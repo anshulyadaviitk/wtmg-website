@@ -166,7 +166,7 @@ export default function Lab() {
             </p>
           </div>
           
-          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-2">
             {/* Instruments */}
             <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 flex flex-col h-full">
               <div className="mb-6">
@@ -201,13 +201,14 @@ export default function Lab() {
                 </p>
               </div>
               <div className="mt-auto">
-                <Button as={Link} href="/research" variant="outline" className="w-full">
-                  Explore Research
-                </Button>
+                <Button as={Link} href="//#research" variant="outline" className="w-full">
+  Explore Research
+</Button>
+
               </div>
             </div>
 
-            {/* Safety */}
+            {/* Safety
             <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 flex flex-col h-full">
               <div className="mb-6">
                 <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-4">
@@ -225,7 +226,7 @@ export default function Lab() {
                   Safety Guidelines
                 </Button>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
