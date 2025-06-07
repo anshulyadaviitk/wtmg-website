@@ -5,7 +5,7 @@ import Layout from "@/components/layout/Layout";
 import { updates, twitter } from "@/content/updatescontent";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
-import UpdateSection from "@/components/sections/UpdateSection";
+import UpdateSection from "@/components/sections/UpdateSection1";
 
 // Lazy load TwitterTweetEmbed with fallback loader
 const TwitterTweetEmbed = dynamic(
