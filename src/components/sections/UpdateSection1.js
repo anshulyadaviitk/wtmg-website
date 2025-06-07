@@ -73,17 +73,16 @@ useEffect(() => {
             <SwiperSlide key={update.id}>
               <div className="bg-white rounded-xl shadow-lg overflow-hidden h-full flex flex-col transition-all duration-300 hover:shadow-xl hover:-translate-y-1" style={{ height: '560px' }}>
                 {/* Image with fixed aspect ratio */}
-                <div className="relative aspect-video w-full overflow-hidden flex-shrink-0">
-                  <Image
-                    src={update.image}
-                    alt={update.title}
-                    fill
-                    className="object-contain transition-transform duration-500 group-hover:scale-105"
-                    priority
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900/10 to-transparent" />
+             <div className="relative aspect-video w-full overflow-hidden flex-shrink-0 bg-gray-100">
+  <Image
+    src={update.image}
+    alt={update.title}
+    fill
+    className="object-contain transition-transform duration-500 group-hover:scale-105"
+    priority
+  />
+</div>
 
-                </div>
 
                 {/* Content update with constrained height and scroll */}
                 <div className="p-6 flex flex-col flex-grow overflow-hidden">
