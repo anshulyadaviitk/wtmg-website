@@ -34,18 +34,19 @@ export const updates = [
 ];
 // content/twitter.js
 export const twitter = [
-   {
+ 
+  {
+    type: "tweet",
+    tweetId: "1882671337514451109", // From WRDM_IITROORKEE
+  },
+    {
     type: "timeline",
     screenName: "WRDM_IITROORKEE",
     height: 400,
   },
   {
     type: "tweet",
-    tweetId: "1882671337514451109", // From WRDM_IITROORKEE
-  },
-  {
-    type: "tweet",
-    tweetId: "1779792871538219305",
+    tweetId: "1888836711574315114",
   },
   {
     type: "tweet",
