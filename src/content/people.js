@@ -782,6 +782,16 @@ export const past = {
     affiliation: "",
     email: ""
   },
+   {
+    name: "Ms. Sneha Bince ",
+     degree: "Intern",
+    college: "NA",
+     photo: '/images/people/alumni/interns/sneha.png',
+    duration: "Jan 2022- May 2022",
+    topic: "Computational analysis of substituent effect on indole derivatives as potential antibacterial agents",
+    affiliation: "",
+    email: ""
+  },
   {
     name: "Ms. Pushpmala Kuwer",
      degree: "Intern",
