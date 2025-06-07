@@ -125,7 +125,7 @@ export default function Header() {
       submenu: [
         { name: 'About Lab', path: '/lab' },
         { name: 'Instruments & Facilities ', path: '/lab/instruments' },
-      
+      { name: 'Openings ', path: '/lab/opening' },
       ]
     },
     {name: 'More',

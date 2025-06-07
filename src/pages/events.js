@@ -29,7 +29,7 @@ export default function EventPage() {
           />
 
           {events.upcoming.length > 0 ? (
-            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+            <div className="space-y-6">
               {events.upcoming.map((event, idx) => (
                 <div key={idx} className="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
                   {event.image && (
@@ -38,7 +38,7 @@ export default function EventPage() {
                         src={event.image}
                         alt={event.title}
                         fill
-                        className="object-cover"
+                        className="object-contain"
                         sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       />
                     </div>

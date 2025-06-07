@@ -38,11 +38,11 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4 border-b pb-2 border-gray-600">Quick Links</h4>
             <ul className="space-y-2">
-              <li><Link href="/people" className="text-gray-300 hover:text-white">Group Members</Link></li>
               <li><Link href="/research" className="text-gray-300 hover:text-white">Research Areas</Link></li>
-              <li><Link href="/publications" className="text-gray-300 hover:text-white">Publications</Link></li>
               <li><Link href="/contact" className="text-gray-300 hover:text-white">Contact Us</Link></li>
-              <li><Link href="https://www.iitr.ac.in" className="text-gray-300 hover:text-white">IIT Roorkee</Link></li>
+              <li><Link href="https://www.iitr.ac.in"   target="_blank" className="text-gray-300 hover:text-white">IIT Roorkee</Link></li>
+              <li><a href="https://iitr.ac.in/Departments/Water%20Resources%20Development%20and%20Management%20Department/Home.html"  target="_blank" className="text-gray-300 hover:text-white">WRDM Website</a></li>
+              
             </ul>
           </div>
 

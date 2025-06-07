@@ -6,7 +6,7 @@ export const events = {
       time: "9:00 AM - 5:00 PM",
       location: "Virtual/Computer Lab 3, Engineering Building",
       description: "A comprehensive 3-day workshop focusing on computational fluid dynamics applications in environmental engineering using ANSYS. Participants will gain hands-on experience with real-world case studies.",
-      image: "/images/events/cfd-workshop.jpg",
+      image: "/images/events/Poster.jpg",
       registerLink: "/register/cfd-ansys-2025",
       speakers: [
         {
