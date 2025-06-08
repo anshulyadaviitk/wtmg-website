@@ -499,7 +499,7 @@ export const interns = [
     College: 'Indian Institute of Engineering Science and Technology, Shibpur',
     topic: 'Artificial Intelligence-Based Modeling and Optimization of Adsorption Processes for Water and Wastewater Treatment',
     duration: 'May–June 2025 (Two months)',
-    email: 'XXXXXXXXXX'
+    email: 'r2436533@gmail.com'
   },
   {
     id: 'intern-04',
