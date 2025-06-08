@@ -667,7 +667,7 @@ export const past = {
     name: "Ms. Kaneria Falshruti Bhaveshbhai",
      degree: "Intern",
     college: "NA",
-     photo: '/images/people/alumni/interns/falshruti.jpeg',
+     photo: '/images/people/alumni/interns/falshruti.jpg',
     duration: "Jan-April 2024 (Three months)",
     topic: "Enhanced the photocatalytic & Antibacterial potential of polysulfon membrane augmented with ZnO,SiO2 & TiO2",
     affiliation: "Assistant Professor",
