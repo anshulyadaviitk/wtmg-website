@@ -527,7 +527,17 @@ export const patents = [
     filingDate: '05–09–2024',
     status: 'Filed',
     link: 'https://ipindia.gov.in/patent-details'
-  }
+  },
+  {
+  id: 'pat-05',
+  title: 'An energy-efficient multi-stage modular membrane–crystallization system for zero liquid discharge in desalination and wastewater treatment',
+  inventors: ['A. Yadav', 'A. K. Jha', 'B. Krishan', 'Nikhil'],
+  patentNumber: 'IN2025110XXXXX',
+  filingDate: 'xx–07–2025',
+  status: 'Under preparation',
+  link: 'https://ipindia.gov.in/patent-details'
+}
+
 ];
 
 

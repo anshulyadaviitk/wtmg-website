@@ -679,7 +679,7 @@ export const past = {
     college: "NA",
      photo: '/images/people/alumni/interns/shubham.jpeg',
     duration: "Feb-April 2024 (Three months)",
-    topic: "NA",
+    topic: "Carbon Chain Grafted Polyvinylidene Fluoride Membranes For Textile Water Remediation",
     affiliation: "Assistant Professor",
     email: ""
   },
