@@ -1,6 +1,6 @@
-# WRRG – Water Resources Research Group
+# WTMG – Water Treatment and Management Group
 
-This repository contains the official website for the **Water Resources Research Group (WRRG)** at the **Department of Water Resources Development and Management, IIT Roorkee**. The website presents the group's research areas, projects, publications, lab details, team members, and other scholarly activities.
+This repository contains the official website for the **Water Treatment and Management Group (WTMG)** at the **Department of Water Resources Development and Management, IIT Roorkee**. The website presents the group's research areas, projects, publications, lab details, team members, and other scholarly activities.
 
 It is built using [Next.js](https://nextjs.org), styled with Tailwind CSS, and deployed via [Vercel](https://vercel.com).
 
