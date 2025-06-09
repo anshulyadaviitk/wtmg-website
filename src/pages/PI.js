@@ -338,7 +338,7 @@ export default function DrAnshulYadav() {
     <div className="p-4 border rounded-2xl shadow-sm bg-white">
       <div className="flex justify-between items-start">
         <div>
-          <h3 className="text-lg font-medium">Institution of Engineers (India), India</h3>
+          <h3 className="text-lg font-medium">Institution of Engineers , India</h3>
           <p className="text-sm">Associate Member</p>
         </div>
         <p className="text-sm text-gray-600 whitespace-nowrap">15 Dec 2017 – Present</p>
