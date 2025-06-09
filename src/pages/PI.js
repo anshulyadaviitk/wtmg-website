@@ -332,9 +332,9 @@ export default function DrAnshulYadav() {
 
 
         {/*Member ship section*/}
-      <section className="my-10">
+     <section className="my-10">
   <h2 className="text-2xl font-semibold mb-6">Memberships</h2>
-  <div className="space-y-0.1">
+  <div className="space-y-4">
     <div className="p-4 border rounded-2xl shadow-sm bg-white">
       <div className="flex justify-between items-start">
         <div>
@@ -364,8 +364,44 @@ export default function DrAnshulYadav() {
         <p className="text-sm text-gray-600 whitespace-nowrap">14 Nov 2024 – Present</p>
       </div>
     </div>
+
+    <div className="p-4 border rounded-2xl shadow-sm bg-white">
+      <div>
+        <h3 className="text-lg font-medium">Institute of Research Engineers and Doctors (IRED)</h3>
+        <p className="text-sm">Associate Member</p>
+      </div>
+    </div>
+
+    <div className="p-4 border rounded-2xl shadow-sm bg-white">
+      <div>
+        <h3 className="text-lg font-medium">International Sol-Gel Society (ISGS)</h3>
+        <p className="text-sm">Member</p>
+      </div>
+    </div>
+
+    <div className="p-4 border rounded-2xl shadow-sm bg-white">
+      <div>
+        <h3 className="text-lg font-medium">Indian Science Congress Association (ISCA)</h3>
+        <p className="text-sm">Life Member</p>
+      </div>
+    </div>
+
+    <div className="p-4 border rounded-2xl shadow-sm bg-white">
+      <div>
+        <h3 className="text-lg font-medium">International Association of Engineers (IAENG)</h3>
+        <p className="text-sm">Member</p>
+      </div>
+    </div>
+
+    <div className="p-4 border rounded-2xl shadow-sm bg-white">
+      <div>
+        <h3 className="text-lg font-medium">Institute of Exploring Advances in Engineering (IEAE)</h3>
+        <p className="text-sm">Member</p>
+      </div>
+    </div>
   </div>
 </section>
+
 
 
 
