@@ -624,7 +624,7 @@ export const past = {
     email: ""
   },
   {
-    name: "Pranjal Shrivastav",
+    name: "Pranjal Srivastava",
      degree: "Intern",
     college: "Madan Mohan Malaviya University of Technology",
      photo: '/images/people/alumni/interns/pranjal.jpeg',
