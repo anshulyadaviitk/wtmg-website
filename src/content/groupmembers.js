@@ -19,7 +19,7 @@ export const pi = {
   education: [
     'Ph.D., Engineering Sciences, Academy of Scientific and Innovative Research (AcSIR), India (2022)',
     'M.Tech, Mechanical Engineering, Indian Institute of Technology, Kanpur (2017)',
-    'B.Tech, Mechanical Engineering'
+    'B.Tech, Major: Mechanical Engineering; Minor: Electrical Engineering, Indian Institute of Technology Kanpur, India (2017)'
   ],
   contact: {
     email: 'anshul.yadav@wr.iitr.ac.in',
