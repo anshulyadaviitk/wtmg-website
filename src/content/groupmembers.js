@@ -4,7 +4,7 @@ export const pi = {
   id: 'pi',
   name: 'Dr. Anshul Yadav',
   position: 'Assistant Professor',
-  photo: '/images/groupmembers/anshul-yadav.jpeg',
+  photo: '/images/groupmembers/PI/anshul-yadav.jpeg',
   role: 'pi',
   department: 'Department of Water Resources Development and Management,\nIndian Institute of Technology, Roorkee – 247667, Uttarakhand, India',
   researchInterests: [

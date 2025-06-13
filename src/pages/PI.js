@@ -29,7 +29,7 @@ export default function DrAnshulYadav() {
 
       <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
         <Image
-          src="/images/people/anshul-yadav.jpeg"
+          src="/images/groupmembers/PI/anshul-yadav.jpeg"
           alt="Dr. Anshul Yadav"
           width={300}
           height={300}
