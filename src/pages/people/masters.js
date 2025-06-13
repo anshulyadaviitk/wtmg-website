@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Layout from '@/components/layout/Layout';
-import { mastersStudents } from '@/content/people';
+import { mastersStudents } from '@/content/groupmembers';
 import PersonCard from '@/components/people/PersonCard';
 import Tabs from '@/components/people/Tabs';
 import SectionTitle from '@/components/ui/SectionTitle';

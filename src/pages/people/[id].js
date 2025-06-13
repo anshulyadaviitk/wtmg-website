@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import Image from 'next/image';
-import {/* pi, */phdScholars, mastersStudents, interns, past } from '@/content/people';
+import {/* pi, */phdScholars, mastersStudents, interns } from '@/content/groupmembers';
 import Layout from '@/components/layout/Layout';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -14,9 +14,6 @@ const allPeople = [
   ...phdScholars,
   ...mastersStudents,
   ...interns,
-  ...past.phd,
-  ...past.masters,
-  ...past.interns,
 ];
 
 export default function PeopleView() {
@@ -258,6 +255,14 @@ export default function PeopleView() {
     <div>
       <h3 className="font-medium text-gray-500">Research Topic</h3>
       <p>{person.topic}</p>
+    </div>
+  )}
+</div>
+<div className="w-full flex justify-start items-start text-left">
+  {person.researchArea && (
+    <div>
+      <h3 className="font-medium text-gray-500">Research Area</h3>
+      <p>{person.researchArea}</p>
     </div>
   )}
 </div>

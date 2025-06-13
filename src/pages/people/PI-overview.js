@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Layout from '@/components/layout/Layout';
-import { pi } from '@/content/people';
+import { pi } from '@/content/groupmembers';
 import PersonCard from '@/components/people/PersonCard';
 import Tabs from '@/components/people/Tabs';
 import SectionTitle from '@/components/ui/SectionTitle';

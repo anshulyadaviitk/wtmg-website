@@ -1,10 +1,10 @@
-// content/people.js
+// content/groupmembers.js
 
 export const pi = {
   id: 'pi',
   name: 'Dr. Anshul Yadav',
   position: 'Assistant Professor',
-  photo: '/images/people/anshul-yadav.jpeg',
+  photo: '/images/groupmembers/anshul-yadav.jpeg',
   role: 'pi',
   department: 'Department of Water Resources Development and Management,\nIndian Institute of Technology, Roorkee – 247667, Uttarakhand, India',
   researchInterests: [
@@ -114,7 +114,7 @@ export const phdScholars = [
     id: 'phd-01',
     type: 'PhD',
     name: 'Mr. Nikhil',
-    photo: '/images/people/phd/nikhil.jpeg',
+    photo: '/images/groupmembers/phd/nikhil.jpeg',
     position: 'PhD Scholar',
     peerReviewedPublications: [
  
@@ -151,7 +151,7 @@ images:[
     id: 'phd-02',
     type: 'PhD',
     name: 'Mr. Yaswanth Aragonda',
-    photo: '/images/people/phd/yaswanth.jpeg',
+    photo: '/images/groupmembers/phd/yaswanth.jpeg',
     position: 'PhD Scholar',
     peerReviewedPublications: [
 ],
@@ -187,7 +187,7 @@ images:[
     id: 'phd-03',
     type: 'PhD',
     name: 'Mr. Vineet Kumar',
-    photo: '/images/people/phd/vineet.jpeg',
+    photo: '/images/groupmembers/phd/vineet.jpeg',
     position: 'PhD Scholar',
     peerReviewedPublications: [
   'N/A'
@@ -228,27 +228,28 @@ export const mastersStudents = [
     id: 'mtech-02',
     type: 'MTech',
     name: 'Mr. Abhishek Kumar Sinha',
-    photo: '/images/people/mtech/abhishek.jpeg',
+    photo: '/images/groupmembers/mtech/abhishek.jpeg',
     position: 'Master of Technology in Water Resources Development',
-    peerReviewedPublications: [
-  'N/A'
-],
-patents: [
-  'N/A'
-],
-conferences: [
-  'N/A'
-],
-awards: [
-  'N/A'
-]
-,
-images:[
-  '/images/events/event1.jpg',
-    '/images/events/event2.jpg',
-    '/images/events/event3.jpg',
-    '/images/events/event4.jpg'
-],
+    nationality: 'Indian',
+    researchArea: '',
+    peerReviewedPublications: ['N/A'
+
+    ],
+    patents: ['N/A'
+
+    ],
+    conferences: ['N/A'
+
+    ],
+    awards: ['N/A'
+
+    ],
+    images: [
+      '/images/events/event1.jpg',
+      '/images/events/event2.jpg',
+      '/images/events/event3.jpg',
+      '/images/events/event4.jpg'
+    ],
     previousDegree: "Bachelor of Technology in Civil Engineering from National Institute of Technology Srinagar (2022)",
     topic: 'Development of Multifunctional Nanomaterial based Polymeric Membranes for Efficient Arsenic and Fluoride remediation',
     duration: 'July 2024 – Present',
@@ -256,30 +257,55 @@ images:[
     coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee'
   },
   {
+    id: 'mtech-0a',
+    type: 'MTech',
+    name: 'Ar. Harsh Pathak',
+    photo: '/images/groupmembers/mtech/harshpathak.jpg',
+    position: 'Master of Technology in Drinking Water and Sanitation',
+    nationality: 'Indian',
+    researchArea: 'Architecture, Water Management, Underwater Architecture.',
+    peerReviewedPublications: ['N/A'
+
+    ],
+    patents: ['N/A'
+
+    ],
+    conferences: ['N/A'
+
+    ],
+    awards: [
+      'Gold medal in Architecture in the 21st convocation 2023 by Governor of Uttar Pradesh State Shri Anandiben Patel'
+    ],
+    images: [
+      '/images/events/event1.jpg',
+      '/images/events/event2.jpg',
+      '/images/events/event3.jpg',
+      '/images/events/event4.jpg'
+    ],
+    previousDegree: "Bachelor's in Architecture from Dr. A.P.J. Abdul Kalam Technical University",
+    topic: 'Aquatic Architecture for Sustainable Water Management by exploring the potential of Nature-based solutions and innovative design',
+    duration: 'July 2024 – Present',
+    email: 'architectharshpathak@gmail.com',
+    coSupervisor: 'N/A'
+  },
+  {
     id: 'mtech-03',
     type: 'MTech',
     name: 'Mr. Shivam Tiwari',
-    photo: '/images/people/mtech/shivam.jpeg',
+    photo: '/images/groupmembers/mtech/shivam.jpeg',
     position: 'Master of Technology in Water Resources Development',
-    peerReviewedPublications: [
-  'N/A'
-],
-patents: [
-  'N/A'
-],
-conferences: [
-  'N/A'
-],
-awards: [
-  'N/A'
-]
-,
-images:[
-  '/images/events/event1.jpg',
-    '/images/events/event2.jpg',
-    '/images/events/event3.jpg',
-    '/images/events/event4.jpg'
-],
+    nationality: 'Indian',
+    researchArea: '',
+    peerReviewedPublications: ['N/A'],
+    patents: ['N/A'],
+    conferences: ['N/A'],
+    awards: ['N/A'],
+    images: [
+      '/images/events/event1.jpg',
+      '/images/events/event2.jpg',
+      '/images/events/event3.jpg',
+      '/images/events/event4.jpg'
+    ],
     previousDegree: 'Bachelor of Technology from Uttar Pradesh Technical University (2024)',
     topic: 'Development of Multifunctional Nanomaterial based Polymeric Membranes for Efficient Uranium remediation',
     duration: 'July 2024 – Present',
@@ -290,28 +316,20 @@ images:[
     id: 'mtech-04',
     type: 'MTech',
     name: 'Abas Amri Makada',
-    photo: '/images/people/mtech/abbas.jpeg',
-    nationality:'Tanzania',
+    photo: '/images/groupmembers/mtech/abbas.jpeg',
+    nationality: 'Tanzania',
+    researchArea: '',
     position: 'Master of Technology in Water Resources Development',
-    peerReviewedPublications: [
-  'N/A'
-],
-patents: [
-  'N/A'
-],
-conferences: [
-  'N/A'
-],
-awards: [
-  'N/A'
-]
-,
-images:[
-  '/images/events/event1.jpg',
-    '/images/events/event2.jpg',
-    '/images/events/event3.jpg',
-    '/images/events/event4.jpg'
-],
+    peerReviewedPublications: ['N/A'],
+    patents: ['N/A'],
+    conferences: ['N/A'],
+    awards: ['N/A'],
+    images: [
+      '/images/events/event1.jpg',
+      '/images/events/event2.jpg',
+      '/images/events/event3.jpg',
+      '/images/events/event4.jpg'
+    ],
     previousDegree: 'Bachelor of Science in Environmental Science University from Open University of Tanzania',
     topic: 'Design of planted and unplanted dry bed fecal sludge treatment plant. Case study Didia Ward, Shinyanga, Tanzania',
     duration: 'July 2024 – Present',
@@ -322,29 +340,22 @@ images:[
     id: 'mtech-05',
     type: 'MTech',
     name: 'Aiswarya Priya',
-    photo: '/images/people/mtech/aishwarya.jpeg',
+    photo: '/images/groupmembers/mtech/aishwarya.jpeg',
     position: 'Master of Technology in Drinking Water Sanitation',
-    peerReviewedPublications: [
-  'N/A'
-],
-patents: [
-  'N/A'
-],
-conferences: [
-  'N/A'
-],
-awards: [
-  'N/A'
-]
-,
-images:[
-  '/images/events/event1.jpg',
-    '/images/events/event2.jpg',
-    '/images/events/event3.jpg',
-    '/images/events/event4.jpg'
-],
+    nationality: 'Indian',
+    researchArea: '',
+    peerReviewedPublications: ['N/A'],
+    patents: ['N/A'],
+    conferences: ['N/A'],
+    awards: ['N/A'],
+    images: [
+      '/images/events/event1.jpg',
+      '/images/events/event2.jpg',
+      '/images/events/event3.jpg',
+      '/images/events/event4.jpg'
+    ],
     previousDegree: 'Bachelor of planning (2024) from School of Planning and Architecture, Bhopal',
-    topic: ' Integration of vertical wall for treatment of sewerage from STP;\n Graywater treatment using hydrophobic plants',
+    topic: 'Integration of vertical wall for treatment of sewerage from STP;\nGraywater treatment using hydrophobic plants',
     duration: 'July 2024 – Present',
     email: 'aiswarya.priya.p@gmail.com',
     coSupervisor: ''
@@ -353,28 +364,21 @@ images:[
     id: 'mtech-06',
     type: 'MTech',
     name: 'Balkrishan',
-    photo: '/images/people/mtech/balkrishan.jpeg',
+    photo: '/images/groupmembers/mtech/balkrishan.jpeg',
     position: 'Master of Technology in Drinking Water Sanitation',
-    peerReviewedPublications: [
-  'N/A'
-],
-patents: [
-  'N/A'
-],
-conferences: [
-  'N/A'
-],
-awards: [
-  'N/A'
-]
-,
-images:[
-  '/images/events/event1.jpg',
-    '/images/events/event2.jpg',
-    '/images/events/event3.jpg',
-    '/images/events/event4.jpg'
-],
-     previousDegree: 'Bachelor of Technology from Uttar Pradesh Technical University (2024)',
+    nationality: 'Indian',
+    researchArea: '',
+    peerReviewedPublications: ['N/A'],
+    patents: ['N/A'],
+    conferences: ['N/A'],
+    awards: ['N/A'],
+    images: [
+      '/images/events/event1.jpg',
+      '/images/events/event2.jpg',
+      '/images/events/event3.jpg',
+      '/images/events/event4.jpg'
+    ],
+    previousDegree: 'Bachelor of Technology from Uttar Pradesh Technical University (2024)',
     topic: 'Zero liquid discharge and resource recovery for industrial tannery wastewater using a hybrid reverse osmosis–membrane distillation treatment process',
     duration: 'July 2024 – Present',
     email: 'XXXXXXXXXX',
@@ -384,28 +388,20 @@ images:[
     id: 'mtech-07',
     type: 'MTech',
     name: 'Issah Mtono',
-    photo: '/images/people/mtech/issah.jpeg',
-    nationality:'Tanzania',
+    photo: '/images/groupmembers/mtech/issah.jpeg',
+    nationality: 'Tanzania',
+    researchArea: '',
     position: 'Master of Technology in Drinking Water Sanitation',
-    peerReviewedPublications: [
-  'N/A'
-],
-patents: [
-  'N/A'
-],
-conferences: [
-  'N/A'
-],
-awards: [
-  'N/A'
-]
-,
-images:[
-  '/images/events/event1.jpg',
-    '/images/events/event2.jpg',
-    '/images/events/event3.jpg',
-    '/images/events/event4.jpg'
-],
+    peerReviewedPublications: ['N/A'],
+    patents: ['N/A'],
+    conferences: ['N/A'],
+    awards: ['N/A'],
+    images: [
+      '/images/events/event1.jpg',
+      '/images/events/event2.jpg',
+      '/images/events/event3.jpg',
+      '/images/events/event4.jpg'
+    ],
     previousDegree: 'Bachelor of Science in Environmental Science University from Open University of Tanzania',
     topic: 'Water quality assessment across irrigation schemes: a case study of wetland agriculture impacts in Ruvuma River Basin, Tanzania',
     duration: 'July 2024 – Present',
@@ -416,27 +412,20 @@ images:[
     id: 'mtech-08',
     type: 'MTech',
     name: 'Nsanzurwimo Malachie',
-    photo: '/images/people/mtech/nsanzurwimo.jpeg',
+    photo: '/images/groupmembers/mtech/nsanzurwimo.jpeg',
     position: 'Master of Technology in Drinking Water Sanitation',
-    peerReviewedPublications: [
-  'N/A'
-],
-patents: [
-  'N/A'
-],
-conferences: [
-  'N/A'
-],
-awards: [
-  'N/A'
-]
-,
-images:[
-  '/images/events/event1.jpg',
-    '/images/events/event2.jpg',
-    '/images/events/event3.jpg',
-    '/images/events/event4.jpg'
-],
+    nationality: 'Tanzania',
+    researchArea: '',
+    peerReviewedPublications: ['N/A'],
+    patents: ['N/A'],
+    conferences: ['N/A'],
+    awards: ['N/A'],
+    images: [
+      '/images/events/event1.jpg',
+      '/images/events/event2.jpg',
+      '/images/events/event3.jpg',
+      '/images/events/event4.jpg'
+    ],
     previousDegree: 'Bachelor of Technology from Uttar Pradesh Technical University (2024)',
     topic: 'Decentralized wastewater treatment systems for rural communities: a feasibility and sustainability assessment',
     duration: 'July 2024 – Present',
@@ -447,28 +436,20 @@ images:[
     id: 'mtech-09',
     type: 'MTech',
     name: 'Prisca James',
-    nationality: '',
-    photo: '/images/people/mtech/jamesprisca.jpeg',
+    photo: '/images/groupmembers/mtech/jamesprisca.jpeg',
     position: 'Master of Technology in Water Resources Development',
-    peerReviewedPublications: [
-  'N/A'
-],
-patents: [
-  'N/A'
-],
-conferences: [
-  'N/A'
-],
-awards: [
-  'N/A'
-]
-,
-images:[
-  '/images/events/event1.jpg',
-    '/images/events/event2.jpg',
-    '/images/events/event3.jpg',
-    '/images/events/event4.jpg'
-],
+    nationality: 'Tanzania',
+    researchArea: '',
+    peerReviewedPublications: ['N/A'],
+    patents: ['N/A'],
+    conferences: ['N/A'],
+    awards: ['N/A'],
+    images: [
+      '/images/events/event1.jpg',
+      '/images/events/event2.jpg',
+      '/images/events/event3.jpg',
+      '/images/events/event4.jpg'
+    ],
     previousDegree: 'Bachelor degree in water resources and irrigation engineering',
     topic: 'Designing of low cost and efficient wastewater treatment technologies for small town',
     duration: 'July 2024 – Present',
@@ -483,7 +464,7 @@ export const interns = [
     id: 'intern-02',
     type: 'intern',
     name: 'Adarsh Kumar Jha',
-    photo: '/images/people/interns/adarsh.jpeg',
+    photo: '/images/groupmembers/interns/adarsh.jpeg',
     position: 'Intern (SPARK Program, Indian Institute of Technology Roorkee)',
     College: 'Indian Institute of Technology (Banaras Hindu University), Varanasi',
     topic: 'Design and development of a prototype for zero liquid discharge wastewater treatment system',
@@ -494,7 +475,7 @@ export const interns = [
     id: 'intern-03',
     type: 'intern',
     name: 'Mr. Raj Keshari',
-    photo: '/images/people/interns/raj.jpeg',
+    photo: '/images/groupmembers/interns/raj.jpeg',
     position: 'Intern',
     College: 'Indian Institute of Engineering Science and Technology, Shibpur',
     topic: 'Artificial Intelligence-Based Modeling and Optimization of Adsorption Processes for Water and Wastewater Treatment',
@@ -505,7 +486,7 @@ export const interns = [
     id: 'intern-04',
     type: 'intern',
     name: 'Ms. Sanchita Garai',
-    photo: '/images/people/interns/sanchita.jpeg',
+    photo: '/images/groupmembers/interns/sanchita.jpeg',
     position: 'Intern',
     College: 'Indian Institute of Engineering Science and Technology, Shibpur',
     topic: 'Computational fluid dynamics simulations of direct contact membrane distillation for desalination applications',
@@ -516,7 +497,7 @@ export const interns = [
     id: 'intern-06',
     type: 'intern',
     name: 'Mr. Aayush Ghosh',
-    photo: '/images/people/interns/aayush.jpeg',
+    photo: '/images/groupmembers/interns/aayush.jpeg',
     position: 'Intern',
     College: 'Indian Institute of Engineering Science and Technology, Shibpur',
     topic: 'Computational fluid dynamics simulations of vacuum membrane distillation for wastewater treatment applications',
@@ -525,273 +506,3 @@ export const interns = [
   }
 ];
 
-export const past = {
-  phd: [
-    {
-      id: 'al-phd-02',
-      name: 'Mr. Raj Vardhan Prasad Patel',
-      photo: '', // Replace with actual path if needed
-      degree: 'PhD (2022–2024)',
-      topic: '',
-      duration: '2022–2024',
-      currentStatus: 'Transferred when leaving CSIR-CSMCRI, Bhavnagar',
-      thesisLink: ''
-    },
-    {
-      id: 'al-phd-03',
-      name: 'Mr. Bipinkumar Manubhai Baladaniya',
-      photo: '', // Replace with actual path if needed
-      degree: 'PhD (2023–2024)',
-      topic: '',
-      duration: '2023–2024',
-      currentStatus: 'Transferred when leaving CSIR-CSMCRI, Bhavnagar',
-      thesisLink: ''
-    }
-  ],
-   masters: [
-   {
-  id: 'al-mtech-01',
-  name: 'Mr. Deepak Thapa',
-  photo: '/images/people/alumni/deepak-thapa.jpeg', // Update this path as per your image directory
-  degree: 'PG Diploma in Drinking Water Sanitation',
-  duration: 'July 2024 – June 2025',
-  education: 'BTech: VIT (2021)',
-  topic: 'Development of Membrane Materials for Enhanced Electrodialysis Performance in Water and Wastewater Treatment',
-  currentStatus: 'Sub-Engineer, Ministry of Water Supply, Nepal',
-  email: '' // Fill in the email if available
-},
-
-    // Add more mtech alumni
-  ], interns: [
-    {
-    name: "Ms. Rupal Niranjan",
-    degree: "Intern",
-    college: "Madan Mohan Malaviya University of Technology",
-    photo: '/images/people/alumni/interns/rupal1.jpeg',
-    duration: "May-June 2025 (Two months)",
-    topic: "Computational Fluid Dynamics Study of Ion Transport and Flow Behavior in Electrodialysis Cells",
-    affiliation: "Assistant Professor",
-    email: ""
-  },
-  {
-    name: "Ms. Khushi Mishra",
-     degree: "Intern",
-    college: "Madan Mohan Malaviya University of Technology",
-     photo: '/images/people/alumni/interns/khushi.jpeg',
-    duration: "May-June 2025 (Two months)",
-    topic: "Computational Fluid Dynamics Study of Ion Transport and Flow Behavior in Electrodialysis Cells",
-    affiliation: "Assistant Professor",
-    email: ""
-  },
-  {
-    name: "Mr. Manas Mani Tripathi",
-     degree: "Intern",
-    college: "Madan Mohan Malaviya University of Technology",
-     photo: '/images/people/alumni/interns/manas.jpeg',
-    duration: "May-June 2025 (Two months)",
-    topic: "Computational Fluid Dynamics Study of Ion Transport and Flow Behavior in Electrodialysis Cells",
-    affiliation: "Assistant Professor",
-    email: ""
-  },
-  {
-    name: "Mr. Ankit Shukla",
-     degree: "Intern",
-    college: "Madan Mohan Malaviya University of Technology",
-     photo: '/images/people/alumni/interns/ankit.jpeg',
-    duration: "May-June 2025 (Two months)",
-    topic: "Computational Modelling and Evaluation of a Tablet Chlorinator for Water Treatment System",
-    affiliation: "Assistant Professor",
-    email: ""
-  },
-  {
-    name: "Mr. Vaibhav Kumar",
-     degree: "Intern",
-    college: "IIEST, Shibpur",
-     photo: '/images/people/alumni/interns/vaibhav.jpeg',
-    duration: "May-June 2025 (Two months)",
-    topic: "Computational Modelling and Evaluation of a Tablet Chlorinator for Water Treatment System",
-    affiliation: "Assistant Professor",
-    email: ""
-  },
-  {
-    name: "Mr. Ambresh Kumar Bakshi",
-     degree: "Intern",
-    college: "Madan Mohan Malaviya University of Technology",
-    photo: '/images/people/alumni/interns/ambresh.jpeg',
-    duration: "May-June 2025 (Two months)",
-    topic: "Design and development of membrane crystallizer for Water Recovery and Salt Separation",
-    affiliation: "Assistant Professor",
-    email: ""
-  },
-  {
-    name: "Pranjal Srivastava",
-     degree: "Intern",
-    college: "Madan Mohan Malaviya University of Technology",
-     photo: '/images/people/alumni/interns/pranjal.jpeg',
-    duration: "May-June 2025 (Two months)",
-    topic: "Design and development of membrane crystallizer for Water Recovery and Salt Separation",
-    affiliation: "Assistant Professor",
-    email: ""
-  },
-  {
-    name: "Mr. Akash Pandey",
-     degree: "Intern",
-    college: "NA",
-     photo: '/images/people/alumni/interns/akash.jpeg',
-    duration: "June-August 2024 (Three months)",
-    topic: "NA",
-    affiliation: "",
-    email: ""
-  },
-  {
-    name: "Ms. Vedanshi Kuvadia",
-     degree: "Intern",
-    college: "NA",
-     photo: '/images/people/alumni/interns/vedanshi.jpeg',
-    duration: "Jan-April 2024 (Three months)",
-    topic: "Response Surface Methodology and Artificial Neural Networks in Water Treatment Processes",
-    affiliation: "",
-    email: ""
-  },
-  {
-    name: "Ms. Parmar Jahanviben Mahipatsinh",
-     degree: "Intern",
-    college: "NA",
-     photo: '/images/people/alumni/interns/jahanvi.jpeg',
-    duration: "Feb-April 2024 (Three months)",
-    topic: "Innovative Strategies for Enhancing Concrete Durability: Bacillus Species Encapsulation with Synthesized Polyurea",
-    affiliation: "",
-    email: ""
-  },
-  {
-    name: "Ms. Kaneria Falshruti Bhaveshbhai",
-     degree: "Intern",
-    college: "NA",
-     photo: '/images/people/alumni/interns/falshruti.jpg',
-    duration: "Jan-April 2024 (Three months)",
-    topic: "Enhanced the photocatalytic & Antibacterial potential of polysulfon membrane augmented with ZnO,SiO2 & TiO2",
-    affiliation: "Assistant Professor",
-    email: ""
-  },
-  {
-    name: "Mr. Shubham Rank",
-     degree: "Intern",
-    college: "NA",
-     photo: '/images/people/alumni/interns/shubham.jpeg',
-    duration: "Feb-April 2024 (Three months)",
-    topic: "Carbon Chain Grafted Polyvinylidene Fluoride Membranes For Textile Water Remediation",
-    affiliation: "Assistant Professor",
-    email: ""
-  },
-  {
-    name: "Mr. Rajyaguru Deep",
-     degree: "Intern",
-    college: "BITS Pilani",
-     photo: '/images/people/alumni/interns/rajyaguru.jpeg',
-    duration: "May-July 2023 (Three months)",
-    topic: "NA",
-    affiliation: "Assistant Professor",
-    email: ""
-  },
-  {
-    name: "Mr. Abhishek Bhatt",
-     degree: "Intern",
-    college: "NA",
-     photo: '/images/people/alumni/interns/abhishek.jpeg',
-    duration: "Feb-May 2023 (Three months)",
-    topic: "NA",
-    affiliation: "Assistant Professor",
-    email: ""
-  },
-  {
-    name: "Mr. Tarun Mangukiya",
-     degree: "Intern",
-    college: "NA",
-     photo: '/images/people/alumni/interns/tarun.jpeg',
-    duration: "Feb-May 2023 (Three months)",
-    topic: "NA",
-    affiliation: "Assistant Professor",
-    email: ""
-  },
-  {
-    name: "Mr. Monish Jatakiya",
-     degree: "Intern",
-    college: "NA",
-     photo: '/images/people/alumni/interns/monish.jpeg',
-    duration: "Dec 2022 (One month)",
-    topic: "NA",
-    affiliation: "Assistant Professor",
-    email: ""
-  },
-  {
-    name: "Ms. Gopika B. Raj",
-     degree: "Intern",
-    college: "Central Institute of Petrochemicals Technology Kochi",
-     photo: '/images/people/alumni/interns/gopika.jpeg',
-    duration: "March-May 2022 (Three months)",
-    topic: "Adsorption",
-    affiliation: "Assistant Professor",
-    email: ""
-  },
-  {
-    name: "Mr. Rashmi Ranjan Mandal",
-     degree: "Intern",
-    college: "NA",
-     photo: '/images/people/alumni/interns/rashmi.jpeg',
-    duration: "March-May 2022 (Three months)",
-    topic: "Adsorption",
-    affiliation: "Assistant Professor",
-    email: ""
-  },
-    {
-    name: "Ms. Anju Nair",
-     degree: "Intern",
-    college: "NA",
-     photo: '/images/people/alumni/interns/anju.jpeg',
-    duration: "January-June 2022 (6 months)",
-    topic: "Computational studies on nanomaterials for water treatment",
-    affiliation: "",
-    email: ""
-  },
-   {
-    name: "Ms. Sneha Bince ",
-     degree: "Intern",
-    college: "NA",
-     photo: '/images/people/alumni/interns/sneha.png',
-    duration: "Jan 2022- May 2022",
-    topic: "Computational analysis of substituent effect on indole derivatives as potential antibacterial agents",
-    affiliation: "",
-    email: ""
-  },
-  {
-    name: "Ms. Pushpmala Kuwer",
-     degree: "Intern",
-    college: "Institute for Excellence in Higher Education, Bhopal",
-     photo: '/images/people/alumni/interns/pushpmala.jpeg',
-    duration: "March-August 2021 (Six months)",
-    topic: "Adsorption",
-    affiliation: "",
-    email: ""
-  },
-  {
-    name: "Ms. Prathibha Yadav",
-     degree: "Intern",
-    college: "Institute for Excellence in Higher Education, Bhopal",
-     photo: '/images/people/alumni/interns/prathibha.jpeg',
-    duration: "March-August 2021 (Six months)",
-    topic: "Membranes",
-    affiliation: "",
-    email: ""
-  },
-  {
-    name: "Ms. Rutu Gajera",
-     degree: "Intern",
-    college: "NIT Surat",
-     photo: '/images/people/alumni/interns/rutu.jpeg',
-    duration: "July-December, 2021 (Six months)",
-    topic: "Catalytic adsorption treatmenr process of dye wastewater",
-    affiliation: "",
-    email: ""
-  },
-  ],
-}

@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Layout from '@/components/layout/Layout';
-import { pi } from '@/content/people';
-import { researchAreas } from '@/content/research';
+import { pi } from '@/content/groupmembers';
+import { researchAreas } from '@/content/researchAreas';
 import { awards } from '@/content/awards';
 import ResearchAreaCard from '@/components/research/ResearchAreaCard';
 import Button from '@/components/ui/Button';
@@ -10,8 +10,8 @@ import Image from 'next/image';
 // Import at the top
 import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css/pagination';
-import { notices } from '@/content/noticedata';
-import { upcomingevents } from '@/content/noticedata';
+import { notices } from '@/content/notice&updatedata';
+import { upcomingevents } from '@/content/notice&updatedata';
 import ResearchSection from '@/components/sections/ResearchSection';
 import AwardsSection1 from '@/components/sections/AwardsSection1';
 import { InvitedTalksSection } from '@/components/sections/talksection';

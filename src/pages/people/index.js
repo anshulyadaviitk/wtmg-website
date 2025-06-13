@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Layout from '@/components/layout/Layout';
-import { pi } from '@/content/people';
+import { pi } from '@/content/groupmembers';
 import Button from '@/components/ui/Button';
 import SectionTitle from '@/components/ui/SectionTitle';
 import Image from 'next/image';

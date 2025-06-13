@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Layout from '@/components/layout/Layout';
-import { past } from '@/content/people';
+import { past } from '@/content/pastmembers';
 import PastMemberCard from '@/components/people/PastMemberCard';
 import SectionTitle from '@/components/ui/SectionTitle';
 import { useRouter } from 'next/router';

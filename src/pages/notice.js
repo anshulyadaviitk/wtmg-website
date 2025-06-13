@@ -1,7 +1,7 @@
 // pages/notices.js
 import Head from 'next/head';
 import Layout from '@/components/layout/Layout';
-import { notices } from '@/content/noticedata';
+import { notices } from '@/content/notice&updatedata';
 
 export default function NoticesPage() {
   // Sort notices: New ones first, then by latest date

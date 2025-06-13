@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Head from 'next/head';
 import Layout from '@/components/layout/Layout';
-import { pi } from '@/content/people';
+import { pi } from '@/content/groupmembers';
 import { awards } from '@/content/awards';
 import AwardsSection1 from '@/components/sections/AwardsSection1';
 import { 
@@ -402,33 +402,6 @@ export default function DrAnshulYadav() {
   </div>
 </section>
 
-
-
-
-      {/* <section>
-        <h2 className="text-2xl font-semibold">Awards & Recognition</h2>
-        <ul className="list-disc list-inside space-y-2">
-          <li>Young Scientist Award, International Society for Energy, Environment and Sustainability (2023)</li>
-          <li>Top 2% Scientist in the World – Materials (2022)</li>
-          <li>Best PhD Thesis Award – Academy of Scientific & Innovative Research (2022)</li>
-          <li>Best PhD Thesis Award – Indian Membrane Society (2022)</li>
-          <li>Silver Medal – International Sol-Gel Society (2022) <a className="text-blue-600" href="https://www.isgs.org/community/the-isgs-phd-thesis-award-prize-for-2022-goes-to/#:~:text=Mathias%20Stanzel%2C%20Dr.-,Anshul%20Yadav">(Link)</a></li>
-          <li>Two artworks selected for cover of Colloids and Surfaces A (Volumes 641 & 667)</li>
-          <li>Contributor to Encyclopaedia of Materials by Elsevier (2022)</li>
-          <li>MHRD Scholarship for M.Tech at IIT Kanpur</li>
-          <li>Best Project Award in Manufacturing Processes at IIT Kanpur (2013)</li>
-          <li>Letter of Appreciation – Army Welfare Education Society (2012)</li>
-          <li>Certificate of Merit – CBSE in English, Physics, Mathematics (2011)</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2 className="text-2xl font-semibold">Guest Editorships</h2>
-        <ul className="list-disc list-inside">
-          <li><a href="https://www.mdpi.com/journal/water/special_issues/1162I5IOVJ" className="text-blue-600">Membrane Technologies for Wastewater Treatment and Resource Recovery</a> – Water (IF: 3.0)</li>
-          <li><a href="https://www.mdpi.com/journal/lubricants/special_issues/Friction_Wear_Composite_Materials" className="text-blue-600">Friction and Wear in Composite Materials</a> – Lubricants (IF: 3.1)</li>
-        </ul>
-      </section> */}
     </div>
     </Layout>
   );

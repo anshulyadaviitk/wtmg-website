@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Head from 'next/head';
 import Layout from '@/components/layout/Layout';
-import { pi } from '@/content/people';
+import { pi } from '@/content/groupmembers';
 import { awards } from '@/content/awards';
 import AwardsSection1 from '@/components/sections/AwardsSection1';
 import { 
