@@ -19,5 +19,5 @@ To run this project locally:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Ambreshbakshi/wrrg-iitr.git
-cd wrrg-iitr
+git clone https://github.com/anshulyadaviitk/wtmg-iitr.git
+cd wtmg-iitr
