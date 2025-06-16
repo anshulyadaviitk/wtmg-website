@@ -471,7 +471,7 @@ export const interns = [
     id: 'intern-01',
     type: 'intern',
     name: 'Adnan Hamid',
-    photo: '/images/groupmembers/interns/adnan.jpeg',
+    photo: '/images/groupmembers/interns/adnan.jpg',
     position: 'Intern',
     College: 'Aligarh Muslim University',
     topic: 'Development of a   Functionalized Polymer Membrane for Efficient Wastewater Remediation',
