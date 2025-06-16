@@ -182,7 +182,7 @@ export const publications = {
       pages: '6262-6280',
       citescore:'N/A',
       impact_factor:'1.9',
-    quartile:'Q1',
+    quartile:'Q2',
     image: '/images/research/journal/computational.jpg',
     link: 'https://iwaponline.com/ws/article/22/7/6262/88697/Computational-fluid-dynamics-based-numerical',
       publisher: 'International Water Association',
