@@ -297,6 +297,9 @@ export default function DrAnshulYadav() {
               <p className="text-xs text-gray-500">
                 <span className="font-medium">Sponsoring Agency:</span> {project.sponsor}
               </p>
+                <p className="text-xs text-gray-500">
+                <span className="font-medium">Role:</span> {role}
+              </p>
               <p className="text-xs text-gray-500">
                 <span className="font-medium">Budget:</span> {project.funding}
               </p>
