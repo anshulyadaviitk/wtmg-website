@@ -162,8 +162,7 @@ export default function DrAnshulYadav() {
 </section>
 
 
-
-{/*Proffessional Experience */}
+{/*Professional Experience */}
    <section className="py-16 bg-gray-50">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <h2 className="text-4xl font-bold text-gray-900 mb-1 text-center">
@@ -298,7 +297,7 @@ export default function DrAnshulYadav() {
                 <span className="font-medium">Sponsoring Agency:</span> {project.sponsor}
               </p>
                 <p className="text-xs text-gray-500">
-                <span className="font-medium">Role:</span> {role}
+                <span className="font-medium">Role:</span> {project.role}
               </p>
               <p className="text-xs text-gray-500">
                 <span className="font-medium">Budget:</span> {project.funding}
