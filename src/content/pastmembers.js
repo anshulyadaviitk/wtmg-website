@@ -88,16 +88,6 @@ export const past = {
     email: ""
   },
   {
-    name: "Mr. Vaibhav Kumar",
-     degree: "Intern",
-    college: "IIEST, Shibpur",
-     photo: '/images/pastmembers/interns/vaibhav.jpeg',
-    duration: "May-June 2025 (Two months)",
-    topic: "Computational Modelling and Evaluation of a Tablet Chlorinator for Water Treatment System",
-    affiliation: "Assistant Professor",
-    email: ""
-  },
-  {
     name: "Mr. Ambresh Kumar Bakshi",
      degree: "Intern",
     college: "Madan Mohan Malaviya University of Technology",
