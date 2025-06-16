@@ -503,6 +503,16 @@ export const interns = [
     topic: 'Computational fluid dynamics simulations of vacuum membrane distillation for wastewater treatment applications',
     duration: 'May–June 2025 (Two months)',
     email: 'XXXXXXXXXX'
+  },
+ {
+    name: "Mr. Vaibhav Kumar",
+     degree: "Intern",
+    college: "IIEST, Shibpur",
+     photo: '/images/pastmembers/interns/vaibhav.jpeg',
+    duration: "May-June 2025 (Two months)",
+    topic: "Computational Modelling and Evaluation of a Tablet Chlorinator for Water Treatment System",
+    affiliation: "Assistant Professor",
+    email: ""
   }
 ];
 
