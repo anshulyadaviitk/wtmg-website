@@ -2,12 +2,22 @@
 export const past = {
   phd: [
     {
-      id: 'al-phd-02',
+      id: 'al-phd-01',
       name: 'Mr. Raj Vardhan Prasad Patel',
       photo: '', // Replace with actual path if needed
       degree: 'PhD (2022–2024)',
       topic: '',
       duration: '2022–2024',
+      currentStatus: 'Transferred when leaving CSIR-CSMCRI, Bhavnagar',
+      thesisLink: ''
+    },
+     {
+      id: 'al-phd-02',
+      name: 'Ms. Shweta Chaubey',
+      photo: '', // Replace with actual path if needed
+      degree: 'PhD (2022–2023)',
+      topic: '',
+      duration: '2022–2023',
       currentStatus: 'Transferred when leaving CSIR-CSMCRI, Bhavnagar',
       thesisLink: ''
     },
