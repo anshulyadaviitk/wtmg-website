@@ -22,7 +22,7 @@ export default function DrAnshulYadav() {
 
     <Layout>
           <Head>
-            <title>Principal Investigator | WRDM Research Group</title>
+            <title>Principal Investigator | WTMG Research Group</title>
           </Head>
 
   <div className="px-0 py-6 max-w-7xl mx-auto space-y-10">
@@ -298,7 +298,7 @@ export default function DrAnshulYadav() {
                 <span className="font-medium">Sponsoring Agency:</span> {project.sponsor}
               </p>
                 <p className="text-xs text-gray-500">
-                <span className="font-medium">Role:</span> {pi.role}
+                <span className="font-medium">Role:</span> {role}
               </p>
               <p className="text-xs text-gray-500">
                 <span className="font-medium">Budget:</span> {project.funding}
