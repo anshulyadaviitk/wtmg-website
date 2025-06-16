@@ -18,13 +18,13 @@ export const pi = {
   ],
   education: [
     'Ph.D., Engineering Sciences, Academy of Scientific and Innovative Research (AcSIR), India (2022)',
-    'M.Tech, Mechanical Engineering, Indian Institute of Technology, Kanpur (2017)',
+    'M.Tech, Mechanical Engineering, Indian Institute of Technology Kanpur (2017)',
     'B.Tech, Major: Mechanical Engineering; Minor: Electrical Engineering, Indian Institute of Technology Kanpur, India (2017)'
   ],
   contact: {
     email: 'anshul.yadav@wr.iitr.ac.in',
     phone: '+91-94735 83417 (Mob)\n+91-1332-285617 (O)',
-    office: ' First floor, Department of Water Resources Development and Management,\nIndian Institute of Technology Roorkee'
+    office: 'First floor, Department of Water Resources Development and Management,\nIndian Institute of Technology Roorkee'
   },
   bio: 'Dr. Anshul Yadav is an Assistant Professor in the Department of Water Resources Development & Management at Indian Institute of Technology Roorkee and the founding Principal Investigator of the Water Treatment & Monitoring Group (WTMG). His research unites advanced separation science with smart sensing, spanning membrane distillation, electrodialysis, adsorption, and the design of polymeric, composite, and MOF/ZIF-based membranes. By coupling these materials with IoT-enabled water-quality sensor networks, he pursues real-time, data-driven solutions for drinking-water security and industrial wastewater reuse. His work has led to multiple patents—peer-reviewed publications, and competitive funding from national agencies. Beyond the lab, Dr. Yadav integrates research, teaching, and outreach.',
   social: {
@@ -101,10 +101,20 @@ export const pi = {
       title: 'Development of hydrophobic membranes for desalination and resource recovery using membrane distillation',
       funding: '20 lakhs',
       duration: '2025-2027',
-      sponsor:'Indian Institute of Technology Roorkee',
+      sponsor:'SRIC, Indian Institute of Technology Roorkee',
+      role: 'PI',
       images:'images/logos/iitr-logo-white.png',
       description: ''
     },
+   {
+      title: 'Assessment of Environmental FIows in the Ghagra and Gomti River Basins',
+      funding: '842.73 lakhs',
+      duration: '2025-2028',
+      sponsor:'NMCG, Ministry of Jal Shakti',
+      role: 'co-PI',
+      images:'images/logos/nmcg-logo.jpg',
+      description: ''
+    },    
   ]
 };
 
@@ -460,6 +470,17 @@ export const mastersStudents = [
 
 
 export const interns = [
+  {
+    id: 'intern-01',
+    type: 'intern',
+    name: 'Adnan Hamid',
+    photo: '/images/groupmembers/interns/adarsh.jpeg',
+    position: 'Intern (SPARK Program, Indian Institute of Technology Roorkee)',
+    College: 'Indian Institute of Technology (Banaras Hindu University), Varanasi',
+    topic: 'Design and development of a prototype for zero liquid discharge wastewater treatment system',
+    duration: 'May–June 2025 (Two months)',
+    email: 'adarshkr.jha.mst22@itbhu.ac.in'
+  },
   {
     id: 'intern-02',
     type: 'intern',
