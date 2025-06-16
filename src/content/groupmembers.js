@@ -235,7 +235,7 @@ images:[
 
 export const mastersStudents = [
   {
-    id: 'mtech-02',
+    id: 'mtech-01',
     type: 'MTech',
     name: 'Mr. Abhishek Kumar Sinha',
     photo: '/images/groupmembers/mtech/abhishek.jpeg',
@@ -243,16 +243,12 @@ export const mastersStudents = [
     nationality: 'Indian',
     researchArea: '',
     peerReviewedPublications: ['N/A'
-
     ],
     patents: ['N/A'
-
     ],
     conferences: ['N/A'
-
     ],
     awards: ['N/A'
-
     ],
     images: [
       '/images/events/event1.jpg',
@@ -266,8 +262,9 @@ export const mastersStudents = [
     email: 'XXXXXXXXXX',
     coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee'
   },
+  
   {
-    id: 'mtech-0a',
+    id: 'mtech-02',
     type: 'MTech',
     name: 'Ar. Harsh Pathak',
     photo: '/images/groupmembers/mtech/harshpathak.jpg',
@@ -474,19 +471,19 @@ export const interns = [
     id: 'intern-01',
     type: 'intern',
     name: 'Adnan Hamid',
-    photo: '/images/groupmembers/interns/adarsh.jpeg',
-    position: 'Intern (SPARK Program, Indian Institute of Technology Roorkee)',
-    College: 'Indian Institute of Technology (Banaras Hindu University), Varanasi',
-    topic: 'Design and development of a prototype for zero liquid discharge wastewater treatment system',
-    duration: 'May–June 2025 (Two months)',
-    email: 'adarshkr.jha.mst22@itbhu.ac.in'
+    photo: '/images/groupmembers/interns/adnan.jpeg',
+    position: 'Intern',
+    College: 'Aligarh Muslim University',
+    topic: 'Development of a   Functionalized Polymer Membrane for Efficient Wastewater Remediation',
+    duration: 'June–July 2025 (Two months)',
+    email: 'ah4685639@gmail.com'
   },
   {
     id: 'intern-02',
     type: 'intern',
     name: 'Adarsh Kumar Jha',
     photo: '/images/groupmembers/interns/adarsh.jpeg',
-    position: 'Intern (SPARK Program, Indian Institute of Technology Roorkee)',
+    position: 'Intern (SPARK Program, IIT Roorkee)',
     College: 'Indian Institute of Technology (Banaras Hindu University), Varanasi',
     topic: 'Design and development of a prototype for zero liquid discharge wastewater treatment system',
     duration: 'May–June 2025 (Two months)',
