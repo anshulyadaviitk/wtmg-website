@@ -298,7 +298,7 @@ export default function DrAnshulYadav() {
                 <span className="font-medium">Sponsoring Agency:</span> {project.sponsor}
               </p>
                 <p className="text-xs text-gray-500">
-                <span className="font-medium">Role:</span> {role}
+                <span className="font-medium">Role:</span> {pi.role}
               </p>
               <p className="text-xs text-gray-500">
                 <span className="font-medium">Budget:</span> {project.funding}
@@ -325,10 +325,7 @@ export default function DrAnshulYadav() {
     </div>
   </div>
 </section>
-
-
-
-       
+      
           <section className="py-12">
   <AwardsSection1 awards={awards} />
 </section>
