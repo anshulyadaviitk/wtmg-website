@@ -1,46 +1,50 @@
 export const National = [
   {
-    name: "Indian Institute of Science, Bengaluru, India",
+    name: "Indian Institute of Science, Bengaluru",
     logo: "/images/collaborations/logo_national/iisc_bangalore.jpg",
   },
   {
-    name: "Indian Institute of Technology, Guwahati, India",
+    name: "Indian Institute of Technology, Guwahati",
     logo: "/images/collaborations/logo_national/iit_guwahati.png",
   },
   {
-    name: "National Institute of Hydrology, Roorkee, India",
+    name: "National Institute of Hydrology, Roorkee",
     logo: "/images/collaborations/logo_national/nih_roorkee.jpeg",
   },
   {
-    name: "Indian Institute of Technology, Kanpur, India",
+    name: "Indian Institute of Technology, Kanpur",
     logo: "/images/collaborations/logo_national/iit_kanpur.jpg",
   },
   {
-    name: "National Institute of Technology, Warangal, India",
+    name: "National Institute of Technology, Warangal",
     logo: "/images/collaborations/logo_national/nit_warangal.png",
   },
   {
-    name: "School of Advanced Sciences, SOA University, India",
+    name: "School of Advanced Sciences, SOA University",
     logo: "/images/collaborations/logo_national/soa_university.png",
   },
   {
-    name: "Kamla Nehru Institute of Technology, Sultanpur, India",
+    name: "Kamla Nehru Institute of Technology, Sultanpur",
     logo: "/images/collaborations/logo_national/knit_sultanpur.jpg",
   },
   {
-    name: "National Institute of Technology, Uttarakhand, India",
+    name: "National Institute of Technology, Uttarakhand",
     logo: "/images/collaborations/logo_national/nit_uttarakhand.png",
   },
   {
-    name: "CSIR-Central Salt and Marine Chemicals Research Institute, Bhavnagar, India",
+    name: "CSIR-Central Salt and Marine Chemicals Research Institute, Bhavnagar",
     logo: "/images/collaborations/logo_national/csir_csmcri.png",
   },
   {
-    name: "CSIR-Structural Engineering Research Centre, Chennai, India",
+    name: "Indian Institute of Technology, Madras",
+    logo: "/images/collaborations/logo_national/iit_madras.png",
+  },
+  {
+    name: "CSIR-Structural Engineering Research Centre, Chennai",
     logo: "/images/collaborations/logo_national/csir_serc.jpg",
   },
   {
-    name: "GSFC University, India",
+    name: "GSFC University, Vadodara",
     logo: "/images/collaborations/logo_national/gsfc_gujarat.png",
   },
 ];
