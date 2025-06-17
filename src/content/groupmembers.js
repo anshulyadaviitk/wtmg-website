@@ -150,7 +150,7 @@ images:[
     duration: 'January 2025 – Present',
     email: '',
     contact: '',
-    coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee',
+    co-Supervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee',
     links: {
       linkedin: 'XXXX',
       researchgate: 'XXXX',
@@ -322,7 +322,7 @@ export const mastersStudents = [
   {
     id: 'mtech-04',
     type: 'MTech',
-    name: 'Abas Amri Makada',
+    name: 'Mr. Abas Amri Makada',
     photo: '/images/groupmembers/mtech/abbas.jpeg',
     nationality: 'Tanzania',
     researchArea: '',
@@ -346,7 +346,7 @@ export const mastersStudents = [
   {
     id: 'mtech-05',
     type: 'MTech',
-    name: 'Aiswarya Priya',
+    name: 'Ms. Aiswarya Priya',
     photo: '/images/groupmembers/mtech/aishwarya.jpeg',
     position: 'Master of Technology in Drinking Water Sanitation',
     nationality: 'Indian',
@@ -370,7 +370,7 @@ export const mastersStudents = [
   {
     id: 'mtech-06',
     type: 'MTech',
-    name: 'Balkrishan',
+    name: 'Mr. Bal Krishan',
     photo: '/images/groupmembers/mtech/balkrishan.jpeg',
     position: 'Master of Technology in Drinking Water Sanitation',
     nationality: 'Indian',
@@ -394,7 +394,7 @@ export const mastersStudents = [
   {
     id: 'mtech-07',
     type: 'MTech',
-    name: 'Issah Mtono',
+    name: 'Mr. Issah Mtono',
     photo: '/images/groupmembers/mtech/issah.jpeg',
     nationality: 'Tanzania',
     researchArea: '',
@@ -418,7 +418,7 @@ export const mastersStudents = [
   {
     id: 'mtech-08',
     type: 'MTech',
-    name: 'Nsanzurwimo Malachie',
+    name: 'Mr. Nsanzurwimo Malachie',
     photo: '/images/groupmembers/mtech/nsanzurwimo.jpeg',
     position: 'Master of Technology in Drinking Water Sanitation',
     nationality: 'Tanzania',
@@ -442,7 +442,7 @@ export const mastersStudents = [
   {
     id: 'mtech-09',
     type: 'MTech',
-    name: 'Prisca James',
+    name: 'Ms. Prisca James',
     photo: '/images/groupmembers/mtech/jamesprisca.jpeg',
     position: 'Master of Technology in Water Resources Development',
     nationality: 'Tanzania',
@@ -520,7 +520,7 @@ export const interns = [
     College: 'Indian Institute of Engineering Science and Technology, Shibpur',
     topic: 'Computational fluid dynamics simulations of direct contact membrane distillation for desalination applications',
     duration: 'May–June 2025 (Two months)',
-    email: 'XXXXXXXXXX'
+    email: '2022ceb024.sanchita@students.iiests.ac.in'
   },
   {
     id: 'intern-06',
@@ -531,7 +531,7 @@ export const interns = [
     College: 'Indian Institute of Engineering Science and Technology, Shibpur',
     topic: 'Computational fluid dynamics simulations of vacuum membrane distillation for wastewater treatment applications',
     duration: 'May–June 2025 (Two months)',
-    email: 'XXXXXXXXXX'
+    email: '2022ceb043.ayush@students.iiests.ac.in'
   },
  {
    id: 'intern-07',
@@ -543,7 +543,7 @@ export const interns = [
     duration: "May-June 2025 (Two months)",
     topic: "Computational Modelling and Evaluation of a Tablet Chlorinator for Water Treatment System",
     affiliation: "Assistant Professor",
-    email: ""
+    email: "2023ceb055.vaibhav@students.iiests.ac.in"
   }
 ];
 
