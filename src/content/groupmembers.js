@@ -470,7 +470,18 @@ export const interns = [
   {
     id: 'intern-01',
     type: 'intern',
-    name: 'Adnan Hamid',
+    name: 'Ms. Nancy Babel',
+    photo: '/images/groupmembers/interns/nancy.jpg',
+    position: 'Intern',
+    College: 'Indian Institute of Technology (Banaras Hindu University), Varanasi',
+    topic: 'Application of AI and ML techniques in water and wastewatewr treatment',
+    duration: 'May–July 2025 (Two months)',
+    email: 'nancybabel03@gmail.com'
+  },
+  {
+    id: 'intern-02',
+    type: 'intern',
+    name: 'Mr. Adnan Hamid',
     photo: '/images/groupmembers/interns/adnan.jpg',
     position: 'Intern',
     College: 'Aligarh Muslim University',
@@ -479,9 +490,9 @@ export const interns = [
     email: 'ah4685639@gmail.com'
   },
   {
-    id: 'intern-02',
+    id: 'intern-03',
     type: 'intern',
-    name: 'Adarsh Kumar Jha',
+    name: 'Mr. Adarsh Kumar Jha',
     photo: '/images/groupmembers/interns/adarsh.jpeg',
     position: 'Intern (SPARK Program, IIT Roorkee)',
     College: 'Indian Institute of Technology (Banaras Hindu University), Varanasi',
@@ -490,7 +501,7 @@ export const interns = [
     email: 'adarshkr.jha.mst22@itbhu.ac.in'
   },
   {
-    id: 'intern-03',
+    id: 'intern-04',
     type: 'intern',
     name: 'Mr. Raj Keshari',
     photo: '/images/groupmembers/interns/raj.jpeg',
@@ -501,7 +512,7 @@ export const interns = [
     email: 'r2436533@gmail.com'
   },
   {
-    id: 'intern-04',
+    id: 'intern-05',
     type: 'intern',
     name: 'Ms. Sanchita Garai',
     photo: '/images/groupmembers/interns/sanchita.jpeg',
@@ -514,7 +525,7 @@ export const interns = [
   {
     id: 'intern-06',
     type: 'intern',
-    name: 'Mr. Aayush Ghosh',
+    name: 'Mr. Ayush Ghosh',
     photo: '/images/groupmembers/interns/aayush.jpeg',
     position: 'Intern',
     College: 'Indian Institute of Engineering Science and Technology, Shibpur',
@@ -523,6 +534,8 @@ export const interns = [
     email: 'XXXXXXXXXX'
   },
  {
+   id: 'intern-07',
+    type: 'intern',
     name: "Mr. Vaibhav Kumar",
      degree: "Intern",
     college: "IIEST, Shibpur",
