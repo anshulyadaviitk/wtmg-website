@@ -76,23 +76,21 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom Section */}
-        <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400 text-sm">
-          <p>@CopyRight Protected by Dr. Anshul Yadav
+     {/* Bottom Section */}
+<div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400 text-sm">
+  <p>
+    © Copyright Protected by Dr. Anshul Yadav | Visitor Count:{" "}
+    <a href="https://www.hitwebcounter.com" target="_blank" rel="noopener noreferrer">
+      <img
+        src="https://hitwebcounter.com/counter/counter.php?page=20941231&style=0008&nbdigits=5&type=page&initCount=0"
+        title="Counter Widget"
+        alt="Visit counter For Websites"
+        style={{ display: 'inline', verticalAlign: 'middle', marginLeft: '5px' }}
+      />
+    </a>
+  </p>
+</div>
 
-          <div className="mt-2">
-            <span className="block text-xs text-gray-400">| Visitor Count
-            <a href="https://www.hitwebcounter.com" target="_blank" rel="noopener noreferrer">
-              <img
-                src="https://hitwebcounter.com/counter/counter.php?page=20941231&style=0008&nbdigits=5&type=page&initCount=0"
-                title="Counter Widget"
-                alt="Visit counter For Websites"
-                style={{ margin: '0 auto' }}
-              />
-            </a></span>
-          </div>
-          </p>
-        </div>
       </div>
     </footer>
   );
