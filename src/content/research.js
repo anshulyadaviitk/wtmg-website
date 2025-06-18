@@ -350,7 +350,7 @@ export const publications = {
   eisbn: '',
   doi: '',
   featured: false
-}
+},
 { id: 'book-02',
    title: 'Applications of two-dimensional nanomaterials for water and wastewater treatment',
    authors: ['A.Yadav', 'R. Yadav', 'P.K. Labhasetwar'],
