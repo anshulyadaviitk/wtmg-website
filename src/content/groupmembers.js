@@ -150,7 +150,7 @@ images:[
     duration: 'January 2025 – Present',
     email: '',
     contact: '',
-    co-Supervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee',
+    coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee',
     links: {
       linkedin: 'XXXX',
       researchgate: 'XXXX',
@@ -219,9 +219,8 @@ images:[
     '/images/events/event4.jpg'
 ],
     previousDegree: "Master of Technology (M.Tech) degree from the Indian Institute of Technology, Guwahati (2024)\nBachelor of Technology from Uttarakhand Technical University, Dehradun (2020)",
-    duration: "2021 - Ongoing",
+    duration: "July 2025 – Present",
     topic: 'Development of a Solar-Powered Electrocoagulation–Membrane Hybrid System for Treatment of Agro-Based Pulp and Paper Industry Wastewater.',
-    duration: 'July 2025 – Present',
     email: 'vineetmunda12@gmail.com',
     contact: 'XXXX',
     coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee',
