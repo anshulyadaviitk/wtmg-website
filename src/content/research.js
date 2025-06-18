@@ -384,16 +384,16 @@ export const patents = [
   title: 'An energy-efficient multi-stage modular membrane–crystallization system for zero liquid discharge in desalination and wastewater treatment',
   inventors: ['A. Yadav', 'A. K. Jha', 'B. Krishan', 'Nikhil'],
   patentNumber: 'IN2025110XXXXX',
-  filingDate: 'xx–07–2025',
+  filingDate: '01–07–2025',
   status: 'Under preparation',
   link: 'https://ipindia.gov.in/patent-details'
 },
   {
     id: 'pat-01',
-    title: 'Multi-pass helical submerged membrane distillation module',
+    title: 'Multi-pass helical submerged membrane distillation module for desalination and wastewater treatment',
     inventors: ['A.Yadav', 'B. Krishna', 'Nikhil', 'P.K. Labhasetwar'],
     patentNumber: 'IN2025110XXXXX',
-    filingDate: '15–06–2025',
+    filingDate: '01–07–2025',
     status: 'Filed',
     link: 'https://ipindia.gov.in/patent-details'
   },
@@ -402,7 +402,7 @@ export const patents = [
     title: 'Twisted spacer filaments for low biofouling and scaling in the feed channel of membrane distillation',
     inventors: ['A.Yadav', 'A. Kumar', 'C.P. Singh', 'R.V. Patel'],
     patentNumber: 'IN2025110XXXXX',
-    filingDate: '15–06–2025',
+    filingDate: '01–07–2025',
     status: 'Filed',
     link: 'https://ipindia.gov.in/patent-details'
   },
