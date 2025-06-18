@@ -81,18 +81,18 @@ export default function Footer() {
         <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400 text-sm">
           <p>@CopyRight Protected by Dr.Anshul Yadav</p>
 
-          {/* Visitor Counter */}
-          <div className="mt-4">
-            <a href="https://www.hitwebcounter.com" target="_blank" rel="noopener noreferrer">
-              <img
-                src="https://hitwebcounter.com/counter/counter.php?page=9171077&style=0006&nbdigits=5&type=ip&initCount=0"
-                title="Visitor Counter"
-                alt="visitor counter"
-                className="mx-auto"
-              />
-            </a>
-            <p className="mt-1 text-gray-500 text-xs">Visitor Count</p>
-          </div>
+           {/* Visitor Counter */}
+  <div className="mt-4">
+    <a href="https://www.hitwebcounter.com" target="_blank" rel="noopener noreferrer">
+      <img
+        src="https://hitwebcounter.com/counter/counter.php?page=20941085&style=0008&nbdigits=5&type=page&initCount=0"
+        title="Counter Widget"
+        alt="Visit counter For Websites"
+        className="mx-auto"
+      />
+    </a>
+    <p className="mt-1 text-gray-500 text-xs">Visitor Count</p>
+  </div>
         </div>
       </div>
     </footer>
