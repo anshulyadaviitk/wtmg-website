@@ -1,3 +1,4 @@
+// src/components/layout/Footer.js
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -19,9 +20,7 @@ export default function Footer() {
                 />
               </div>
               <div>
-                <h6 className="text-xl font-bold">
-                  Department of Water Resources<br />Development & Management
-                </h6>
+                <h6 className="text-xl font-bold">Department of Water Resources<br />Development & Management</h6>
               </div>
             </div>
             <p className="text-gray-300 mb-4">
@@ -54,7 +53,7 @@ export default function Footer() {
                 Assistant Professor
               </p>
               <p className="text-gray-300 mb-2">
-                <span className="block">✉ anshul.yadav@wr.iitr.ac.in</span>
+                ✉ anshul.yadav@wr.iitr.ac.in
               </p>
               <div className="flex space-x-4 mt-4">
                 <a href="https://scholar.google.com/citations?user=gD5XxtYAAAAJ&hl=en" aria-label="Google Scholar">
@@ -77,24 +76,21 @@ export default function Footer() {
           </div>
         </div>
 
-      {/* Visitor Counter */}
-<div className="mt-6 text-center">
-  <a href="https://www.hitwebcounter.com" target="_blank" rel="noopener noreferrer">
-    <img
-      src="https://hitwebcounter.com/counter/counter.php?page=20941231&style=0008&nbdigits=5&type=page&initCount=0"
-      title="Counter Widget"
-      alt="Visit counter For Websites"
-      className="mx-auto"
-    />
-  </a>
-  <p className="text-xs text-gray-400 mt-1">Visitor Count</p>
-</div>
+        {/* Bottom Section */}
+        <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400 text-sm">
+          <p>@CopyRight Protected by Dr. Anshul Yadav</p>
 
-{/* Copyright */}
-<div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400 text-sm">
-  <p>@CopyRight Protected by Dr.Anshul Yadav</p>
-</div>
-
+          <div className="mt-2">
+            <span className="block text-xs text-gray-400">Visitor Count</span>
+            <a href="https://www.hitwebcounter.com" target="_blank" rel="noopener noreferrer">
+              <img
+                src="https://hitwebcounter.com/counter/counter.php?page=20941231&style=0008&nbdigits=5&type=page&initCount=0"
+                title="Counter Widget"
+                alt="Visit counter For Websites"
+                style={{ margin: '0 auto' }}
+              />
+            </a>
+          </div>
         </div>
       </div>
     </footer>
