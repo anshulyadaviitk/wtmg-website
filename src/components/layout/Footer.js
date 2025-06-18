@@ -77,11 +77,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom Section */}
-        <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400 text-sm">
-          <p>@CopyRight Protected by Dr.Anshul Yadav</p>
-
-           {/* Visitor Counter */}
+      {/* Visitor Counter */}
 <div className="mt-6 text-center">
   <a href="https://www.hitwebcounter.com" target="_blank" rel="noopener noreferrer">
     <img
@@ -92,6 +88,11 @@ export default function Footer() {
     />
   </a>
   <p className="text-xs text-gray-400 mt-1">Visitor Count</p>
+</div>
+
+{/* Copyright */}
+<div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400 text-sm">
+  <p>@CopyRight Protected by Dr.Anshul Yadav</p>
 </div>
 
         </div>
