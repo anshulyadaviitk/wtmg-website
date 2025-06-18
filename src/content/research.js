@@ -325,32 +325,8 @@ export const publications = {
   }
   ],
  books: [
-   {
-    id: 'book-01',
-    title: 'Membrane-based point-of-use drinking water treatment systems',
-    authors: ['P.K. Labhasetwar', 'A.Yadav'],
-    image: '/images/research/books/membre_book.jpeg',
-    publisher: 'International Water Association Publishing',
-    year: 2023,
-    link: 'https://iwaponline.com/ebooks/book/867/Membrane-Based-Point-of-Use-Drinking-Water',
-    isbn: '9781789062717',
-    eisbn: '9781789062724',
-    doi: '',
-    featured: true
-  },
-  { id: 'book-02',
-   title: 'Applications of two-dimensional nanomaterials for water and wastewater treatment',
-   authors: ['A.Yadav', 'R. Yadav', 'P.K. Labhasetwar'],
-   image: '/images/research/books/application_book.jpg',
-   publisher: 'Apple Academic Publishers, CRC Press',
-  year: 2026,
-  link: 'https://www.appleacademicpress.com/applications-of-two-dimensional-nanomaterials-in-water-and-wastewater-treatment-/9781779642967',
-  isbn: '9781779642967',
-  eisbn: '9781779642974',
-  doi: '',
-  featured: true },
-  {
-  id: 'book-02',
+{
+  id: 'book-04',
   title: 'Computational techniques for simulating and optimizing membrane processes for (waste)water treatment',
   authors: ['A.Yadav', 'P.K. Labhasetwar'],
   image: '', 
@@ -375,6 +351,31 @@ export const publications = {
   doi: '',
   featured: false
 }
+{ id: 'book-02',
+   title: 'Applications of two-dimensional nanomaterials for water and wastewater treatment',
+   authors: ['A.Yadav', 'R. Yadav', 'P.K. Labhasetwar'],
+   image: '/images/research/books/application_book.jpg',
+   publisher: 'Apple Academic Publishers, CRC Press',
+  year: 2026,
+  link: 'https://www.appleacademicpress.com/applications-of-two-dimensional-nanomaterials-in-water-and-wastewater-treatment-/9781779642967',
+  isbn: '9781779642967',
+  eisbn: '9781779642974',
+  doi: '',
+  featured: true 
+},
+{
+    id: 'book-01',
+    title: 'Membrane-based point-of-use drinking water treatment systems',
+    authors: ['P.K. Labhasetwar', 'A.Yadav'],
+    image: '/images/research/books/membre_book.jpeg',
+    publisher: 'International Water Association Publishing',
+    year: 2023,
+    link: 'https://iwaponline.com/ebooks/book/867/Membrane-Based-Point-of-Use-Drinking-Water',
+    isbn: '9781789062717',
+    eisbn: '9781789062724',
+    doi: '',
+    featured: true
+},
 ]
 };
 
@@ -382,14 +383,14 @@ export const patents = [
   {
   id: 'pat-05',
   title: 'An energy-efficient multi-stage modular membrane–crystallization system for zero liquid discharge in desalination and wastewater treatment',
-  inventors: ['A. Yadav', 'A. K. Jha', 'B. Krishan', 'Nikhil'],
+  inventors: ['A. Yadav', 'A.K. Jha', 'Nikhil'],
   patentNumber: 'IN2025110XXXXX',
   filingDate: '01–07–2025',
   status: 'Under preparation',
   link: 'https://ipindia.gov.in/patent-details'
 },
   {
-    id: 'pat-01',
+    id: 'pat-04',
     title: 'Multi-pass helical submerged membrane distillation module for desalination and wastewater treatment',
     inventors: ['A.Yadav', 'B. Krishna', 'Nikhil', 'P.K. Labhasetwar'],
     patentNumber: 'IN2025110XXXXX',
@@ -398,7 +399,7 @@ export const patents = [
     link: 'https://ipindia.gov.in/patent-details'
   },
   {
-    id: 'pat-02',
+    id: 'pat-03',
     title: 'Twisted spacer filaments for low biofouling and scaling in the feed channel of membrane distillation',
     inventors: ['A.Yadav', 'A. Kumar', 'C.P. Singh', 'R.V. Patel'],
     patentNumber: 'IN2025110XXXXX',
@@ -407,7 +408,7 @@ export const patents = [
     link: 'https://ipindia.gov.in/patent-details'
   },
   {
-    id: 'pat-03',
+    id: 'pat-02',
     title: 'A self-cleaning solar enabled smart device for real time surface water health monitoring',
     inventors: ['A.Yadav', 'E. Padhi', 'B. Krishna', 'Nikhil'],
     patentNumber: 'IN202511026994',
@@ -416,7 +417,7 @@ export const patents = [
     link: 'https://ipindia.gov.in/patent-details'
   },
   {
-    id: 'pat-04',
+    id: 'pat-01',
     title: 'Multi-pass concentric tubular module for membrane distillation',
     inventors: ['A.Yadav', 'R.V.P. Patel', 'B.M. Baladaniya', 'V.K. Shahi', 'P.K. Labhasetwar'],
     patentNumber: 'IN202411067163',
