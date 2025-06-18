@@ -1,4 +1,3 @@
-// src/components/layout/Footer.js
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -16,12 +15,13 @@ export default function Footer() {
                   src="/images/logos/wrdm_logo_white.png"
                   alt="IIT Roorkee Logo"
                   fill
-                  className="w-full h-full object-contain bg-white/10 backdrop-blur-sm rounded-full p-"
+                  className="w-full h-full object-contain bg-white/10 backdrop-blur-sm rounded-full"
                 />
               </div>
               <div>
-                <h6 className="text-xl font-bold">Department of Water Resources<br/> Development & Management</h6>
-                
+                <h6 className="text-xl font-bold">
+                  Department of Water Resources<br />Development & Management
+                </h6>
               </div>
             </div>
             <p className="text-gray-300 mb-4">
@@ -40,9 +40,8 @@ export default function Footer() {
             <ul className="space-y-2">
               <li><Link href="/research" className="text-gray-300 hover:text-white">Research Areas</Link></li>
               <li><Link href="/contact" className="text-gray-300 hover:text-white">Contact Us</Link></li>
-              <li><Link href="https://www.iitr.ac.in"   target="_blank" className="text-gray-300 hover:text-white">IIT Roorkee</Link></li>
-              <li><a href="https://iitr.ac.in/Departments/Water%20Resources%20Development%20and%20Management%20Department/Home.html"  target="_blank" className="text-gray-300 hover:text-white">WRDM Website</a></li>
-              
+              <li><Link href="https://www.iitr.ac.in" target="_blank" className="text-gray-300 hover:text-white">IIT Roorkee</Link></li>
+              <li><a href="https://iitr.ac.in/Departments/Water%20Resources%20Development%20and%20Management%20Department/Home.html" target="_blank" className="text-gray-300 hover:text-white">WRDM Website</a></li>
             </ul>
           </div>
 
@@ -78,9 +77,22 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom Copyright */}
+        {/* Bottom Section */}
         <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400 text-sm">
           <p>@CopyRight Protected by Dr.Anshul Yadav</p>
+
+          {/* Visitor Counter */}
+          <div className="mt-4">
+            <a href="https://www.hitwebcounter.com" target="_blank" rel="noopener noreferrer">
+              <img
+                src="https://hitwebcounter.com/counter/counter.php?page=9171077&style=0006&nbdigits=5&type=ip&initCount=0"
+                title="Visitor Counter"
+                alt="visitor counter"
+                className="mx-auto"
+              />
+            </a>
+            <p className="mt-1 text-gray-500 text-xs">Visitor Count</p>
+          </div>
         </div>
       </div>
     </footer>
