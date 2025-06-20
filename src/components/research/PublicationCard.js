@@ -74,7 +74,7 @@ export default function PublicationCard({ publication }) {
 
 {citescore && (
   <p className="text-sm text-gray-500">
-    CiteScore: {citescore} {quartile ? `(${quartile})` : ''}
+    CiteScore: {citescore} 
   </p>
 )}
  {abstract && (
@@ -83,7 +83,8 @@ export default function PublicationCard({ publication }) {
           </div>
         )}
           {impact_factor && (
-            <p className="text-sm text-gray-500">Impact Factor: {impact_factor}</p>
+            <p className="text-sm text-gray-500">Impact Factor: {impact_factor} {quartile ? `(${quartile})` : ''}
+           </p>
           )}
 
           {isbn && (
