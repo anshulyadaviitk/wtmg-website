@@ -1720,7 +1720,7 @@ export const publications = {
     featured: false
   },
   {
-    id: 'pub-84',
+    id: 'pub-02',
     type: 'journal',
     title: 'Experimental and numerical study of thermal field and weld bead characteristics in submerged arc welded plate',
     authors: ['A. Yadav', 'A. Ghosh', 'A. Kumar'],
@@ -1737,7 +1737,7 @@ export const publications = {
     featured: false
   },
   {
-    id: 'pub-85',
+    id: 'pub-01',
     type: 'journal',
     title: 'Modelling and experimental validation of moving tilted volumetric heat source in gas metal arc welding process',
     authors: ['A. Ghosh', 'A. Yadav', 'A. Kumar'],
@@ -1754,9 +1754,6 @@ export const publications = {
     featured: false
   },
 ]     
-]
-    
-  ]
 
 ,
   conferences: [
