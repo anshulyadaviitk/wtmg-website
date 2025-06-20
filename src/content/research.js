@@ -1533,7 +1533,7 @@ export const publications = {
     featured: false
   },
   {
-    id: 'pub-73',
+    id: 'pub-011',
     type: 'journal',
     title: 'Fabrication and optimization of tunable pore size poly(ethylene glycol) modified poly(vinylidene-co-hexafluoropropylene) membranes in vacuum membrane distillation for desalination',
     authors: ['A. Yadav', 'P.K. Labhasetwar', 'V.K. Shahi'],
@@ -1550,7 +1550,7 @@ export const publications = {
     featured: false
   },
   {
-    id: 'pub-74',
+    id: 'pub-010',
     type: 'journal',
     title: 'Membrane distillation using low grade heat for desalination : A review',
     authors: ['A. Yadav', 'P.K. Labhasetwar', 'V.K. Shahi'],
@@ -1567,7 +1567,7 @@ export const publications = {
     featured: false
   },
   {
-    id: 'pub-75',
+    id: 'pub-009',
     type: 'journal',
     title: 'Room Temperature Hydrogen Sensing with Polyaniline/SnO2/Pd Nanocomposites',
     authors: ['R.K. Pippara', 'P.S. Chauhan', 'A. Yadav', 'V. Kishnani', 'A. Gupta'],
@@ -1584,7 +1584,7 @@ export const publications = {
     featured: false
   },
   {
-    id: 'pub-76',
+    id: 'pub-008',
     type: 'journal',
     title: 'Zirconium-silver nano organo-bimetallic network for scavenging hazardous ions from water and its antibacterial potentiality: An environment-friendly approach',
     authors: ['A.R. Gupta', 'B. Ranawat', 'A. Singh', 'A. Yadav', 'S. Sharma'],
@@ -1601,7 +1601,7 @@ export const publications = {
     featured: false
   },
   {
-    id: 'pub-77',
+    id: 'pub-007',
     type: 'journal',
     title: 'Scavenging fluoride from the aqueous system with porous organometallic three-dimensional architecture: An emerging adsorbent',
     authors: ['A.R. Gupta', 'A. Yadav', 'S. Sharma'],
@@ -1618,7 +1618,7 @@ export const publications = {
     featured: false
   },
   {
-    id: 'pub-78',
+    id: 'pub-006',
     type: 'journal',
     title: 'Experimental and theoretical investigations of methyl orange adsorption using boron nitride nanosheets',
     authors: ['R.S. Bangari', 'A. Yadav', 'N. Sinha'],
@@ -1635,7 +1635,7 @@ export const publications = {
     featured: false
   },
   {
-    id: 'pub-006',
+    id: 'pub-005',
     type: 'journal',
     title: 'High aspect ZnO nanorod growth over electrodeposited tubes for photocatalytic degradation of EtBr dye',
     authors: ['H.J. Biswal', 'A. Yadav', 'P.R. Vundavillia', 'A. Gupta'],
@@ -1652,7 +1652,7 @@ export const publications = {
     featured: false
   },
   {
-    id: 'pub-005',
+    id: 'pub-004',
     type: 'journal',
     title: 'Gold nanoparticles promoted formation and biological properties of injectable hydrogels',
     authors: ['N. Bhingaradiya', 'A.K.S. Chandel', 'A. Biswas', 'A. Kumar', 'A. Yadav', 'P. Maiti', 'S. Jewrajka'],
@@ -1669,7 +1669,7 @@ export const publications = {
     featured: false
   },
   {
-    id: 'pub-004',
+    id: 'pub-003',
     type: 'journal',
     title: 'A novel fixed-grid interface-tracking algorithm for rapid solidification of supercooled liquid metal',
     authors: ['V. Patel', 'A. Yadav', 'S. Sahoo', 'D. Thatoi', 'J. Winczek'],
@@ -1686,23 +1686,6 @@ export const publications = {
     featured: false
   },
   {
-    id: 'pub-003',
-    type: 'journal',
-    title: 'Electron beam processing of sensors relevant Vacoflux-49 alloy: Experimental studies of thermal zones and microstructure',
-    authors: ['P. Kumar', 'A. Yadav', 'A. Kumar'],
-    journal: 'Archives of Metallurgy and Materials',
-    year: 2020,
-    volume: '65(3)',
-    pages: '1147-1156',
-    citescore: '',
-    impact_factor: '',
-    quartile: '',
-    image: '/images/research/journal/archmet-2020.jpg',
-    link: 'https://doi.org/10.24425/amm.2020.133232',
-    publisher: 'Polish Academy',
-    featured: false
-  },
-  {
     id: 'pub-002',
     type: 'journal',
     title: 'Experimental and numerical study of thermal field and weld bead characteristics in submerged arc welded plate',
@@ -1713,7 +1696,7 @@ export const publications = {
     pages: '262-264',
     citescore: '',
     impact_factor: '',
-    quartile: '',
+    quartile: 'Q1',
     image: '/images/research/journal/jmpt-2017.jpg',
     link: 'https://doi.org/10.1016/j.jmatprotec.2017.05.021',
     publisher: 'Elsevier',
