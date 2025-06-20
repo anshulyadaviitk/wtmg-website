@@ -10,7 +10,7 @@ export const publications = {
       year: 2025,
       volume: '969',
       pages: '178749',
-      citescore:'16.4',
+      citescore:'',
     impact_factor:'8.2',
     quartile:'Q1',
       image: '/images/research/journal/advances.jpeg',
