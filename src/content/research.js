@@ -1635,7 +1635,7 @@ export const publications = {
     featured: false
   },
   {
-    id: 'pub-79',
+    id: 'pub-006',
     type: 'journal',
     title: 'High aspect ZnO nanorod growth over electrodeposited tubes for photocatalytic degradation of EtBr dye',
     authors: ['H.J. Biswal', 'A. Yadav', 'P.R. Vundavillia', 'A. Gupta'],
@@ -1652,24 +1652,7 @@ export const publications = {
     featured: false
   },
   {
-    id: 'pub-80',
-    type: 'journal',
-    title: 'Physical and Mechanical Behaviour of Sugarcane Bagasse Fibre-Reinforced Epoxy Bio-Composites',
-    authors: ['L. Prasad', 'S. Kumar', 'R.V. Patel', 'A. Yadav', 'V. Kumar', 'J. Winczek'],
-    journal: 'Materials',
-    year: 2020,
-    volume: '13(23)',
-    pages: '5387',
-    citescore: '',
-    impact_factor: '',
-    quartile: '',
-    image: '/images/research/journal/materials-2020.jpg',
-    link: 'http://dx.doi.org/10.3390/ma13235387',
-    publisher: 'MDPI',
-    featured: false
-  },
-  {
-    id: 'pub-81',
+    id: 'pub-005',
     type: 'journal',
     title: 'Gold nanoparticles promoted formation and biological properties of injectable hydrogels',
     authors: ['N. Bhingaradiya', 'A.K.S. Chandel', 'A. Biswas', 'A. Kumar', 'A. Yadav', 'P. Maiti', 'S. Jewrajka'],
@@ -1686,7 +1669,7 @@ export const publications = {
     featured: false
   },
   {
-    id: 'pub-82',
+    id: 'pub-004',
     type: 'journal',
     title: 'A novel fixed-grid interface-tracking algorithm for rapid solidification of supercooled liquid metal',
     authors: ['V. Patel', 'A. Yadav', 'S. Sahoo', 'D. Thatoi', 'J. Winczek'],
@@ -1703,7 +1686,7 @@ export const publications = {
     featured: false
   },
   {
-    id: 'pub-83',
+    id: 'pub-003',
     type: 'journal',
     title: 'Electron beam processing of sensors relevant Vacoflux-49 alloy: Experimental studies of thermal zones and microstructure',
     authors: ['P. Kumar', 'A. Yadav', 'A. Kumar'],
@@ -1720,7 +1703,7 @@ export const publications = {
     featured: false
   },
   {
-    id: 'pub-02',
+    id: 'pub-002',
     type: 'journal',
     title: 'Experimental and numerical study of thermal field and weld bead characteristics in submerged arc welded plate',
     authors: ['A. Yadav', 'A. Ghosh', 'A. Kumar'],
@@ -1737,7 +1720,7 @@ export const publications = {
     featured: false
   },
   {
-    id: 'pub-01',
+    id: 'pub-001',
     type: 'journal',
     title: 'Modelling and experimental validation of moving tilted volumetric heat source in gas metal arc welding process',
     authors: ['A. Ghosh', 'A. Yadav', 'A. Kumar'],
@@ -1747,7 +1730,7 @@ export const publications = {
     pages: '52-65',
     citescore: '',
     impact_factor: '',
-    quartile: '',
+    quartile: 'Q1',
     image: '/images/research/journal/jmpt-2017-2.jpg',
     link: 'https://doi.org/10.1016/j.jmatprotec.2016.08.010',
     publisher: 'Elsevier',
@@ -1755,7 +1738,7 @@ export const publications = {
   },
 ]     
 
-,
+],
   conferences: [
     {
     id: 'conf-01',
