@@ -11,7 +11,7 @@ import Image from 'next/image';
 import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css/pagination';
 import { notices } from '@/content/notice_updatedata';
-import { upcomingevents } from '@/content/notice&updatedata';
+import { upcomingevents } from '@/content/notice_updatedata';
 import ResearchSection from '@/components/sections/ResearchSection';
 import AwardsSection1 from '@/components/sections/AwardsSection1';
 import { InvitedTalksSection } from '@/components/sections/talksection';
