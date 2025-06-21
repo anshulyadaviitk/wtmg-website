@@ -1737,9 +1737,22 @@ export const publications = {
   ],
  books: [
 {
-  id: 'book-04',
+  id: 'book-05',
   title: 'Computational techniques for simulating and optimizing membrane processes for (waste)water treatment',
   authors: ['A.Yadav', 'P.K. Labhasetwar'],
+  image: '', 
+  publisher: 'International Water Association Publishing',
+  year: 2026,
+  link: '',
+  isbn: '',
+  eisbn: '',
+  doi: '',
+  featured: false
+},
+{
+  id: 'book-04',
+  title: 'Integrated Water Architecture and Urban Infrastructure in the Sapta Puris of India',
+  authors: ['H. Pathak', 'A.Yadav'],
   image: '', 
   publisher: 'International Water Association Publishing',
   year: 2026,
