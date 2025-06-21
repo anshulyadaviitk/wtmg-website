@@ -30,7 +30,10 @@ export default function PublicationsPage() {
                 {publications.journalArticles.map((pub) => (
                   <li key={pub.id}>
                     <p className="text-gray-900 font-medium">{pub.title}</p>
-                    <p className="text-gray-700 text-sm italic">{pub.authors.join(', ')}</p>
+                    <p className="text-gray-700 text-sm italic">
+  {Array.isArray(pub.authors) ? pub.authors.join(', ') : ''}
+</p>
+
                     <p className="text-gray-600 text-sm">
                       {pub.pages && `pp. ${pub.pages}`},{pub.volume && `Vol ${pub.volume}`},{pub.journal}, {pub.year}  
                     </p>
@@ -70,7 +73,7 @@ export default function PublicationsPage() {
                 {publications.conferences.map((pub) => (
                   <li key={pub.id}>
                     <p className="text-gray-900 font-medium">{pub.title}</p>
-                    <p className="text-gray-700 text-sm italic">{pub.authors.join(', ')}</p>
+                    <p className="text-gray-700 text-sm italic">{pub.authors.join(', ') : ''}</p>
                     <p className="text-gray-600 text-sm">
                       {pub.conference} {pub.year && `(${pub.year})`}
                     </p>
@@ -98,7 +101,10 @@ export default function PublicationsPage() {
       {publications.books.map((pub) => (
         <li key={pub.id}>
           <p className="text-gray-900 font-medium">{pub.title}</p>
-          <p className="text-gray-700 text-sm italic">{pub.authors.join(', ')}</p>
+          <p className="text-gray-700 text-sm italic">
+  {Array.isArray(pub.authors) ? pub.authors.join(', ') : ''}
+</p>
+
           <p className="text-gray-600 text-sm">{pub.publisher} ({pub.year})</p>
           {/* Add this line for ISBN */}
           {pub.isbn && <p className="text-gray-600 text-sm">ISBN: {pub.isbn}</p>}
