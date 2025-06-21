@@ -10,7 +10,7 @@ import Image from 'next/image';
 // Import at the top
 import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css/pagination';
-import { notices } from '@/content/notice&updatedata';
+import { notices } from '@/content/notice_updatedata';
 import { upcomingevents } from '@/content/notice&updatedata';
 import ResearchSection from '@/components/sections/ResearchSection';
 import AwardsSection1 from '@/components/sections/AwardsSection1';
